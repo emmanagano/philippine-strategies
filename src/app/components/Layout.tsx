@@ -152,6 +152,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                             <Link href="/military" className="hover:underline"><span>Military</span></Link>
                             <Link href="/foreign-investment" className="hover:underline"><span>Foreign Investment</span></Link>
                             <Link href="/politics" className="hover:underline"><span>Politics</span></Link>
+                            <Link href="/consulting" className="hover:underline"><span>Consulting</span></Link>
                             <a href="https://www.amazon.com/I-D-P-PILIPPINES-PHILIPPINES-CONSTERNATING-INTERESTING/dp/B0DCVYSPX7" 
                                 target="_blank" rel="noopener noreferrer" className="hover:underline">
                                 Buy OIDP on Amazon
