@@ -126,6 +126,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         >
                             Buy Now →
                         </a>
+                        <p className="text-lg text-gray-300 mt-2">
+                            If you’re located in the Philippines and would like to request a signed copy, please send us a message using the contact form below.
+                        </p>
                     </div>
                 </div>
             </div>
