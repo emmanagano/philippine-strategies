@@ -144,19 +144,23 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     {/* Quick Links (Middle Column) */}
                     <div className="text-center md:text-left border-r border-gray-600 pr-4">
                         <h3 className="font-semibold">Quick Links</h3>
-                        <div className="flex flex-col mt-3 space-y-2">
-                            <Link href="/" className="hover:underline"><span>Home</span></Link>
-                            <Link href="/articles" className="hover:underline"><span>Articles</span></Link>
-                            <Link href="/blurbs" className="hover:underline"><span>Blurbs</span></Link>
-                            <Link href="/oidp" className="hover:underline"><span>OIDP Book</span></Link>
-                            <Link href="/military" className="hover:underline"><span>Military</span></Link>
-                            <Link href="/foreign-investment" className="hover:underline"><span>Foreign Investment</span></Link>
-                            <Link href="/politics" className="hover:underline"><span>Politics</span></Link>
-                            <Link href="/consulting" className="hover:underline"><span>Consulting</span></Link>
-                            <a href="https://www.amazon.com/I-D-P-PILIPPINES-PHILIPPINES-CONSTERNATING-INTERESTING/dp/B0DCVYSPX7" 
-                                target="_blank" rel="noopener noreferrer" className="hover:underline">
-                                Buy OIDP on Amazon
-                            </a>
+                        <div className="grid grid-cols-2 gap-x-6 mt-3">
+                            <div className="flex flex-col space-y-2">
+                                <Link href="/" className="hover:underline"><span>Home</span></Link>
+                                <Link href="/articles" className="hover:underline"><span>Articles</span></Link>
+                                <Link href="/blurbs" className="hover:underline"><span>Blurbs</span></Link>
+                                <Link href="/oidp" className="hover:underline"><span>OIDP Book</span></Link>
+                                <Link href="/military" className="hover:underline"><span>Military</span></Link>
+                            </div>
+                            <div className="flex flex-col space-y-2">
+                                <Link href="/foreign-investment" className="hover:underline"><span>Foreign Investment</span></Link>
+                                <Link href="/politics" className="hover:underline"><span>Politics</span></Link>
+                                <Link href="/consulting" className="hover:underline"><span>Consulting</span></Link>
+                                <a href="https://www.amazon.com/I-D-P-PILIPPINES-PHILIPPINES-CONSTERNATING-INTERESTING/dp/B0DCVYSPX7" 
+                                    target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                    Buy OIDP on Amazon
+                                </a>
+                            </div>
                         </div>
                     </div>
                     {/* Contact Form (Right Column) */}
