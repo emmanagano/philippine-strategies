@@ -20,20 +20,23 @@ export default function Home() {
                 {/* Featured Blog Post */}
                 {articles.length > 0 && (
                     <div
-                        className="relative bg-cover bg-center flex items-center justify-center h-[350px] mb-6"
+                        className="relative bg-cover bg-center h-[350px] mb-6"
                         style={{ backgroundImage: `url('/images/${articles[0].slug}.jpg')` }}
                     >
-                        <div className="bg-black bg-opacity-60 backdrop-blur-md p-6 max-w-lg text-white text-center">
-                            <h3 className="text-2xl font-bold">{articles[0].title}</h3>
-                            <hr className="w-16 border-t-2 border-white my-2 mx-auto" />
-                            <p className="text-sm text-gray-300">{articles[0].date}</p>
-                            <p className="mt-2 text-gray-200">{articles[0].description}</p>
-                            <Link
-                                href={`/articles/${articles[0].slug}`}
-                                className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-gray-800 transition mt-3"
-                            >
-                                Read More →
-                            </Link>
+                        <div className="absolute inset-0 bg-black/70" />
+                        <div className="relative flex items-center justify-center h-full">
+                            <div className="p-6 max-w-xl text-white text-center">
+                                <h3 className="text-2xl font-bold">{articles[0].title}</h3>
+                                <hr className="w-64 border-t-2 border-white my-2 mx-auto" />
+                                <p className="text-sm text-gray-300">{articles[0].date}</p>
+                                <p className="mt-2 text-gray-200">{articles[0].description}</p>
+                                <Link
+                                    href={`/articles/${articles[0].slug}`}
+                                    className="inline-block mt-4 px-6 py-2.5 bg-gradient-to-r from-gray-900 via-red-800 to-gray-700 text-white font-medium text-sm rounded-md border border-white hover:border-red-400 hover:scale-105 transform transition-all duration-300 shadow-lg"
+                                >
+                                    Dive into the Story →
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 )}
@@ -41,11 +44,18 @@ export default function Home() {
                 <div className="border-t border-gray-300">
                     {articles.slice(1, 4).map((article) => (
                         <div key={article.slug} className="py-6 border-b border-gray-300 px-4 md:px-0">
-                            <h3 className="text-xl font-semibold text-gray-900">{article.title}</h3>
+                            <Link href={`/articles/${article.slug}`}>
+                            <h3 className="text-xl font-semibold text-indigo-800 hover:text-indigo-900 hover:underline transition-colors duration-200">
+                                    {article.title}
+                                </h3>
+                            </Link>
                             <p className="text-sm text-gray-600">{article.date}</p>
                             <p className="text-gray-800 mt-2">{article.description}</p>
-                            <Link href={`/articles/${article.slug}`} className="text-black hover:underline mt-2 inline-block">
-                                Read More →
+                            <Link
+                                href={`/articles/${article.slug}`}
+                                className="text-white bg-black px-4 py-2 rounded-md mt-2 inline-block hover:bg-gray-800 hover:scale-105 transform transition-all duration-300 shadow"
+                            >
+                                Continue Reading →
                             </Link>
                         </div>
                     ))}
