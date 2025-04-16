@@ -63,8 +63,6 @@ export default function ConsultingPage() {
                     <blockquote className="italic font-semibold mt-8 bg-gray-100 p-4 rounded-md">
                         “Before charging in with the cavalry, one must always have a good scouting team.”
                     </blockquote>
-
-                    <p className="mt-6">To learn more or consult with our team, please scroll all the way to the bottom of the page.</p>
                 </article>
             </section>
         </div>

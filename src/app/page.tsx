@@ -20,7 +20,7 @@ export default function Home() {
                 {/* Featured Blog Post */}
                 {articles.length > 0 && (
                     <div
-                        className="relative bg-cover bg-center h-[350px] mb-6"
+                        className="relative bg-cover bg-center min-h-[500px] md:min-h-[350px] mb-6 px-4 sm:px-6 overflow-hidden"
                         style={{ backgroundImage: `url('/images/${articles[0].slug}.jpg')` }}
                     >
                         <div className="absolute inset-0 bg-black/70" />

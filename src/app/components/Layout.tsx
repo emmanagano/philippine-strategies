@@ -97,7 +97,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             </div>
             {/* Footer */}
             <footer className="bg-[#111828] text-white pt-6 border-t border-gray-700 shadow-sm">
-                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6 pb-6">
+                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-8 mt-3 items-start">
                     {/* Socials & Newsletter (Left Column) */}
                     <div className="text-center md:text-left pt-6 md:pt-0">
                         <h2 className="text-xl font-bold mb-2">Philippine Strategies</h2>
@@ -117,21 +117,24 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         </div>
                     </div>
                     {/* Quick Links (Middle Column) */}
-                    <div className="text-center md:text-left">
-                        <h3 className="font-semibold">Quick Links</h3>
-                        <div className="grid grid-cols-3 gap-x-6 mt-3">
+                    <div className="grid grid-cols-2 gap-x-16 mt-3 text-center justify-items-center">
+                        <div>
+                            <h3 className="font-semibold mb-2">Quick Links</h3>
                             <div className="flex flex-col space-y-2">
                                 <Link href="/" className="hover:underline"><span>Home</span></Link>
                                 <Link href="/articles" className="hover:underline"><span>Articles</span></Link>
                                 <Link href="/blurbs" className="hover:underline"><span>Blurbs</span></Link>
                                 <Link href="/oidp" className="hover:underline"><span>OIDP Book</span></Link>
-                                <Link href="/military" className="hover:underline"><span>Military</span></Link>
+                                <Link href="/contact" className="hover:underline"><span>Contact</span></Link>
                             </div>
+                        </div>
+                        <div>
+                            <h3 className="font-semibold mb-2">See More</h3>
                             <div className="flex flex-col space-y-2">
                                 <Link href="/foreign-investment" className="hover:underline"><span>Foreign Investment</span></Link>
                                 <Link href="/politics" className="hover:underline"><span>Politics</span></Link>
                                 <Link href="/consulting" className="hover:underline"><span>Consulting</span></Link>
-                                <Link href="/contact" className="hover:underline"><span>Contact</span></Link>
+                                <Link href="/military" className="hover:underline"><span>Military</span></Link>
                                 <a href="https://www.amazon.com/I-D-P-PILIPPINES-PHILIPPINES-CONSTERNATING-INTERESTING/dp/B0DCVYSPX7" 
                                     target="_blank" rel="noopener noreferrer" className="hover:underline">
                                     Buy OIDP on Amazon
@@ -139,10 +142,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-                {/* Copyright - Inverted */}
-                <div className="bg-[#111828] text-white py-4 text-center text-sm w-full">
+                <hr className="border-t border-gray-700 my-4" />
+                <div className="bg-[#111828] text-white pt-1 pb-3 text-center text-sm w-full">
                     © {new Date().getFullYear()} Philippine Strategies. All rights reserved.
                 </div>
             </footer>
