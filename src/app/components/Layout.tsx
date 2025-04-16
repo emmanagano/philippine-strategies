@@ -1,6 +1,7 @@
 "use client";
-import React, { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useState } from "react";
+import { FaInstagram, FaXTwitter, FaFacebook } from "react-icons/fa6";
+
 import Link from "next/link";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -9,46 +10,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         setMobileMenuOpen(!isMobileMenuOpen);
     };
 
-    const ContactForm = () => {
-        const form = useRef<HTMLFormElement>(null);
-        const [sent, setSent] = useState(false);
-
-        const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-            e.preventDefault();
-            if (!form.current) return;
-
-            emailjs
-                .sendForm(
-                    "service_k5e306h",
-                    "template_o3ag3yo",
-                    form.current,
-                    "qDUHz4jJcfdXrK5WG"
-                )
-                .then(
-                    () => {
-                        setSent(true);
-                        form.current?.reset();
-                    },
-                    (error) => {
-                        console.error("FAILED...", error);
-                    }
-                );
-        };
-
-        return (
-            <form ref={form} onSubmit={sendEmail} className="mt-2 space-y-3">
-                <input name="name" type="text" placeholder="Your Name" required
-                    className="bg-transparent border-b border-gray-500 text-white focus:outline-none px-2 py-1 w-full" />
-                <input name="email" type="email" placeholder="Your Email" required
-                    className="bg-transparent border-b border-gray-500 text-white focus:outline-none px-2 py-1 w-full" />
-                <textarea name="message" placeholder="Your Message" required
-                    className="bg-transparent border-b border-gray-500 text-white focus:outline-none px-2 py-1 w-full"></textarea>
-                <button type="submit" className="mt-3 text-white border border-white px-4 py-1 rounded hover:bg-white hover:text-[#111828] transition">
-                    {sent ? "Sent!" : "Send Message"}
-                </button>
-            </form>
-        );
-    };
 
     return (
         <div className="flex flex-col min-h-screen">
@@ -87,6 +48,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                             <Link href="/articles" className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100">Articles</Link>
                             <Link href="/blurbs" className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"><span>Blurbs</span></Link>
                             <Link href="/oidp" className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"><span>OIDP Book</span></Link>
+                            <Link href="/contact" className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"><span>Contact</span></Link>
                         </div>
                     </div>
                     {isMobileMenuOpen && (
@@ -94,6 +56,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                             <Link href="/articles" className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"><span>Articles</span></Link>
                             <Link href="/blurbs" className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"><span>Blurbs</span></Link>
                             <Link href="/oidp" className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"><span>OIDP Book</span></Link>
+                            <Link href="/contact" className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"><span>Contact</span></Link>
                         </div>
                     )}
                 </header>
@@ -127,27 +90,36 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                             Buy Now →
                         </a>
                         <p className="text-lg text-gray-300 mt-2">
-                            If you’re located in the Philippines and would like to request a signed copy, please send us a message using the contact form below.
+                            If you’re located in the Philippines and would like to request a signed copy, please <a href="/contact" className="text-yellow-400 hover:text-red-500 font-semibold transition underline">send us a message</a>.
                         </p>
                     </div>
                 </div>
             </div>
             {/* Footer */}
             <footer className="bg-[#111828] text-white pt-6 border-t border-gray-700 shadow-sm">
-                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-6">
+                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6 pb-6">
                     {/* Socials & Newsletter (Left Column) */}
-                    <div className="text-center md:text-left border-r border-gray-600 pr-4">
-                        <h3 className="font-semibold">Socials</h3>
-                        <div className="flex flex-col mt-3 space-y-2">
-                            <a href="https://www.instagram.com/philstrats/" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>
-                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">X</a>
-                            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Facebook</a>
+                    <div className="text-center md:text-left pt-6 md:pt-0">
+                        <h2 className="text-xl font-bold mb-2">Philippine Strategies</h2>
+                        <p className="text-sm text-gray-400 mb-4">
+                            Learn from more than a century of critical, in-country American experience on political, military and industrial aspects of the most challenging country in Southeast Asia.
+                        </p>
+                        <div className="flex justify-center md:justify-start space-x-4 items-center mt-4">
+                            <a href="https://www.instagram.com/philstrats/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition">
+                                <FaInstagram size={28} />
+                            </a>
+                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition">
+                                <FaXTwitter size={28} />
+                            </a>
+                            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition">
+                                <FaFacebook size={28} />
+                            </a>
                         </div>
                     </div>
                     {/* Quick Links (Middle Column) */}
-                    <div className="text-center md:text-left border-r border-gray-600 pr-4">
+                    <div className="text-center md:text-left">
                         <h3 className="font-semibold">Quick Links</h3>
-                        <div className="grid grid-cols-2 gap-x-6 mt-3">
+                        <div className="grid grid-cols-3 gap-x-6 mt-3">
                             <div className="flex flex-col space-y-2">
                                 <Link href="/" className="hover:underline"><span>Home</span></Link>
                                 <Link href="/articles" className="hover:underline"><span>Articles</span></Link>
@@ -159,6 +131,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                                 <Link href="/foreign-investment" className="hover:underline"><span>Foreign Investment</span></Link>
                                 <Link href="/politics" className="hover:underline"><span>Politics</span></Link>
                                 <Link href="/consulting" className="hover:underline"><span>Consulting</span></Link>
+                                <Link href="/contact" className="hover:underline"><span>Contact</span></Link>
                                 <a href="https://www.amazon.com/I-D-P-PILIPPINES-PHILIPPINES-CONSTERNATING-INTERESTING/dp/B0DCVYSPX7" 
                                     target="_blank" rel="noopener noreferrer" className="hover:underline">
                                     Buy OIDP on Amazon
@@ -166,11 +139,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                             </div>
                         </div>
                     </div>
-                    {/* Contact Form (Right Column) */}
-                    <div className="text-center md:text-left">
-                        <h3 className="font-semibold">Contact Us</h3>
-                        <ContactForm />
-                    </div>
+                    
                 </div>
                 {/* Copyright - Inverted */}
                 <div className="bg-[#111828] text-white py-4 text-center text-sm w-full">

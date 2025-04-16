@@ -45,7 +45,7 @@ export default function Home() {
                     {articles.slice(1, 4).map((article) => (
                         <div key={article.slug} className="py-6 border-b border-gray-300 px-4 md:px-0">
                             <Link href={`/articles/${article.slug}`}>
-                            <h3 className="text-xl font-semibold text-indigo-800 hover:text-indigo-900 hover:underline transition-colors duration-200">
+                            <h3 className="text-xl font-semibold text-black hover:text-gray-800 hover:underline transition-colors duration-200">
                                     {article.title}
                                 </h3>
                             </Link>

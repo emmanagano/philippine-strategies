@@ -42,5 +42,3 @@ This reversal has led to legal disputes and, in some cases, outright withdrawal 
 The Philippines once held the promise of becoming Southeast Asia’s rising economic tiger, but the past decade has turned that narrative into a cautionary tale. FDI remains sluggish, and despite official optimism, the numbers don’t lie. Political infighting, outdated ownership laws, and broken promises have left the country at a standstill.
 
 Until real reform — political, economic, and institutional — is undertaken, foreign investors will continue to look elsewhere. And unless the Marcos and Duterte camps find a way to end their zero-sum war, the Philippines risks becoming a footnote in the regional economic story rather than a protagonist.
-
-For more precise data and analyses, feel free to reach out via the below contact link.
