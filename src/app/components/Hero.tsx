@@ -22,7 +22,7 @@ export default function Hero() {
                 </p>
                 {latestArticle && (
                     <Link href={`/articles/${latestArticle.slug}`}>
-                        <button className="px-4 py-2 bg-white text-gray-900 font-medium text-base rounded-md shadow-md border border-gray-900 hover:bg-gray-100 transition-transform transform hover:scale-105 mt-6">
+                        <button className="px-6 py-3 bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 text-black font-semibold text-base rounded-md border border-black hover:from-black hover:via-gray-800 hover:to-black hover:text-white hover:scale-[1.03] transform transition-all duration-200 mt-6">
                             Read the Latest Article
                         </button>
                     </Link>

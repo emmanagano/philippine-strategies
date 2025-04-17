@@ -121,22 +121,22 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         <div>
                             <h3 className="font-semibold mb-2">Quick Links</h3>
                             <div className="flex flex-col space-y-2">
-                                <Link href="/" className="hover:underline"><span>Home</span></Link>
-                                <Link href="/articles" className="hover:underline"><span>Articles</span></Link>
-                                <Link href="/blurbs" className="hover:underline"><span>Blurbs</span></Link>
-                                <Link href="/oidp" className="hover:underline"><span>OIDP Book</span></Link>
-                                <Link href="/contact" className="hover:underline"><span>Contact</span></Link>
+                                <Link href="/" className="hover:underline hover:text-yellow-400">Home</Link>
+                                <Link href="/articles" className="hover:underline hover:text-yellow-400">Articles</Link>
+                                <Link href="/blurbs" className="hover:underline hover:text-yellow-400">Blurbs</Link>
+                                <Link href="/oidp" className="hover:underline hover:text-yellow-400">OIDP Book</Link>
+                                <Link href="/contact" className="hover:underline hover:text-yellow-400">Contact</Link>
                             </div>
                         </div>
                         <div>
                             <h3 className="font-semibold mb-2">See More</h3>
                             <div className="flex flex-col space-y-2">
-                                <Link href="/foreign-investment" className="hover:underline"><span>Foreign Investment</span></Link>
-                                <Link href="/politics" className="hover:underline"><span>Politics</span></Link>
-                                <Link href="/consulting" className="hover:underline"><span>Consulting</span></Link>
-                                <Link href="/military" className="hover:underline"><span>Military</span></Link>
+                                <Link href="/foreign-investment" className="hover:underline hover:text-yellow-400">Foreign Investment</Link>
+                                <Link href="/politics" className="hover:underline hover:text-yellow-400">Politics</Link>
+                                <Link href="/consulting" className="hover:underline hover:text-yellow-400">Consulting</Link>
+                                <Link href="/military" className="hover:underline hover:text-yellow-400">Military</Link>
                                 <a href="https://www.amazon.com/I-D-P-PILIPPINES-PHILIPPINES-CONSTERNATING-INTERESTING/dp/B0DCVYSPX7" 
-                                    target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                    target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-yellow-400">
                                     Buy OIDP on Amazon
                                 </a>
                             </div>

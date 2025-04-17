@@ -53,7 +53,7 @@ export default function Home() {
                             <p className="text-gray-800 mt-2">{article.description}</p>
                             <Link
                                 href={`/articles/${article.slug}`}
-                                className="text-white bg-black px-4 py-2 rounded-md mt-2 inline-block hover:bg-gray-800 hover:scale-105 transform transition-all duration-300 shadow"
+                                className="text-black border border-black px-4 py-2 rounded-md mt-2 inline-block hover:bg-black hover:text-white hover:scale-[1.03] transform transition-all duration-200"
                             >
                                 Continue Reading →
                             </Link>
@@ -64,7 +64,7 @@ export default function Home() {
                 <div className="text-center mt-8">
                     <Link
                         href="/articles"
-                        className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-gray-800 transition"
+                        className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-white hover:text-black border border-black hover:scale-[1.03] transform transition-all duration-200"
                     >
                         View All Articles
                     </Link>
@@ -103,7 +103,7 @@ export default function Home() {
                                 href={blurb.article_link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="mt-6 inline-block px-6 py-2 bg-black text-white text-sm rounded-md font-semibold transition-transform transform hover:scale-105"
+                                className="text-black border border-black px-4 py-2 rounded-md mt-2 inline-block hover:bg-black hover:text-white hover:scale-[1.03] transform transition-all duration-200"
                             >
                                 Discover →
                             </a>
@@ -111,6 +111,14 @@ export default function Home() {
                     </div>
                     {/* Bottom Separation Line */}
                     <div className="border-t border-gray-400 mt-8"></div>
+                    <div className="text-center mt-8">
+                        <Link
+                            href="/blurbs"
+                            className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-white hover:text-black border border-black hover:scale-[1.03] transform transition-all duration-200"
+                        >
+                            View All Blurbs
+                        </Link>
+                    </div>
                 </section>
             )}
         </div>

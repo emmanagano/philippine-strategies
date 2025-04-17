@@ -12,7 +12,12 @@ export default function BlurbsPage() {
                             <div key={index} className="relative border-t border-b border-gray-300 py-8">
                                 <div className="grid md:grid-cols-2 gap-12 items-center">
                                     {/* Left - Title Displayed in Staggered Lines */}
-                                    <div className="text-gray-900 font-extrabold text-xl md:text-3xl leading-tight">
+                                    <a
+                                        href={blurb.article_link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-gray-900 font-extrabold text-xl md:text-3xl leading-tight hover:underline block"
+                                    >
                                         {blurb.article_title.split(" ").reduce<string[][]>((acc, word) => {
                                             if (acc[acc.length - 1].length < 3) {
                                                 acc[acc.length - 1].push(word);
@@ -25,7 +30,7 @@ export default function BlurbsPage() {
                                                 {line.join(" ")}
                                             </div>
                                         ))}
-                                    </div>
+                                    </a>
                                     {/* Right - Date, Commentary, Button */}
                                     <div className="space-y-4">
                                         <p className="text-sm text-gray-500">{blurb.date}</p>
@@ -34,7 +39,7 @@ export default function BlurbsPage() {
                                             href={blurb.article_link}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="inline-block bg-black text-white px-4 py-2 text-sm rounded-md font-semibold hover:bg-gray-800 transition"
+                                            className="text-black border border-black px-4 py-2 rounded-md mt-2 inline-block hover:bg-black hover:text-white hover:scale-[1.03] transform transition-all duration-200"
                                         >
                                             Discover →
                                         </a>
