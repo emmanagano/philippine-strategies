@@ -4,7 +4,7 @@ export default function ConsultingPage() {
     return (
         <div className="min-h-screen bg-gray-100 py-16 px-6">
             <section className="max-w-4xl mx-auto">
-                <div className="relative w-full h-[500px] mb-10 shadow-lg">
+                <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] mb-10 shadow-lg">
                     <Image 
                         src="/images/consulting-hero.jpeg"
                         alt="Handshake between military leaders"
@@ -30,17 +30,20 @@ export default function ConsultingPage() {
 
                     <p className="mt-6">The Wagner name, for centuries associated with distinguished military service in Europe and the United States, has held noteworthy significance in the annals of Philippine history since the first family member, Capt. John A., arrived in January of 1899.</p>
 
-                    <p className="mt-6">Source: Library of Congress -{" "}
-                        <a
-                            href="https://www.govinfo.gov/content/pkg/SERIALSET-04039_00_00-020-0129-0000/pdf/SERIALSET-04039_00_00-020-0129-0000.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-green-600 hover:underline"
-                        >
-                            https://www.govinfo.gov/content/pkg/SERIALSET-04039_00_00-020-0129-0000/pdf/SERIALSET-04039_00_00-020-0129-0000.pdf
-                        </a>{" "}
-                        (from bottom of page 57, “Captain John A. Wagner, 31st US Army Infantry Regiment”).
-                    </p>
+                    <div className="mt-6 overflow-auto whitespace-nowrap text-sm">
+                        <p>
+                            Source: Library of Congress –{" "}
+                            <a
+                                href="https://www.govinfo.gov/content/pkg/SERIALSET-04039_00_00-020-0129-0000/pdf/SERIALSET-04039_00_00-020-0129-0000.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-green-600 hover:underline"
+                            >
+                                https://www.govinfo.gov/content/pkg/SERIALSET-04039_00_00-020-0129-0000/pdf/SERIALSET-04039_00_00-020-0129-0000.pdf
+                            </a>{" "}
+                            (from bottom of page 57, “Captain John A. Wagner, 31st US Army Infantry Regiment”).
+                        </p>
+                    </div>
 
                     <p className="mt-6">For nearly half a century, from 1899 to 1946, the majority of Americans in the Philippines were military males serving in the Army, Navy and Marines. After separation or retirement, many settled here with Filipina wives and their children, starting local businesses or working for the US government in a variety of service/support roles. By 1941, nearly 9000 Americans called the Philippines home.</p>
 
