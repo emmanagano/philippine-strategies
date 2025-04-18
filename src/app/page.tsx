@@ -86,20 +86,20 @@ export default function Home() {
             weekly blurbs. No spam, just insights.
           </p>
           <form
-            action="https://docs.google.com/forms/d/e/1FAIpQLSf7DzgU_43YsoUYfLDmhxBs34tU_ptsR0Wdgzse16yQeOwCHQ/formResponse"
-            method="POST"
+            action="https://buttondown.email/api/emails/embed-subscribe/philippinestrategies"
+            method="post"
             className="flex items-center border border-black rounded-full overflow-hidden"
           >
             <input
               type="email"
-              name="entry.1034807667"
+              name="email"
               required
               placeholder="Your email address"
-              className="px-4 py-3 w-full bg-gray-100 text-black placeholder-gray-600 focus:outline-none"
+              className="px-6 py-4 w-full bg-gray-100 text-black placeholder-gray-600 text-lg focus:outline-none rounded-l-full"
             />
             <button
               type="submit"
-              className="bg-black text-white text-2xl px-6 py-3 border-l border-black hover:bg-white hover:text-black hover:scale-[1.03] transition-all duration-200"
+              className="bg-black text-white text-2xl px-6 py-4 rounded-r-full hover:bg-white hover:text-black border-l border-black hover:scale-[1.03] transition-all duration-200"
             >
               →
             </button>
