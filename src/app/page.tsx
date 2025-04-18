@@ -77,6 +77,35 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      {/* Newsletter Subscription CTA */}
+      <div className="text-black py-8 px-4 sm:px-6 mt-4 mb-16">
+        <div className="max-w-xl mx-auto text-center border border-black rounded-md p-8">
+          <h3 className="text-2xl font-semibold mb-2">JOIN OUR NEWSLETTER</h3>
+          <p className="text-gray-700 mb-6 text-sm">
+            Enter your email address to get notified about new articles and
+            weekly blurbs. No spam, just insights.
+          </p>
+          <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSf7DzgU_43YsoUYfLDmhxBs34tU_ptsR0Wdgzse16yQeOwCHQ/formResponse"
+            method="POST"
+            className="flex items-center border border-black rounded-full overflow-hidden"
+          >
+            <input
+              type="email"
+              name="entry.1034807667"
+              required
+              placeholder="Your email address"
+              className="px-4 py-3 w-full bg-gray-100 text-black placeholder-gray-600 focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="bg-black text-white text-2xl px-6 py-3 border-l border-black hover:bg-white hover:text-black hover:scale-[1.03] transition-all duration-200"
+            >
+              →
+            </button>
+          </form>
+        </div>
+      </div>
       {/* Blurbs Section */}
       {blurb && (
         <section className="relative max-w-6xl mx-auto py-12 px-6">
