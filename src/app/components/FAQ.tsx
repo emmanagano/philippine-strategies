@@ -6,17 +6,17 @@ const faqs = [
   {
     question: "What is Philippine Strategies?",
     answer:
-      "Philippine Strategies is a collection of in-depth articles offering geopolitical, economic, and cultural insights on the Philippines. It’s especially valuable for foreign readers seeking long-term context beyond headlines.",
+      "Philippine Strategies is non-governmental information resources service published by a legacy commonwealth family, offering real-world insights on military, economic, and political environments in the Philippines, made available to benefit those engaged in diplomatic, visiting forces, and foreign investment activities.",
   },
   {
     question: "Who writes the content on this site?",
     answer:
-      "All articles are written by Robert Wagner, a strategic analyst and longtime resident of the Philippines whose family has been deeply rooted in the country since 1899. His work offers rare historical and strategic depth.",
+      "Articles are mostly written by AEGIS, Inc. President & CEO, Robert T. Wagner, a former US Marine Force Recon operator and aviator, whose family of military men have been active in defending Filipinos and performing charity work aiding elementary schools throughout the Philippines since 1899, augmented with occaisional pieces contributed by other organization Fellows.",
   },
   {
-    question: "What kinds of topics do you cover?",
+    question: "What sort of topics do we cover?",
     answer:
-      "We cover military affairs, foreign investment, politics, propaganda, and cultural commentary — all with a focus on strategic understanding.",
+      "We discuss and comment on military alliance affairs, foreign investment, politics, and the cultural uniqueness of the Philippines,  with a focus on strategic preparedness.",
   },
   {
     question: "Is the content based on facts, opinions, or both?",
@@ -34,9 +34,9 @@ const faqs = [
       "We’re open to featuring guest contributions if the work aligns with our voice and mission. Reach out if you’re interested.",
   },
   {
-    question: "Why are the topics on this site relevant to Filipinos today?",
+    question: "Why are the topics on this site relevant today?",
     answer:
-      "Because they examine root issues and long-term power dynamics that are often overlooked, but critical to national development.",
+      "We examine root issues and long-term power dynamics that are often overlooked, but critical to comprehending the mood, movements and directions of the country.",
   },
   {
     question: "How often is the site updated with new content?",
