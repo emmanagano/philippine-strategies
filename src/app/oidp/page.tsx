@@ -64,6 +64,102 @@ export default function OIDPPage() {
           </div>
         </div>
       </section>
+      <section className="max-w-5xl mx-auto mt-20">
+        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-yellow-400">
+          The Chapters Unpacked
+        </h2>
+        <div className="space-y-6">
+          {[
+            [
+              "1",
+              "American In-Laws",
+              "How Uncle Sam became part of the Filipino family—and why we still can't quit him.",
+            ],
+            [
+              "2",
+              "Goodbye Kano!",
+              "When the Americans left, the vultures flew in. A geopolitical breakup with lasting consequences.",
+            ],
+            [
+              "3",
+              "MacMelda",
+              "Corruption, glamor, and the return of the conjugal dictatorship. You can't make this up.",
+            ],
+            [
+              "4",
+              "Bahala Na Si Batman",
+              "Fatalism, faith, and the phrase that sums up an entire nation’s psychology.",
+            ],
+            [
+              "5",
+              "Dracula Would Freak",
+              "Forget Twilight. The Filipino vampire mythos is older, weirder, and definitely hungrier.",
+            ],
+            [
+              "6",
+              "It’s Showtime!",
+              "Noontime TV, scandal, and spectacle—where pop culture meets national identity.",
+            ],
+            [
+              "7",
+              "Tribes, Bribes, and Federalism",
+              "Duterte’s federalist fever dream and the ethnic puzzle nobody wants to solve.",
+            ],
+            [
+              "8",
+              "Bakla Nation",
+              "Colorful, chaotic, and proudly queer—Filipino society’s paradoxical embrace of the bakla.",
+            ],
+            [
+              "9",
+              "Kill, Kill, Kill!",
+              "A drug war soaked in blood and bravado. And the chilling reasons behind it.",
+            ],
+            [
+              "10",
+              "OFWs to the Rescue",
+              "Love, sacrifice, and the billion-dollar labor export nobody wants to fix.",
+            ],
+            [
+              "11",
+              "Trapik",
+              "Gridlock as metaphor. Why you’ll age a decade just crossing EDSA.",
+            ],
+            [
+              "12",
+              "Graveyard of Lawyers",
+              "Justice comes at a price. For many Filipino lawyers, it’s their life.",
+            ],
+            [
+              "13",
+              "The Disasterpines",
+              "Storms, scandals, and survival—why every disaster feels man-made.",
+            ],
+            [
+              "14",
+              "Living Valhalla",
+              "Amid the madness, meaning. One man’s reason for staying, fighting, and loving the Philippines.",
+            ],
+          ].map(([chapter, title, teaser], idx) => (
+            <div
+              key={chapter}
+              className={`grid md:grid-cols-12 items-start gap-4 p-4 rounded-lg ${
+                idx % 2 === 0 ? "bg-[#1E293B]/60" : "bg-[#0F172A]/80"
+              }`}
+            >
+              <div className="md:col-span-1 text-yellow-300 font-bold text-lg">
+                {chapter}
+              </div>
+              <div className="md:col-span-3 font-semibold text-white">
+                {title}
+              </div>
+              <div className="md:col-span-8 text-slate-300 text-sm md:text-base">
+                {teaser}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
