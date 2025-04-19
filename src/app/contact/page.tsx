@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import FAQ from "@/app/components/FAQ";
 
 export default function ContactPage() {
   const form = useRef<HTMLFormElement>(null);
@@ -96,6 +97,7 @@ export default function ContactPage() {
           {status && <p className="text-sm text-green-600 mt-2">{status}</p>}
         </form>
       </div>
+      <FAQ />
     </div>
   );
 }
