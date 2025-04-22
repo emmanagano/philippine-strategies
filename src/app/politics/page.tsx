@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Page() {
   return (
@@ -92,17 +91,6 @@ export default function Page() {
             security protocols and continuous assessment of the local political
             climate, will be essential to mitigate potential challenges in this
             evolving landscape.
-          </p>
-
-          <p>
-            For more precise data and analyses, please{" "}
-            <Link
-              href="/contact"
-              className="text-yellow-400 hover:text-red-500 font-semibold transition underline"
-            >
-              send us a message
-            </Link>
-            .
           </p>
         </div>
       </div>

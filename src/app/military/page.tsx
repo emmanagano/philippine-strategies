@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function MilitaryPage() {
   return (
@@ -104,17 +103,6 @@ export default function MilitaryPage() {
             considering working in the Philippines are advised to avail of
             information gathered through more than a century of in-country
             experience and local contact development.
-          </p>
-
-          <p>
-            For more precise data and analyses, please{" "}
-            <Link
-              href="/contact"
-              className="text-yellow-400 hover:text-red-500 font-semibold transition underline"
-            >
-              send us a message
-            </Link>
-            .
           </p>
         </div>
       </div>

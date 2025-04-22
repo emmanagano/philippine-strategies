@@ -79,11 +79,11 @@ export default function FAQ() {
                   {faq.question}
                 </span>
                 <span
-                  className={`transform transition-transform duration-200 text-gray-500 ${
-                    openIndex === index ? "rotate-90 text-blue-700" : ""
+                  className={`text-lg font-bold transition-colors duration-200 ${
+                    openIndex === index ? "text-blue-700" : "text-gray-500"
                   }`}
                 >
-                  ▶
+                  {openIndex === index ? "−" : "+"}
                 </span>
               </div>
             </button>

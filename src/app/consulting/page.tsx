@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ConsultingPage() {
   return (
@@ -146,16 +145,6 @@ export default function ConsultingPage() {
             “Before charging in with the cavalry, one must always have a good
             scouting team.”
           </blockquote>
-          <p className="mt-6">
-            For more precise data and analyses, please{" "}
-            <Link
-              href="/contact"
-              className="text-yellow-400 hover:text-red-500 font-semibold transition underline"
-            >
-              send us a message
-            </Link>
-            .
-          </p>
         </article>
       </section>
     </div>

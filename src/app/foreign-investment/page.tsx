@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ForeignInvestmentPage() {
   return (
@@ -146,17 +145,6 @@ export default function ForeignInvestmentPage() {
             unless the Marcos and Duterte camps find a way to end their zero-sum
             war, the Philippines risks becoming a footnote in the regional
             economic story rather than a protagonist.
-          </p>
-
-          <p>
-            For more precise data and analyses, please{" "}
-            <Link
-              href="/contact"
-              className="text-yellow-400 hover:text-red-500 font-semibold transition underline"
-            >
-              send us a message
-            </Link>
-            .
           </p>
         </div>
       </div>

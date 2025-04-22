@@ -71,7 +71,7 @@ export default function Home() {
         <div className="text-center mt-8">
           <Link
             href="/articles"
-            className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-white hover:text-black border border-black hover:scale-[1.03] transform transition-all duration-200"
+            className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-gray-100 hover:text-black border border-black hover:scale-[1.03] transform transition-all duration-200"
           >
             View All Articles
           </Link>
@@ -99,7 +99,7 @@ export default function Home() {
             />
             <button
               type="submit"
-              className="bg-black text-white text-2xl px-6 py-4 rounded-r-full hover:bg-white hover:text-black border-l border-black hover:scale-[1.03] transition-all duration-200"
+              className="bg-black text-white text-2xl px-6 py-4 rounded-r-full hover:bg-gray-100 hover:text-black border-l border-black hover:scale-[1.03] transition-all duration-200"
             >
               →
             </button>
@@ -152,7 +152,7 @@ export default function Home() {
           <div className="text-center mt-8">
             <Link
               href="/blurbs"
-              className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-white hover:text-black border border-black hover:scale-[1.03] transform transition-all duration-200"
+              className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-gray-100 hover:text-black border border-black hover:scale-[1.03] transform transition-all duration-200"
             >
               View All Blurbs
             </Link>

@@ -1,7 +1,18 @@
-import { getAllArticles } from "@/data/articles";
+"use client";
+import { useState, useEffect } from "react";
+import { staticArticles, Article } from "@/data/staticArticles";
 
 export default function ArticlesPage() {
-  const articles = getAllArticles().slice(0, 6);
+  const [visibleCount, setVisibleCount] = useState(6);
+  const [articles, setArticles] = useState<Article[]>([]);
+
+  useEffect(() => {
+    const sorted = [...staticArticles].sort((a, b) => b.id - a.id);
+    setArticles(sorted);
+  }, []);
+
+  const visibleArticles = articles.slice(0, visibleCount);
+  const canLoadMore = visibleCount < articles.length;
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -11,7 +22,7 @@ export default function ArticlesPage() {
         </h1>
         {/* Flat Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-          {articles.map((article) => (
+          {visibleArticles.map((article) => (
             <div key={article.slug} className="w-full px-4 sm:px-0">
               <div className="relative w-full h-[500px]">
                 <img
@@ -23,7 +34,12 @@ export default function ArticlesPage() {
               {/* Article Content - Minimalist */}
               <div className="mt-4">
                 <h3 className="text-xl font-medium text-gray-900 uppercase">
-                  {article.title}
+                  <a
+                    href={`/articles/${article.slug}`}
+                    className="hover:underline"
+                  >
+                    {article.title}
+                  </a>
                 </h3>
                 <p className="text-gray-600 text-sm mt-2 leading-relaxed">
                   {article.description}
@@ -39,24 +55,16 @@ export default function ArticlesPage() {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-8 space-x-4">
-          {[1, 2, 3].map((page) => {
-            const isActive = page === 1;
-            return (
-              <a
-                key={page}
-                href={page === 1 ? "/articles" : `/articles/page/${page}`}
-                className={`px-4 py-2 rounded border ${
-                  isActive
-                    ? "bg-gray-900 text-white border-gray-900"
-                    : "border-gray-300 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                {page}
-              </a>
-            );
-          })}
-        </div>
+        {canLoadMore && (
+          <div className="flex justify-center mt-8">
+            <button
+              onClick={() => setVisibleCount((prev) => prev + 6)}
+              className="inline-block px-6 py-3 bg-gray-100 text-black font-semibold text-base rounded-md hover:bg-black hover:text-white border border-black hover:scale-[1.03] transform transition-all duration-200"
+            >
+              Load More
+            </button>
+          </div>
+        )}
       </section>
     </div>
   );
