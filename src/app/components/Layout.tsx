@@ -93,6 +93,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               >
                 <span>Contact</span>
               </Link>
+              <Link
+                href="/our-team"
+                className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+              >
+                <span>Our Team</span>
+              </Link>
             </div>
           </div>
           {isMobileMenuOpen && (
@@ -124,6 +130,13 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
               >
                 <span>Contact</span>
+              </Link>
+              <Link
+                href="/our-team"
+                onClick={toggleMobileMenu}
+                className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+              >
+                <span>Our Team</span>
               </Link>
             </div>
           )}
