@@ -17,7 +17,7 @@ const teamMembers: TeamMember[] = [
     name: "Robert T. Wagner, JD, PhD",
     title: "Senior Fellow",
     shortBlurb:
-      "Founder of Philippine Strategies Research Institute and author of OIDP, Bob brings a deep strategic insight shaped by decades of leadership, aviation, and diplomacy.",
+      "Founder of Philippine Strategies Research Institute and author of 'OIDP - Onli In Da Pilippines', Bob provides deep strategic insight shaped by decades of in-country military, business, and diplomatic activities experience.",
     fullBio: `Beginning his US Marine career as a Force Recon (ITT - Interrogator / Translator) Operator out of Okinawa and Subic Bay in the mid-1970’s, Bob functioned as a Tactical Advisor to the Philippine Marine Brigade on Basilan and Sulu islands during the early phases of the MNLF (Moro National Liberation Front) insurgency. He later transitioned to the US Embassy in Beirut at the height of the Lebanese civil war, performing Recon and ITT duties for the Defense Attaché Office while stationed there in a Marine
 Security capacity. The first Wagner ancestor to arrive in the Philippines, Capt. John A., came over with
 the 49 th US Volunteer Infantry Regiment in January 1899, along with other units prior to the outbreak of
@@ -52,7 +52,7 @@ regularly by diplomats, politicians and notables from both within and without th
     name: "Josep Jepri M. Miranda, Esq.",
     title: "Senior Associate Fellow",
     shortBlurb:
-      "A leading legal mind and corporate strategist specializing in dispute resolution and foreign investment law, shaping the future of international commerce at Clark and Subic Freeports.",
+      "One of the top jurists in the Philippines, Jep specializes in dispute resolution and foreign investment law.  A member of the New York State Bar, he was the foundational legal mind that effected and continues to support the Clark and Subic Freeports.",
     fullBio:
       "Jep Miranda hails from one of the oldest Kapampangan political families. A San Sebastian College law graduate, he founded the Miranda, Vitug & Francisco firm and became VP at Clark International Airport Corporation. Known as the 'Filipino Fullback' by investors, Jep champions anti-corruption initiatives, upholding government promises to foreign businesses operating inside the Freeports.",
     imageUrl: "/images/jep-miranda-team.png",
