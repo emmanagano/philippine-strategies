@@ -213,10 +213,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       </div>
       {/* Footer */}
       <footer className="bg-[#111828] text-white pt-6 border-t border-gray-700 shadow-sm">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-x-16 gap-y-8 mt-3 items-start px-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-y-8 mt-3 items-start px-4">
           {/* Socials & Newsletter (Left Column) */}
-          <div className="text-center md:text-left flex flex-col justify-start">
-            <h2 className="text-xl font-bold mb-2">Philippine Strategies</h2>
+          <div className="text-center flex flex-col items-center justify-start">
+            <h2 className="text-xl font-bold mb-2 w-full text-center">
+              Philippine Strategies
+            </h2>
             <p className="text-sm text-gray-400 mb-4">
               Learn from more than a century of critical, in-country American
               experience on political, military and industrial aspects of the
