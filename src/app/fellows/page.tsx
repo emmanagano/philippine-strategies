@@ -85,7 +85,7 @@ export default function OurTeamPage() {
     <div className="bg-gray-100 min-h-screen py-12 px-6 text-[#111828]">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 mb-12 text-center uppercase tracking-widest">
-          Our Team
+          Fellows
         </h1>
 
         <div className="relative">
@@ -113,7 +113,7 @@ export default function OurTeamPage() {
                     {member.shortBlurb}
                   </p>
                   <Link
-                    href={`/our-team/${member.slug}`}
+                    href={`/fellows/${member.slug}`}
                     className="text-sm font-semibold text-[#111828] underline hover:opacity-80 transition"
                   >
                     Learn More

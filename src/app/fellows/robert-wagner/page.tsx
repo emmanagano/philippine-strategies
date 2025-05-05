@@ -4,23 +4,23 @@ export default function Page() {
       <div className="max-w-3xl mx-auto px-6 py-10 bg-gray-100 text-[#111828]">
         <div className="mb-8">
           <h2 className="text-center font-semibold text-lg text-[#111828] mb-4">
-            Explore More Team Members
+            Explore More Fellow Members
           </h2>
           <div className="flex justify-center space-x-4">
             <a
-              href="/our-team/robert-wagner"
+              href="/fellows/robert-wagner"
               className="px-4 py-2 rounded-full bg-[#111828] text-white text-sm font-medium"
             >
               Wagner
             </a>
             <a
-              href="/our-team/josep-jepri-miranda"
+              href="/fellows/josep-jepri-miranda"
               className="px-4 py-2 rounded-full bg-gray-200 text-[#111828] text-sm font-medium"
             >
               Miranda
             </a>
             <a
-              href="/our-team/ricardo-navalta"
+              href="/fellows/ricardo-navalta"
               className="px-4 py-2 rounded-full bg-gray-200 text-[#111828] text-sm font-medium"
             >
               Navalta

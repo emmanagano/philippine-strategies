@@ -67,7 +67,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               </button>
             </div>
             <div
-              className={`hidden md:flex flex-1 justify-end space-x-6 items-center`}
+              className={`hidden md:flex flex-1 justify-between items-center`}
             >
               <Link
                 href="/articles"
@@ -94,10 +94,16 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <span>Contact</span>
               </Link>
               <Link
-                href="/our-team"
+                href="/fellows"
                 className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
               >
-                <span>Our Team</span>
+                <span>Fellows</span>
+              </Link>
+              <Link
+                href="/hire-us"
+                className="ml-4 px-4 py-2 bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-300 transition"
+              >
+                Hire Us
               </Link>
             </div>
           </div>
@@ -132,11 +138,18 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <span>Contact</span>
               </Link>
               <Link
-                href="/our-team"
+                href="/fellows"
                 onClick={toggleMobileMenu}
                 className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
               >
-                <span>Our Team</span>
+                <span>Fellows</span>
+              </Link>
+              <Link
+                href="/hire-us"
+                onClick={toggleMobileMenu}
+                className="block py-2 text-black font-semibold bg-yellow-400 rounded px-4 my-2 text-center hover:bg-yellow-300 transition"
+              >
+                Hire Us
               </Link>
             </div>
           )}
@@ -213,9 +226,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       </div>
       {/* Footer */}
       <footer className="bg-[#111828] text-white pt-6 border-t border-gray-700 shadow-sm">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-y-8 mt-3 items-start px-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-x-16 gap-y-8 mt-3 items-start px-4">
           {/* Socials & Newsletter (Left Column) */}
-          <div className="text-center flex flex-col items-center justify-start">
+          <div className="text-center flex flex-col justify-start">
             <h2 className="text-xl font-bold mb-2 w-full text-center">
               Philippine Strategies
             </h2>
@@ -224,7 +237,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               experience on political, military and industrial aspects of the
               most challenging country in Southeast Asia.
             </p>
-            <div className="flex justify-center md:justify-start space-x-4 items-center mt-4">
+            <div className="flex justify-center gap-4 items-center mt-4 w-full">
               <a
                 href="https://www.instagram.com/philstrats/"
                 target="_blank"

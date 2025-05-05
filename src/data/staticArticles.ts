@@ -103,5 +103,13 @@ export const staticArticles: Article[] = [
     date: "April 19th, 2025",
     slug: "persistent-corruption-philippines",
     category: "all-article",
+  },
+  {
+    id: 13,
+    title: "How an Open Conflict between the US and China in the West Philippine Sea might Unfold and Manifest",
+    description: "An in-depth scenario analysis of a potential US-China conflict in the West Philippine Sea—covering military escalation, global impact, and strategic outcomes.",
+    date: "May 3, 2025",
+    slug: "us-china-conflict-west-philippine-sea",
+    category: "all-article"
   }
 ];

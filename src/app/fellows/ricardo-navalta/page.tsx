@@ -8,19 +8,19 @@ export default function Page() {
           </h2>
           <div className="flex justify-center space-x-4">
             <a
-              href="/our-team/robert-wagner"
+              href="/fellows/robert-wagner"
               className="px-4 py-2 rounded-full bg-gray-200 text-[#111828] text-sm font-medium"
             >
               Wagner
             </a>
             <a
-              href="/our-team/josep-jepri-miranda"
+              href="/fellows/josep-jepri-miranda"
               className="px-4 py-2 rounded-full bg-gray-200 text-[#111828] text-sm font-medium"
             >
               Miranda
             </a>
             <a
-              href="/our-team/ricardo-navalta"
+              href="/fellows/ricardo-navalta"
               className="px-4 py-2 rounded-full bg-[#111828] text-white text-sm font-medium"
             >
               Navalta
