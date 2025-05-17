@@ -7,7 +7,10 @@ const articlesDir = path.join(process.cwd(), "src/content");
 
 // Get all markdown files from /content
 export function getAllArticles() {
-    const files = fs.readdirSync(articlesDir);
+    const files = fs.readdirSync(articlesDir).filter((filename) => {
+        const filePath = path.join(articlesDir, filename);
+        return fs.statSync(filePath).isFile();
+    });
 
     return files
         .map((filename) => {
