@@ -18,7 +18,7 @@ export default function FellowsPage() {
                 key={fellow.name}
                 className="flex flex-col items-center space-y-2"
               >
-                <div className="bg-[#111828] rounded-lg overflow-hidden shadow-md w-full h-[480px] relative">
+                <div className="overflow-hidden w-full h-[480px] relative">
                   <Image
                     src={fellow.fellowImage}
                     alt={fellow.name}
@@ -26,16 +26,14 @@ export default function FellowsPage() {
                     className="object-cover"
                   />
                 </div>
-                <div className="w-full bg-[oklch(.905_.182_98.111)] rounded-lg px-4 py-3 shadow-md text-left space-y-2">
-                  <h2 className="text-xl font-bold text-[#111828]">
-                    {fellow.name} – {fellow.title}
+                <div className="w-full rounded-lg text-left space-y-4">
+                  <h2 className="text-xl font-extrabold text-[#111828] uppercase">
+                    {fellow.name}
                   </h2>
-                  {fellow.achievements && (
-                    <p className="text-sm text-[#111828]">
-                      {fellow.achievements}
-                    </p>
-                  )}
-                  <p className="text-sm font-medium text-[#111828] italic underline text-center">
+                  <p className="text-sm font-semibold text-[#111828] tracking-wide">
+                    {fellow.title}
+                  </p>
+                  <p className="text-sm font-medium text-[#111828] uppercase">
                     {fellow.fellowType}
                   </p>
                   <p className="text-sm text-[#111828]">{fellow.shortBio}</p>

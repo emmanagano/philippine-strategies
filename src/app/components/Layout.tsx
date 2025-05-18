@@ -1,14 +1,15 @@
 "use client";
 import React, { useState } from "react";
 import { FaInstagram, FaXTwitter, FaFacebook } from "react-icons/fa6";
-
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
+  const pathname = usePathname();
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -71,39 +72,43 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             >
               <Link
                 href="/articles"
-                className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`${
+                  pathname === "/articles" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 Articles
               </Link>
               <Link
                 href="/blurbs"
-                className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`${
+                  pathname === "/blurbs" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Blurbs</span>
               </Link>
               <Link
                 href="/oidp"
-                className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`${
+                  pathname === "/oidp" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>OIDP Book</span>
               </Link>
               <Link
                 href="/contact"
-                className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`${
+                  pathname === "/contact" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Contact</span>
               </Link>
               <Link
                 href="/fellows"
-                className="text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`${
+                  pathname === "/fellows" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Fellows</span>
-              </Link>
-              <Link
-                href="/hire-us"
-                className="ml-4 px-4 py-2 bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-300 transition"
-              >
-                Hire Us
               </Link>
             </div>
           </div>
@@ -112,44 +117,47 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <Link
                 href="/articles"
                 onClick={toggleMobileMenu}
-                className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`block py-2 ${
+                  pathname === "/articles" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Articles</span>
               </Link>
               <Link
                 href="/blurbs"
                 onClick={toggleMobileMenu}
-                className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`block py-2 ${
+                  pathname === "/blurbs" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Blurbs</span>
               </Link>
               <Link
                 href="/oidp"
                 onClick={toggleMobileMenu}
-                className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`block py-2 ${
+                  pathname === "/oidp" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>OIDP Book</span>
               </Link>
               <Link
                 href="/contact"
                 onClick={toggleMobileMenu}
-                className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`block py-2 ${
+                  pathname === "/contact" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Contact</span>
               </Link>
               <Link
                 href="/fellows"
                 onClick={toggleMobileMenu}
-                className="block py-2 text-gray-600 hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+                className={`block py-2 ${
+                  pathname === "/fellows" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Fellows</span>
-              </Link>
-              <Link
-                href="/hire-us"
-                onClick={toggleMobileMenu}
-                className="block py-2 text-black font-semibold bg-yellow-400 rounded px-4 my-2 text-center hover:bg-yellow-300 transition"
-              >
-                Hire Us
               </Link>
             </div>
           )}
@@ -160,25 +168,41 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="container mx-auto px-4 py-2 flex flex-wrap justify-center md:justify-center items-center space-x-8 text-sm font-medium text-gray-700">
           <Link
             href="/military"
-            className="relative text-gray-600 hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+            className={`relative ${
+              pathname === "/military"
+                ? "text-black bg-yellow-400"
+                : "text-gray-600"
+            } hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
           >
             Military
           </Link>
           <Link
             href="/foreign-investment"
-            className="relative text-gray-600 hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+            className={`relative ${
+              pathname === "/foreign-investment"
+                ? "text-black bg-yellow-400"
+                : "text-gray-600"
+            } hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
           >
             Foreign Investment
           </Link>
           <Link
             href="/politics"
-            className="relative text-gray-600 hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+            className={`relative ${
+              pathname === "/politics"
+                ? "text-black bg-yellow-400"
+                : "text-gray-600"
+            } hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
           >
             Politics
           </Link>
           <Link
             href="/consulting"
-            className="relative text-gray-600 hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100"
+            className={`relative ${
+              pathname === "/consulting"
+                ? "text-black bg-yellow-400"
+                : "text-gray-600"
+            } hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
           >
             Consulting
           </Link>
