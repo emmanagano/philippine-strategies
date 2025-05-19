@@ -4,7 +4,18 @@ title: "A Chinese Philippines"
 description: "An analysis of China's influence on the Philippines and what it means for the country's future."
 date: "July 1, 2023"
 slug: "a-chinese-philippines"
-category: "all-article"
+category: "geopolitics"
+tags:
+  - China-Philippines relations
+  - Chinese influence
+  - Luzon
+  - economic colonization
+  - CCP
+  - Xi Jinping
+  - geopolitical strategy
+  - sovereignty
+  - Southeast Asia
+  - foreign policy
 ---
 
 # _SO, YOU LIKE CHINA? HERE IS WHAT A CHINESE PHILIPPINES WOULD LOOK LIKE._

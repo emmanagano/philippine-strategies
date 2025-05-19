@@ -4,7 +4,19 @@ title: "The Duterte Propaganda Machine: How Young Filipinos Are Saying, “Hey, 
 description: "A look at how tech-savvy Filipino youth are challenging pro-Duterte disinformation and reshaping the fight for truth online."
 date: "March 25, 2025"
 slug: "young-filipinos-vs-dds-propaganda"
-category: "all-article"
+category: "disinformation-and-youth-resistance"
+author: "Robert T. Wagner"
+tags:
+  - DDS propaganda
+  - Duterte legacy
+  - fake news
+  - digital resistance
+  - Philippine politics
+  - Gen Z activism
+  - fact-checking
+  - historical revisionism
+  - social media manipulation
+  - online disinformation
 ---
 
 The Duterte administration, long known for its aggressive social media tactics, continues through its remnants to flood the Philippine online space with misleading narratives and outright falsehoods. The so-called DDS (Duterte Diehard Supporters) propaganda machine, which was instrumental in shaping public perception of Rodrigo Duterte’s presidency, remains active long after his departure from office. However, there is growing resistance among young Filipinos who refuse to accept the manufactured image of Duterte as a great leader. Armed with critical thinking and digital literacy, these young fact-checkers are systematically dismantling the slanted spin espoused by Duterte loyalists.

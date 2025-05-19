@@ -17,23 +17,26 @@ export default function ArticlesPage() {
   return (
     <div className="min-h-screen bg-gray-100">
       <section className="py-12 max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 mb-12 text-center uppercase tracking-widest">
-          All Articles
+        <h1 className="text-3xl font-bold text-gray-900 mb-12 text-center tracking-widest">
+          Explore All Articles
         </h1>
         {/* Flat Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {visibleArticles.map((article) => (
             <div key={article.slug} className="w-full px-4 sm:px-0">
-              <div className="relative w-full h-[500px]">
+              <a
+                href={`/articles/${article.slug}`}
+                className="relative w-full h-[500px] block"
+              >
                 <img
                   src={`/images/${article.slug}.jpg`}
                   alt={article.title}
                   className="w-full h-[500px] object-cover"
                 />
-              </div>
+              </a>
               {/* Article Content - Minimalist */}
               <div className="mt-4">
-                <h3 className="text-xl font-medium text-gray-900 uppercase">
+                <h3 className="text-xl font-medium text-gray-900">
                   <a
                     href={`/articles/${article.slug}`}
                     className="hover:underline"
@@ -41,10 +44,10 @@ export default function ArticlesPage() {
                     {article.title}
                   </a>
                 </h3>
+                <p className="text-xs text-gray-500 mt-1">{article.date}</p>
                 <p className="text-gray-600 text-sm mt-2 leading-relaxed">
                   {article.description}
                 </p>
-                <p className="text-xs text-gray-500 mt-1">{article.date}</p>
                 <a
                   href={`/articles/${article.slug}`}
                   className="inline-block text-gray-900 text-sm mt-4 tracking-wide uppercase border-b border-gray-900 hover:text-gray-600 transition-all"

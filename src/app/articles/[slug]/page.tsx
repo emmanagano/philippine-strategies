@@ -55,6 +55,11 @@ export default async function BlogPost({ params }: any) {
           {article.title}
         </h1>
         <p className="text-sm text-gray-500 mb-6">{article.date}</p>
+        <img
+          src={`/images/${article.slug}.jpg`}
+          alt={article.title}
+          className="w-full max-w-lg mx-auto h-auto mb-6 rounded"
+        />
         <article
           className="prose prose-lg prose-gray text-gray-900 leading-relaxed space-y-6"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
@@ -86,4 +91,45 @@ export default async function BlogPost({ params }: any) {
       </section>
     </div>
   );
+}
+
+import type { Metadata } from "next";
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const article = await getArticleBySlug(params.slug);
+
+  if (!article) {
+    return {
+      title: "Article Not Found | Philippine Strategies",
+      description: "This article could not be found.",
+    };
+  }
+
+  return {
+    metadataBase: new URL("https://philippinestrategies.com"),
+    title: `${article.title} | Philippine Strategies`,
+    description: article.description,
+    authors: [{ name: article.author }],
+    keywords: article.tags,
+    openGraph: {
+      title: article.title,
+      description: article.description,
+      url: `https://philippinestrategies.com/articles/${article.slug}`,
+      images: [
+        {
+          url: `/images/${article.slug}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: article.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.description,
+      images: [`/images/${article.slug}.jpg`],
+    },
+  };
 }

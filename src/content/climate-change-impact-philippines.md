@@ -4,7 +4,18 @@ title: "Climate Change Impact Due to Increased Population and Social Media"
 description: "A discussion on how climate change is exacerbated by rising population numbers and the influence of social media in shaping public perception."
 date: "January 28, 2025"
 slug: "climate-change-impact-philippines"
-category: "all-article"
+category: "climate-and-media"
+tags:
+  - climate change
+  - media influence
+  - population growth
+  - social media and disasters
+  - environmental vulnerability
+  - urbanization
+  - climate anxiety
+  - public perception
+  - misinformation
+  - sustainable development
 ---
 
 **The Impact of Climate Change on Current Human Society: An Extrapolated Perspective Based on Changes in Population and Media**

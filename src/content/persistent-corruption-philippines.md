@@ -4,7 +4,18 @@ title: "Persistent Corruption In The Philippines"
 description: "A first-person account of enduring political dysfunction, historical comparisons, and the urgent call to reform Philippine governance from the top down."
 date: "April 19th, 2025"
 slug: "persistent-corruption-philippines"
-category: "all-article"
+category: "anti-corruption"
+tags:
+  - corruption in the Philippines
+  - political reform
+  - Philippine governance
+  - Duterte administration
+  - pandemic corruption
+  - investigative journalism
+  - rule of law
+  - Singapore model
+  - Lee Kuan Yew
+  - political accountability
 ---
 
 **This first-person narrative was garnered from notes taken during several casual discussions with a number of notable Philippine politicians and Jurists between 2020 and 2025. It tells of congenital, stubborn concerns the country has otherwise been unable or unwilling to deal with, as well as the illusive, ethereal hope that a single, messiah-like figure will finally appear on the horizon to lead the country into an age of modernity.**

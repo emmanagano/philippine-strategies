@@ -4,7 +4,19 @@ title: "Rodrigo Duterte: The Uncooked Dialectic of a Nation in Heat"
 description: "A searing reflection on Rodrigo Duterte’s presidency as a raw, postmodern rupture in Filipino politics, exposing the nation’s contradictions through the aesthetics of violence and unapologetic power."
 date: "March 20, 2025"
 slug: "rodrigo-duterte-uncooked"
-category: "all-article"
+category: "philosophy-of-power"
+author: "Robert T. Wagner"
+tags:
+  - Rodrigo Duterte
+  - Philippine politics
+  - postmodernism
+  - populist leadership
+  - political aesthetics
+  - Duterte legacy
+  - authoritarianism
+  - political rhetoric
+  - democracy crisis
+  - Philippine presidency
 ---
 
 **June 30th, 2016:** A man appeared on millions of TV and cellphone screens throughout the nation he had just become the leader of. He didn’t wave, didn’t speak in the usual _lingua politica._ Neither did he smile, evoke the traditional gravitas of a politician, nor carry the carefully cultivated mask of regal benevolence. No, this man smirked, squinted, and snarled. His eyes betrayed something — boredom, perhaps? Or was it disdain for the very idea of politeness? Rodrigo Duterte, the 16th President of the Philippines, entered the global arena not as a polished product of democratic procedure but as something more visceral, more uncooked — a man in heat, whose words would never fit into a neat box.

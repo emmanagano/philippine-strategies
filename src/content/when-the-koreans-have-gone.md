@@ -4,7 +4,19 @@ title: "When the Koreans have Gone - a reflective poem"
 description: "Examining the impact of South Korean influence in the Philippines and what could happen if they were to leave."
 date: "September 14, 2019"
 slug: "when-the-koreans-have-gone"
-category: "all-article"
+category: "foreign-influence"
+author: "Robert T. Wagner"
+tags:
+  - Korean influence
+  - human trafficking
+  - Kopino children
+  - sex tourism
+  - Subic
+  - Angeles City
+  - foreign investment
+  - Philippine real estate
+  - Southeast Asia crime
+  - Korean expats in the Philippines
 ---
 
 When the Koreans have gone, the sexual abuse of Filipinas in KTV’s, K-brothels and K-pool villas will be over.

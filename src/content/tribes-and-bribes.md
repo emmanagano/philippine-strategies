@@ -4,7 +4,19 @@ title: "Tribes and Bribes"
 description: "An exploration of how tribalism and corruption shape Philippine politics and business dealings."
 date: "February 8, 2023"
 slug: "tribes-and-bribes"
-category: "all-article"
+category: "federalism-and-tribalism"
+author: "Robert T. Wagner"
+tags:
+  - Philippine federalism
+  - tribalism in the Philippines
+  - Duterte administration
+  - Mindanao politics
+  - Bangsamoro region
+  - Philippine unity
+  - Davao City
+  - regional autonomy
+  - Filipino identity
+  - political fragmentation
 ---
 
 Except for around eight million Tagalogs in Manila, none of the other native-born inhabitants of the archipelago have a sense of “being Filipino.” Despite their 1986 fall from dominance, the Ilocanos still regard themselves as superior over all other tribal groups. The Kapampangans and Tagalogs have detested each other for over 2,000 years, a hatred that was solidified when the men of Macabebe, Pampanga joined the Americans after Emilio Aguinaldo’s Caviteños massacred half their town for refusing to join the fight. While the Cebuanos hate being forced to play second fiddle to Imperial Manila, the Waray remain viewed as incomprehensible, irascible space aliens by the rest of the country. Finally, the Moros just want to sever the western part of Mindanao and paddle it off into the Sulu Sea, where they would finally be free to build beachfront resorts for rich Saudis and impose Sharia Law without interference from those pesky “Kafir” (Arabic for Infidels) in the north. Tribalism is not just a thing in the Philippines, it is the only thing.

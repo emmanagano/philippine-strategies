@@ -4,7 +4,19 @@ title: "Sun Exposure may be the Reason why there were few Covid-19 cases among t
 description: "Investigating the possible link between increased sun exposure among lower-income Filipinos and lower Covid-19 infection rates."
 date: "April 18, 2020"
 slug: "sun-exposure-covid19-philippines"
-category: "all-article"
+category: "public-health"
+author: "Robert T. Wagner"
+tags:
+  - Covid-19
+  - sun exposure
+  - Vitamin D
+  - UV light therapy
+  - immune system
+  - public health
+  - Philippines
+  - pandemic response
+  - photobiology
+  - UV sterilization
 ---
 
 My employees were terrified. Their questions came at me in a staccato cadence. “Boss, what if one of us gets the virus and we bring it home to our families?” “I’m from Samar, here in Pampanga with no family, so who will take care of me if I get sick?” “Boss, what if you get sick, who will pay us?” The desperation in their eyes was as alarming as it was painful for me to see, as these were in fact members of my extended family, many of whom I had known for seven years or more since having decided to open a restaurant on Clark as a fundraiser for the family charity. As it became obvious that no amount of cajoling or reassurance that everything will be alright would allay their concerns, I turned to science and offered knowledge that might help them feel as if the sky wasn’t going to fall around them.

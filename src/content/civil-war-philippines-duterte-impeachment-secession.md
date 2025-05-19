@@ -4,7 +4,18 @@ title: "Civil War Coming to a Philippines Near You?"
 description: "Duterte's arrest at The Hague ignites a national political crisis, threatening Sara Duterte's career, stirring Mindanaoan secessionist talk, and courting China into the mix."
 date: "April 4, 2025"
 slug: "civil-war-philippines-duterte-impeachment-secession"
-category: "all-article"
+category: "national-fragmentation"
+tags:
+  - Duterte arrest
+  - ICC Philippines
+  - Sara Duterte impeachment
+  - Mindanao secession
+  - Philippine civil unrest
+  - Davao politics
+  - BBM administration
+  - China influence
+  - Filipino nationalism
+  - political crisis
 ---
 
 The very minute I heard, way back in 2017, that DU30, Rody, Digong, PRRD, Superman, P-Rod, Pigong (and – if you can believe it – “PDiggy”), etc., etc., etc., along with his former Oplan Tohkang Police Chiefs, Dabawenyo Ronald “Bato” Dela Rosa, and Kapampangan Oscar “Odie” / “Oca” Albayalde were being investigated by the International Criminal Court, it was a given in my mind that this might just portend the termination of what we today know as The Philippines. That it would take 8 years for the first arrest, unexpectedly of Duterte himself, to be made did not come as much of a surprise to someone who has over 5 decades of experience observing the place and its snail-paced, stuttering, archaic legal system.

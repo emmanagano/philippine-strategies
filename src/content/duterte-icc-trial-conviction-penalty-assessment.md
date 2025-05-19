@@ -4,7 +4,18 @@ title: "Evaluating the Likelihood of Rodrigo Duterte Being Convicted by the ICC,
 description: "Could Rodrigo Duterte be convicted by the ICC? This analysis breaks down the case, evidence, legal hurdles, and possible penalties—including life imprisonment."
 date: "May 17, 2025"
 slug: "duterte-icc-trial-conviction-penalty-assessment"
-category: "all-article"
+category: "international-justice"
+tags:
+  - Duterte ICC case
+  - international criminal court
+  - crimes against humanity
+  - war on drugs
+  - human rights Philippines
+  - extrajudicial killings
+  - Philippine politics
+  - Rodrigo Duterte trial
+  - ICC conviction analysis
+  - global justice system
 ---
 
 Not unexpectedly, it is proving difficult for international law experts to presage statistical probabilities of Rodrigo Duterte’s conviction or acquittal by the ICC, due to, among other things, the uniqueness of the venue itself. The outcome depends on multiple complex and unpredictable factors, including strength of evidence, quality of legal arguments, political influences, origin country cooperations, and judicial discretion. Also, legal proceedings at The Hague are not easily reducible to arithmetic prospects in view of the court’s unusual structural nature and the limited number of comparable cases.

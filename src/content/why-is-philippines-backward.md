@@ -4,7 +4,19 @@ title: "Why is the Philippines so Backward?"
 description: "A controversial take on the systemic and cultural issues that contribute to the Philippines' slow progress compared to its neighbors."
 date: "December 10, 2021"
 slug: "why-is-philippines-backward"
-category: "all-article"
+category: "sociopolitical-analysis"
+author: "Robert T. Wagner"
+tags:
+  - Philippine society
+  - OFW remittances
+  - population growth
+  - Filipino diaspora
+  - economic inequality
+  - brain drain
+  - Philippine politics
+  - poverty cycle
+  - cultural identity
+  - Southeast Asia development
 ---
 
 **Think the Philippines is Backward?**

@@ -4,7 +4,18 @@ title: "Is China “Winning Without Fighting”?"
 description: "How China’s maritime strategy in the South China Sea reflects Sun Tzu’s Art of War—achieving dominance through shaping operations, deception, and lawfare without firing a shot."
 date: "May 8, 2025"
 slug: "china-winning-without-fighting-south-china-sea"
-category: "all-article"
+category: "strategic-theory"
+tags:
+  - South China Sea
+  - Sun Tzu
+  - Art of War
+  - Xi Jinping strategy
+  - Chinese maritime policy
+  - winning without fighting
+  - shaping operations
+  - Chinese military doctrine
+  - West Philippine Sea
+  - geopolitical influence
 ---
 
 **How Sun Tzu Influences Xi’s Thinking On Maritime Disputes**

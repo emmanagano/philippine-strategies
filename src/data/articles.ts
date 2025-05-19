@@ -24,7 +24,9 @@ export function getAllArticles() {
                 description: data.description,
                 date: data.date,
                 slug: data.slug,
-                category: data.category || "all-article"
+                category: data.category || "all-article",
+                tags: data.tags || [],
+                author: data.author || ""
             };
         })
         .sort((a, b) => b.id - a.id); // Sort in descending order
@@ -46,6 +48,8 @@ export function getArticleBySlug(slug: string) {
         description: data.description,
         date: data.date,
         slug: data.slug,
+        tags: data.tags || [],
+        author: data.author || "",
         content,
     };
 }

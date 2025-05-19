@@ -4,7 +4,18 @@ title: "Artificial Sweeteners Lower Mental Illness Philippines Study"
 description: "Lack of artificial sweeteners in the Philippine food supply linked to lower rates of mental illness compared to 1st world countries."
 date: "February 20, 2025"
 slug: "artificial-sweeteners-mental-illness"
-category: "all-article"
+category: "health-and-nutrition"
+tags:
+  - artificial sweeteners
+  - mental illness
+  - Philippines
+  - ADHD
+  - OCD
+  - bipolar disorder
+  - borderline personality disorder
+  - processed food
+  - aspartame
+  - public health study
 ---
 
 **Filipinos Have Far Lower Incidences of Mental Illness Than Westerners Due to Lack of Artificial Sweeteners in Local Food Supply**

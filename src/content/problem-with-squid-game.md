@@ -4,7 +4,19 @@ title: "The Problem with Squid Game"
 description: "A critical analysis of the popular Korean show Squid Game and its social, economic, and political messages."
 date: "October 25, 2021"
 slug: "problem-with-squid-game"
-category: "all-article"
+category: "cultural-critique"
+author: "Robert T. Wagner"
+tags:
+  - Korean Wave
+  - Squid Game
+  - K-Pop
+  - K-Drama
+  - Filipino culture
+  - sex tourism
+  - Kopino
+  - Korean influence in the Philippines
+  - cultural imperialism
+  - Southeast Asia
 ---
 
 For a number of years, while suffering from more than just a bit of consternation, I have observed the near-religious fervor with which Filipinos idolize sexually dimorphic Korean “K-Pop” groups that strangely never play instruments or seem to be actually singing at all during their routines. Fan clubs in Manila of BTS, BlackPink, and other big Han-Gook acts rival their originator counterparts in Seoul on levels of fanaticism that frequently manifest cyber-bullying and threats of violence, inducing more than just a few suicides and career terminations.
