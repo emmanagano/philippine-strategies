@@ -119,5 +119,13 @@ export const staticArticles: Article[] = [
     date: "May 8, 2025",
     slug: "china-winning-without-fighting-south-china-sea",
     category: "all-article"
+  },
+  {
+    id: 15,
+    title: "Evaluating the Likelihood of Rodrigo Duterte Being Convicted by the ICC, and What His Penalties Might Be.",
+    description: "Could Rodrigo Duterte be convicted by the ICC? This analysis breaks down the case, evidence, legal hurdles, and possible penalties—including life imprisonment.",
+    date: "May 17, 2025",
+    slug: "duterte-icc-trial-conviction-penalty-assessment",
+    category: "all-article"
   }
 ];
