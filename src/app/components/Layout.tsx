@@ -14,15 +14,23 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="bg-[#111828] text-white text-sm text-center py-2">
-        📢 Check out our book: <strong>O.I.D.P. - Onli in Da Pilippines</strong>
+        📢 Check out our book:{" "}
+        <strong>O.I.D.P. - Onli in Da Pilippines.</strong> For U.S. readers,{" "}
         <a
           href="https://www.amazon.com/I-D-P-PILIPPINES-PHILIPPINES-CONSTERNATING-INTERESTING/dp/B0DCVYSPX7"
           target="_blank"
           rel="noopener noreferrer"
-          className="ml-2 underline hover:text-gray-300 transition"
+          className="underline hover:text-gray-300 transition"
         >
           Buy Now on Amazon →
-        </a>
+        </a>{" "}
+        For readers in the Philippines,{" "}
+        <Link
+          href="/contact"
+          className="underline hover:text-gray-300 transition"
+        >
+          contact us for a signed copy
+        </Link>
       </div>
       {/* Navbar */}
       <div className="sticky top-0 z-50">
