@@ -127,7 +127,7 @@ export const fellows = [
     id: 5,
     slug: "ricardo-navalta",
     name: "Ricardo J. Navalta",
-    title: "H.P.A and B.S.",
+    title: "B.S., H.P.A",
     fellowType: "Senior Associate Fellow",
     achievements: "Retired U.S. Homeland Security Regional Attaché | Senior Law Enforcement Executive | International Security and Investigations Expert",
     shortBio: "Former Homeland Security Attaché to Manila, Ric offers unrivaled expertise in international law enforcement, counter-criminal operations, and security consulting.",
