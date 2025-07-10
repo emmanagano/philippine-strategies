@@ -57,7 +57,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               </div>
               <button
                 onClick={toggleMobileMenu}
-                className="md:hidden text-gray-800"
+                className="lg:hidden text-gray-800"
               >
                 <svg
                   className="w-6 h-6"
@@ -76,7 +76,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               </button>
             </div>
             <div
-              className={`hidden md:flex flex-1 justify-between items-center`}
+              className={`hidden lg:flex flex-1 justify-between items-center`}
             >
               <Link
                 href="/articles"
@@ -118,10 +118,18 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               >
                 <span>Fellows</span>
               </Link>
+              <Link
+                href="/hire-us"
+                className={`${
+                  pathname === "/hire-us" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
+              >
+                <span>Hire Us</span>
+              </Link>
             </div>
           </div>
           {isMobileMenuOpen && (
-            <div className="md:hidden bg-white shadow-md p-4">
+            <div className="lg:hidden bg-white shadow-md p-4">
               <Link
                 href="/articles"
                 onClick={toggleMobileMenu}
@@ -167,55 +175,20 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               >
                 <span>Fellows</span>
               </Link>
+              <Link
+                href="/hire-us"
+                onClick={toggleMobileMenu}
+                className={`block py-2 ${
+                  pathname === "/hire-us" ? "text-black" : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
+              >
+                <span>Hire Us</span>
+              </Link>
             </div>
           )}
         </header>
       </div>
       {/* Secondary Navbar */}
-      <nav className="bg-white border-t border-b border-gray-200 shadow-sm sticky top-[72px] z-40">
-        <div className="container mx-auto px-4 py-2 flex flex-wrap justify-center md:justify-center items-center space-x-8 text-sm font-medium text-gray-700">
-          <Link
-            href="/military"
-            className={`relative ${
-              pathname === "/military"
-                ? "text-black bg-yellow-400"
-                : "text-gray-600"
-            } hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
-          >
-            Military
-          </Link>
-          <Link
-            href="/foreign-investment"
-            className={`relative ${
-              pathname === "/foreign-investment"
-                ? "text-black bg-yellow-400"
-                : "text-gray-600"
-            } hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
-          >
-            Foreign Investment
-          </Link>
-          <Link
-            href="/politics"
-            className={`relative ${
-              pathname === "/politics"
-                ? "text-black bg-yellow-400"
-                : "text-gray-600"
-            } hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
-          >
-            Politics
-          </Link>
-          <Link
-            href="/consulting"
-            className={`relative ${
-              pathname === "/consulting"
-                ? "text-black bg-yellow-400"
-                : "text-gray-600"
-            } hover:text-gray-900 after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
-          >
-            Consulting
-          </Link>
-        </div>
-      </nav>
       {/* Main Content */}
       <div className="w-full">{children}</div>
       {/* Book Promotion Banner */}

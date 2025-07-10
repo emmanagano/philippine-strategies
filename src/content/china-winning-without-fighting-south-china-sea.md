@@ -5,6 +5,7 @@ description: "How China’s maritime strategy in the South China Sea reflects Su
 date: "May 8, 2025"
 slug: "china-winning-without-fighting-south-china-sea"
 category: "strategic-theory"
+author: "Robert T. Wagner"
 tags:
   - South China Sea
   - Sun Tzu

@@ -5,6 +5,7 @@ description: "A discussion on how climate change is exacerbated by rising popula
 date: "January 28, 2025"
 slug: "climate-change-impact-philippines"
 category: "climate-and-media"
+author: "Robert T. Wagner"
 tags:
   - climate change
   - media influence

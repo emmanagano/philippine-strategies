@@ -5,6 +5,7 @@ description: "Duterte's arrest at The Hague ignites a national political crisis,
 date: "April 4, 2025"
 slug: "civil-war-philippines-duterte-impeachment-secession"
 category: "national-fragmentation"
+author: "Robert T. Wagner"
 tags:
   - Duterte arrest
   - ICC Philippines

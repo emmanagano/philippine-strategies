@@ -5,6 +5,7 @@ description: "A first-person account of enduring political dysfunction, historic
 date: "April 19th, 2025"
 slug: "persistent-corruption-philippines"
 category: "anti-corruption"
+author: "Robert T. Wagner"
 tags:
   - corruption in the Philippines
   - political reform

@@ -11,14 +11,13 @@ export const fellows = [
       "Founder of Philippine Strategies Research Institute and author of 'OIDP - Onli In Da Pilippines', Bob provides deep strategic insight shaped by decades of in-country military, business, and diplomatic activities experience.",
     fellowImage: "/images/fellows/robert-wagner-team.png",
     keyTakeaways: [
-      "Former US Marine Force Recon Operator with deployments in the Philippines and Beirut",
-      "Tactical Advisor to Philippine Marine units during the MNLF insurgency",
-      "Long standing family legacy in the Philippines dating back to 1899",
-      "President & CEO of AEGIS, Inc., advising international firms on FDA compliance",
+      "Former US Marine Force Recon Operator with deployments in PH and worldwide",
+      "Long-standing family legacy in the Philippines, dating back to 1899",
+      "President &amp; CEO of AEGIS, Inc., advising international firms on FDA compliance",
       "Founder of education and disaster relief NGOs operating across the Philippines",
       "Pilot and coordinator of aviation-based humanitarian missions in remote regions",
       "Author of O.I.D.P – Onli In Da Pilippines and regular columnist at PhilStrats",
-      "Trusted advisor with extensive ties to local government, military, and diplomatic circles"
+      "Trusted advisor within local government, military, and diplomatic circles"
     ],
     content: [
         "Beginning his US Marine career as a Force Recon (ITT - Interrogator / Translator) Operator out of Okinawa and Subic Bay in the mid-1970’s, Bob functioned as a Tactical Advisor to the Philippine Marine Brigade on Basilan and Sulu islands during the early phases of the MNLF (Moro National Liberation Front) insurgency. He later transitioned to the US Embassy in Beirut at the height of the Lebanese civil war, performing Recon and ITT duties for the Defense Attaché Office while stationed there in a Marine Security capacity.",
@@ -46,12 +45,11 @@ export const fellows = [
       "Former Secretary of National Defense of the Republic of the Philippines",
       "Retired Lieutenant General with extensive combat and leadership experience",
       "Spent a third of his military career in conflict zones across Mindanao",
-      "Served as Defense Attaché to the United States and later as Special Representative for Veterans’ Affairs",
-      "Recipient of the Philippine Presidential Legion of Honor and U.S. Presidential Legion of Merit",
-      "Fluent in 7 Philippine dialects, enabling deep regional engagement and understanding",
-      "Maintains active relationships with political, military, and business leaders across the country",
-      "Recognized as a unifying statesman with long-term credibility across partisan lines",
-      "Respected advisor on national defense, diplomacy, and BARMM regional development"
+      "Former Defense Attaché to the US and later as Special Rep. for Veterans’ Affairs",
+      "Recipient of Presidential Legion of Honor and U.S. Presidential Legion of Merit",
+      "Fluent in 7 Philippine dialects, enabling deep regional engagement",
+      "Solid relationships with political, military, and business leaders across the country",
+      "Recognized as a unifying statesman with long-term credibility across partisan lines"
     ],
     content: [
         "As our elder statesman and arguably most accomplished Fellow, Del provides the institute with top-level political and military knowledge, insight and relationships. Carrying extensive combat and administrative credits under his belt, he rose through the ranks to Lt. General, with a third of his career spent in the epicenter of action on his native Mindanao. His last duty assignment was as Defense Attaché in Washington DC, where, after retiring from the Army, he later spent 12 years as the Special Representative for Veterans’ Affairs at the Philippine embassy.",
@@ -69,18 +67,18 @@ export const fellows = [
     achievements:
       "Current Chief Security and Aviation Officer, Senior Vice President, Nickel Asia Corporation",
     shortBio:
-      "Apart from having led the Philippines' premier fighting force for many years, Romi is also a distinguished economist and policy planner with extensive experience in national development strategies and economic reform programs",
+      "Apart from having led the Philippines' premier fighting force for many years, Romi is also a distinguished corporate policy planner with extensive experience in national development strategies and reform programs.",
     fellowImage: "/images/fellows/romeo-t-tanalgo-team.png",
     keyTakeaways: [
       "Former Vice Chief of Staff of the Armed Forces of the Philippines",
-      "Served as Commandant of the Philippine Marine Corps and Commander of NOLCOM",
+      "Former Commandant of the Philippine Marine Corps and NOLCOM",
       "38-year military career with operational experience across Mindanao and Luzon",
       "Joint Task Force Commander in Sulu with US-Philippine coordination experience",
-      "Holds a Master’s in Development Management (AIM) and Maritime Studies (UOW)",
-      "Recipient of the Presidential Lingkod Bayan and Metrobank TOPS & ACES awards",
-      "Current SVP and Chief Security & Aviation Officer at Nickel Asia Corporation",
+      "Master’s in Development Management (AIM) and Maritime Studies (UOW)",
+      "Recipient of the Presidential Lingkod Bayan and Metrobank TOPS &amp; ACES awards",
+      "Current SVP and Chief Security &amp; Aviation Officer at Nickel Asia Corporation",
       "Recognized for integrating defense expertise into corporate security strategy",
-      "Trusted advisor in risk management, aviation operations, and government relations"
+      "Advisor in risk management, aviation operations, and government relations"
     ],
     content: [
       "Formerly Commandant of the Philippine Marine Corps, Romi retired from the service in 2017 as a Lt. General after serving the nation faithfully for more than thirty-eight years.",
@@ -99,19 +97,18 @@ export const fellows = [
     title: "Chief Counsel",
     fellowType: "Senior Associate Fellow",
     achievements: "Founding Partner, Miranda, Vitug & Francisco Law | Former Chief Counsel, Clark Development Corporation | VP, Clark International Airport Corp. | Two-term President, IBP Pampanga | Aldo Ning Parangal Awardee (2009)",
-    shortBio: "One of the top jurists in the Philippines, Jep specializes in dispute resolution and foreign investment law. A member of the New York State Bar, he was the foundational legal mind that effected and continues to support the Clark and Subic Freeports.",
+    shortBio: "One of the top jurists in the Philippines, Jep specializes in dispute resolution and foreign investment law. A former President of the Pampanga chapter of the Integrated Bar of the Philippines, he was the foundational legal mind that effected and continues to support the Clark and Subic Freeports.",
     fellowImage: "/images/fellows/jep-miranda-team.png",
     keyTakeaways: [
-        "Senior legal authority in foreign investment and international commercial dispute resolution",
         "Founding partner of one of Central Luzon’s most influential law firms",
-        "Former Chief Counsel at CDC and VP at Clark International Airport Corporation",
+        "Specialized authority on foreign investment and commercial dispute resolution",
+        "Former Chief Counsel at CDC and VP, Clark International Airport Corporation",
         "Twice elected President of the Integrated Bar of the Philippines, Pampanga chapter",
         "Recognized nationally for legal academic excellence by the Philippine presidency",
-        "Member of the New York State Bar with global experience in cross-border legal negotiations",
-        "Trusted legal advisor for major investors in the Clark and Subic Freeports",
-        "Known for resolving LGU interference and enforcing national-level commitments to foreign clients",
-        "Frequently represents Philippine legal interests in US and European law conferences",
-        "Scion of a politically established Kapampangan family with deep regional influence"
+        "Legal advisor for major investors in the Clark and Subic Freeports",
+        "Known for enforcing national-level commitments to foreign clients",
+        "Frequently represents PH trade interests at US and European law conferences",
+        "Scion of a politically-established Kapampangan family with deep regional influence"
     ],
     content: [
         "Jep is the scion of one of the oldest and most politically prolific Kapampangan families in Central Luzon.",
@@ -127,7 +124,7 @@ export const fellows = [
     id: 5,
     slug: "ricardo-navalta",
     name: "Ricardo J. Navalta",
-    title: "B.S., H.P.A",
+    title: "Former U.S. Department of Homeland Security (DHS) Attaché, U.S. Embassy Manila",
     fellowType: "Senior Associate Fellow",
     achievements: "Retired U.S. Homeland Security Regional Attaché | Senior Law Enforcement Executive | International Security and Investigations Expert",
     shortBio: "Former Homeland Security Attaché to Manila, Ric offers unrivaled expertise in international law enforcement, counter-criminal operations, and security consulting.",
@@ -140,8 +137,7 @@ export const fellows = [
         "Oversaw the U.S. Visa Security Program in coordination with the Department of State and RSO",
         "Maintained operations through the COVID-19 pandemic while safeguarding U.S. and local staff",
         "Expanded U.S. homeland security operations and partnerships across Southeast Asia",
-        "Expert in transnational crime, diplomatic law enforcement strategy, and international task force coordination",
-        "Ongoing contributor to PhilStrats and active in security consulting post-retirement"
+        "Expert in transnational crime, diplomatic law enforcement strategy, and international task force coordination"
     ],
     content: [
         "Ric is a distinguished retired law enforcement executive with over 30 years of leadership experience in domestic and international operations, homeland security, financial crimes, counter-narcotics, counter-human trafficking, and transnational criminal investigations. He most recently served as the DHS and HSI Regional Attaché to the U.S. Embassy in Manila, Philippines, where he was the senior U.S. law enforcement representative overseeing DHS and HSI operations throughout the Philippines from 2018 to 2023.",

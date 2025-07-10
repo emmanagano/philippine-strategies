@@ -127,5 +127,21 @@ export const staticArticles: Article[] = [
     date: "May 17, 2025",
     slug: "duterte-icc-trial-conviction-penalty-assessment",
     category: "all-article"
+  },
+  {
+    id: 16,
+    title: "Potential Impact an Impeachment Acquittal of Sara Duterte on the Philippine Political Environment",
+    description: "What happens if Sara Duterte is acquitted? This analysis explores the potential impact on the Duterte dynasty, Marcos rivalry, public trust, and foreign policy.",
+    date: "May 24, 2025",
+    slug: "sara-duterte-impeachment-acquittal-impact",
+    category: "politics"    
+  },
+  {
+    id: 17,
+    title: "Do Filipinos Really Aspire for Societal Discipline and Justice?",
+    description: "Exploring the tension between cultural norms and the pursuit of societal discipline and justice in the Philippines.",
+    date: "June 11, 2025",
+    slug: "filipinos-discipline-justice",
+    category: "culture"
   }
 ];

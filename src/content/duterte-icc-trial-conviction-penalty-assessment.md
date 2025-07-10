@@ -5,6 +5,7 @@ description: "Could Rodrigo Duterte be convicted by the ICC? This analysis break
 date: "May 17, 2025"
 slug: "duterte-icc-trial-conviction-penalty-assessment"
 category: "international-justice"
+author: "Robert T. Wagner"
 tags:
   - Duterte ICC case
   - international criminal court

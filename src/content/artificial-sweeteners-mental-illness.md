@@ -5,6 +5,7 @@ description: "Lack of artificial sweeteners in the Philippine food supply linked
 date: "February 20, 2025"
 slug: "artificial-sweeteners-mental-illness"
 category: "health-and-nutrition"
+author: "Robert T. Wagner"
 tags:
   - artificial sweeteners
   - mental illness
