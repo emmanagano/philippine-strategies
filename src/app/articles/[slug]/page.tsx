@@ -58,7 +58,7 @@ export default async function BlogPost({ params }: any) {
         <img
           src={`/images/${article.slug}.jpg`}
           alt={article.title}
-          className="w-full max-w-lg mx-auto h-auto mb-6 rounded"
+          className="w-full h-[500px] object-cover mb-6"
         />
         <article
           className="prose prose-lg prose-gray text-gray-900 leading-relaxed space-y-6"

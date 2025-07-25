@@ -21,20 +21,26 @@ export default function ArticlesPage() {
           Explore All Articles
         </h1>
         {/* Flat Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {visibleArticles.map((article) => (
             <div key={article.slug} className="w-full px-4 sm:px-0">
-              <a
-                href={`/articles/${article.slug}`}
-                className="relative w-full h-[500px] block"
-              >
-                <img
-                  src={`/images/${article.slug}.jpg`}
-                  alt={article.title}
-                  className="w-full h-[500px] object-cover"
-                />
-              </a>
-              {/* Article Content - Minimalist */}
+              <div className="relative w-full h-[400px] group overflow-hidden">
+                <a href={`/articles/${article.slug}`}>
+                  <img
+                    src={`/images/${article.slug}.jpg`}
+                    alt={article.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </a>
+                <div className="absolute inset-0 bg-white/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <a
+                    href={`/articles/${article.slug}`}
+                    className="inline-block bg-black text-white px-4 py-2 text-sm font-medium rounded hover:bg-gray-800 transition"
+                  >
+                    Read Now
+                  </a>
+                </div>
+              </div>
               <div className="mt-4">
                 <h3 className="text-xl font-medium text-gray-900">
                   <a

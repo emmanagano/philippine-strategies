@@ -11,35 +11,45 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Hero Section */}
-      <div className="relative w-screen h-screen">
+      <div>
         <Hero />
       </div>
+      {/* Marquee Section */}
+      <section className="w-full bg-gray-100 overflow-hidden">
+        <div className="relative w-full flex items-center h-20">
+          <div className="absolute whitespace-nowrap animate-marquee text-[5vw] font-extrabold uppercase tracking-wider text-black">
+            <span className="mx-8">
+              FRESH ARTICLES WEEKLY - READ OUR LATEST POST
+            </span>
+          </div>
+        </div>
+      </section>
       {/* Recent Blogs Section */}
       <section className="max-w-4xl mx-auto py-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-          Latest Articles
-        </h2>
         {/* Featured Blog Post */}
         {articles.length > 0 && (
-          <div
-            className="relative bg-cover bg-center min-h-[500px] md:min-h-[350px] mb-6 px-4 sm:px-6 overflow-hidden"
-            style={{
-              backgroundImage: `url('/images/${articles[0].slug}.jpg')`,
-            }}
-          >
-            <div className="absolute inset-0 bg-black/70" />
-            <div className="relative flex items-center justify-center h-full">
-              <div className="p-6 max-w-xl text-white text-center">
-                <h3 className="text-2xl font-bold">{articles[0].title}</h3>
-                <hr className="w-64 border-t-2 border-white my-2 mx-auto" />
-                <p className="text-sm text-gray-300">{articles[0].date}</p>
-                <p className="mt-2 text-gray-200">{articles[0].description}</p>
+          <div className="relative bg-white border border-gray-300 mb-6 px-4 py-6 sm:px-6 rounded-lg shadow-md overflow-hidden">
+            <div className="grid md:grid-cols-2 gap-6 items-center">
+              {/* Content Side */}
+              <div className="text-black">
+                <p className="text-sm text-gray-600 mb-2">{articles[0].date}</p>
+                <h3 className="text-2xl font-bold mb-3">{articles[0].title}</h3>
+                <p className="text-gray-800 mb-4">{articles[0].description}</p>
                 <Link
                   href={`/articles/${articles[0].slug}`}
-                  className="inline-block mt-4 px-6 py-2.5 bg-gradient-to-r from-gray-900 via-red-800 to-gray-700 text-white font-medium text-sm rounded-md border border-white hover:border-red-400 hover:scale-105 transform transition-all duration-300 shadow-lg"
+                  className="inline-block px-6 py-2.5 bg-black text-white font-medium text-sm rounded-md border border-black hover:bg-gray-100 hover:text-black transition-all duration-300"
                 >
-                  Dive into the Story →
+                  Read Article →
                 </Link>
+              </div>
+
+              {/* Image Side */}
+              <div className="w-full h-full">
+                <img
+                  src={`/images/${articles[0].slug}.jpg`}
+                  alt={articles[0].title}
+                  className="w-full h-full object-cover rounded-lg"
+                />
               </div>
             </div>
           </div>

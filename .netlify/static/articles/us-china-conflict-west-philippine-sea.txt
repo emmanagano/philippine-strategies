@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[9243,["446","static/chunks/53c13509-ddb8c9485c6ab532.js","874","static/chunks/874-0dc1d6c0674faec5.js","14","static/chunks/14-94642e308f2077b2.js","177","static/chunks/app/layout-b6a08bde69752f2b.js"],""]
+3:I[122,["446","static/chunks/53c13509-ddb8c9485c6ab532.js","874","static/chunks/874-0dc1d6c0674faec5.js","14","static/chunks/14-94642e308f2077b2.js","177","static/chunks/app/layout-b6a08bde69752f2b.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+7:I[9665,[],"OutletBoundary"]
+a:I[9665,[],"ViewportBoundary"]
+c:I[9665,[],"MetadataBoundary"]
+e:I[6614,[],""]
+:HL["/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/5ef2105cd14af712.css","style"]
+0:{"P":null,"b":"c9LeHYWKrnZCK5JKwYj-k","p":"","c":["","articles","us-china-conflict-west-philippine-sea"],"i":false,"f":[[["",{"children":["articles",{"children":[["slug","us-china-conflict-west-philippine-sea","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5ef2105cd14af712.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","$L2",null,{"id":"gtm-head","strategy":"beforeInteractive","children":"\n            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n            })(window,document,'script','dataLayer','GTM-TSZNKNFN');\n          "}]}],["$","body",null,{"className":"__variable_5cfdac __variable_9a8899 antialiased","children":[["$","noscript",null,{"children":["$","iframe",null,{"src":"https://www.googletagmanager.com/ns.html?id=GTM-TSZNKNFN","height":"0","width":"0","style":{"display":"none","visibility":"hidden"}}]}],["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]]}],{"children":["articles",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","us-china-conflict-west-philippine-sea","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6","$undefined",null,["$","$L7",null,{"children":["$L8","$L9",null]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","hJOZY4eVVWTvm7MZkSdaB",{"children":[["$","$La",null,{"children":"$Lb"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$Lc",null,{"children":"$Ld"}]]}],false]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
+f:T1abe,<p><em>author: Robert T. Wagner – Senior Fellow</em></p>
+<p>This document explores the potential development and consequences of an open military conflict between the People’s Republic of China and the United States of America in a scenario where China initiates hostilities in the South China or West Philippine Seas. Such a conflict would have catastrophic consequences and is widely considered undesirable by both parties. The analysis aims solely to outline possible phases, strategic considerations, and global implications based on current capabilities, alliances, and geopolitical conditions.</p>
+<p><strong>NOTE:</strong> Previous tensions created by recent US tariff impositions on China do not figure in this examination due to presumed negotiated trade agreements reached between the two countries, as China is sensitive to the historical precedent of Imperial Japan, which attacked Pearl Harbor due to an oil embargo from Washington that was crippling the Japanese economy.</p>
+<hr>
+<p><strong>1. Scenario Trigger and Opening Strike</strong></p>
+<p><strong>Initial Event:</strong> The conflict begins with decisive Chinese military action, such as a preemptive strike on US forces in the Indo-Pacific, focusing on naval assets in the region and airfields on the northern Philippine Island of Luzon, possibly in conjunction with an invasion of Taiwan.</p>
+<p><strong>Assertion of Justification:</strong> China asserts via social media that its behavior is legitimized by perceived threats from the Philippines stationing American long-range anti-ship missiles on northern Luzon and the United States providing increased military support to Taiwan.</p>
+<p><strong>Attack Characteristics:</strong></p>
+<p>• <strong>Cyber Attacks:</strong> Simultaneous attempts to disable US + allies’ military communications, satellites, and civil infrastructure like airports and highways that would hamper movements of military equipment and personnel.</p>
+<p>• <strong>Kinetic Targets:</strong> Missile and airstrikes on US air bases on Guam, in Japan, South Korea and the Philippines.</p>
+<p>• <strong>Naval Engagements:</strong> Use of air-launched, anti-ship, ballistic missiles (e.g., DF-21D) against US carrier groups.</p>
+<hr>
+<p><strong>2. US and Allied Response</strong></p>
+<p><strong>Immediate Objectives:</strong></p>
+<p>• Coordination with allies (e.g., Japan, South Korea, Australia).<br>
+• Regain operational control and situational awareness.<br>
+• Mobilize allied naval and air forces in the Pacific.<br>
+• Restrict Chinese operations by sleeper agents already on allied soil.</p>
+<p><strong>Strategic Countermeasures:</strong></p>
+<p>• Launch retaliatory strikes on PLAN assets and command centers<br>
+• Enforce blockades or establish exclusion zones in the South China Sea<br>
+• Activate cyber retaliation to disrupt Chinese C4ISR (Command, Control, Communications, Computers Intelligence, Surveillance, and Reconnaissance) networks<br>
+• Worldwide closure of commercial ports and airports to Chinese vessels / aircraft<br>
+• Potential interment of Chinese citizens born in China but living in allied countries</p>
+<hr>
+<p><strong>3. Escalation Pathways</strong></p>
+<p><strong>Regional Escalation:</strong></p>
+<p>• Taiwan becomes the central battlefield, involving intense air, sea, and possibly land combat.<br>
+• Clashes around disputed areas such as the Senkaku Islands or South China Sea reefs.<br>
+• High probability of Japanese involvement under collective self-defense agreements.</p>
+<p><strong>Global Escalation:</strong></p>
+<p>• The US invokes NATO Article 5 if attacks occur against European members by Russia in support of China.<br>
+• Increased risk of conflict spreading to the Indian Ocean and cyberspace globally.<br>
+• Economic warfare: decoupling, sanctions, and supply chain disruptions.</p>
+<p><strong>Nuclear Concerns:</strong></p>
+<p>• Both sides possess second-strike capabilities.<br>
+• Use of tactical nuclear weapons is considered highly unlikely but cannot be ruled out if one side faces imminent strategic defeat.<br>
+• China may threaten to use its new non-nuclear hydrogen “heat” bomb that the West regards as a WMD, inducing the West to warn of retaliation in kind.</p>
+<hr>
+<p><strong>4. Duration and Outcome Scenarios</strong></p>
+<p><strong>Short Conflict (Weeks to Months):</strong></p>
+<p>• Decisive US technological and logistical superiority reasserts dominance.<br>
+• Chinese forces suffer setbacks in Taiwan and at sea.<br>
+• Likely ends in a negotiated ceasefire under global pressure on China.</p>
+<p><strong>Protracted Conflict (Months to Years):</strong></p>
+<p>• Sustained attritional warfare in SEA theater unlikely to mirror that of Ukraine.<br>
+• Massive casualties, regional devastation, resulting in economic collapse of China.<br>
+• Risks of political instability in China and Russia.<br>
+• Global recession.</p>
+<p><strong>Outcome Variables:</strong></p>
+<p>• Societal unrest in China due to economic collapse, potentially leading to regime change.<br>
+• Effectiveness of US-led alliances (e.g., QUAD, AUKUS) strengthened.<br>
+• Diplomatic backchannel systems (e.g., via Switzerland or UN) enhanced.</p>
+<hr>
+<p><strong>5. Global Implications</strong></p>
+<p><strong>Economic:</strong></p>
+<p>• Severe global market disruption.<br>
+• Supply chain collapse, especially in semiconductors and rare earths.<br>
+• Accelerated deglobalization.</p>
+<p><strong>Geopolitical:</strong></p>
+<p>• Realignment of global power centers.<br>
+• Neutral nations pressured to choose sides.<br>
+• Expansion of regional defense pacts.</p>
+<p><strong>Humanitarian:</strong></p>
+<p>• Immense refugee flows from affected areas; mass exodus from southern China.<br>
+• Civilian infrastructure was destroyed, especially in Taiwan and coastal China.<br>
+• Human rights violations and war crimes investigations are likely.</p>
+<hr>
+<p><strong>6. Conclusion</strong></p>
+<p>A China-initiated war with the United States and her allies within SEA would mark one of the most destructive, yet completely unnecessary events in modern history.</p>
+<p>While both countries possess significant military capabilities, the unpredictable dynamics of full-scale conflict—especially with nuclear powers—make such a scenario deeply concerning to the entire world.</p>
+<p>As all models and simulations indicate China would suffer disproportionately compared to America and supporting SEA states, avoiding escalation through diplomacy, deterrence, and crisis management would be the most prudent path forward for Beijing.</p>
+<p>Western countries would respond to Chinese aggression by de-linking their economies to the greatest extent possible, thereby throwing long-lasting financial and political malaise upon the latter.</p>
+6:["$","div",null,{"className":"min-h-screen bg-gray-100 py-12","children":["$","section",null,{"className":"max-w-3xl mx-auto px-6","children":[["$","div",null,{"className":"flex justify-between items-center gap-4 text-sm border-b border-gray-300 pb-6 mb-8","children":[["$","a",null,{"href":"/articles/china-winning-without-fighting-south-china-sea","className":"flex items-center text-[#111828] hover:underline","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","className":"mr-1","children":["$undefined",[["$","path","0",{"d":"M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],"Previous Article"]}],["$","a",null,{"href":"/articles/persistent-corruption-philippines","className":"flex items-center text-[#111828] hover:underline","children":["Next Article",["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","className":"ml-1","children":["$undefined",[["$","path","0",{"d":"M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]]}]]}],["$","h1",null,{"className":"text-3xl md:text-4xl font-bold text-gray-900 mb-4","children":"How an Open Conflict between the US and China in the West Philippine Sea might Unfold and Manifest"}],["$","p",null,{"className":"text-sm text-gray-500 mb-6","children":"May 3, 2025"}],["$","img",null,{"src":"/images/us-china-conflict-west-philippine-sea.jpg","alt":"How an Open Conflict between the US and China in the West Philippine Sea might Unfold and Manifest","className":"w-full h-[500px] object-cover mb-6"}],["$","article",null,{"className":"prose prose-lg prose-gray text-gray-900 leading-relaxed space-y-6","dangerouslySetInnerHTML":{"__html":"$f"}}],["$","div",null,{"className":"flex justify-between items-center gap-4 text-sm border-t border-gray-300 pt-6 mt-12","children":[["$","a",null,{"href":"/articles/china-winning-without-fighting-south-china-sea","className":"flex items-center text-[#111828] hover:underline","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","className":"mr-1","children":["$undefined",[["$","path","0",{"d":"M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],"Previous Article"]}],["$","a",null,{"href":"/articles/persistent-corruption-philippines","className":"flex items-center text-[#111828] hover:underline","children":["Next Article",["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","className":"ml-1","children":["$undefined",[["$","path","0",{"d":"M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]]}]]}]]}]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+9:null
+d:[["$","title","0",{"children":"How an Open Conflict between the US and China in the West Philippine Sea might Unfold and Manifest | Philippine Strategies"}],["$","meta","1",{"name":"description","content":"An in-depth scenario analysis of a potential US-China conflict in the West Philippine Sea—covering military escalation, global impact, and strategic outcomes."}],["$","meta","2",{"name":"author","content":"Robert T. Wagner"}],["$","meta","3",{"name":"keywords","content":"US-China conflict,West Philippine Sea,military escalation,Taiwan invasion,cyber warfare,nuclear deterrence,Southeast Asia security,Indo-Pacific strategy,global economic impact,China military doctrine"}],["$","meta","4",{"name":"google-site-verification","content":"EQqhGxhaHmSfsa0YO7JPHF_HL3EFa2h--C74nSnRbaI"}],["$","meta","5",{"property":"og:title","content":"How an Open Conflict between the US and China in the West Philippine Sea might Unfold and Manifest"}],["$","meta","6",{"property":"og:description","content":"An in-depth scenario analysis of a potential US-China conflict in the West Philippine Sea—covering military escalation, global impact, and strategic outcomes."}],["$","meta","7",{"property":"og:url","content":"https://philippinestrategies.com/articles/us-china-conflict-west-philippine-sea"}],["$","meta","8",{"property":"og:image","content":"https://philippinestrategies.com/images/us-china-conflict-west-philippine-sea.jpg"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"How an Open Conflict between the US and China in the West Philippine Sea might Unfold and Manifest"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"How an Open Conflict between the US and China in the West Philippine Sea might Unfold and Manifest"}],["$","meta","14",{"name":"twitter:description","content":"An in-depth scenario analysis of a potential US-China conflict in the West Philippine Sea—covering military escalation, global impact, and strategic outcomes."}],["$","meta","15",{"name":"twitter:image","content":"https://philippinestrategies.com/images/us-china-conflict-west-philippine-sea.jpg"}],["$","link","16",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]

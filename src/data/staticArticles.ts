@@ -151,5 +151,13 @@ export const staticArticles: Article[] = [
     date: "July 14, 2025",
     slug: "bbc-anti-us-bias",
     category: "media"
+  },
+  {
+    id: 19,
+    title: "10 Measures To Fix The Philippines",
+    description: "From reinstating the jury system to economic liberalization and population reform, here are 10 bold proposals to fix the Philippines’ governance, economy, and justice system.",
+    date: "July 23, 2025",
+    slug: "10-measures-to-fix-the-philippines",
+    category: "reform"
   }
 ];

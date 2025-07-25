@@ -6,35 +6,27 @@ export default function Hero() {
   const latestArticle = articles.length > 0 ? articles[0] : null;
 
   return (
-    <section
-      className="relative h-screen w-full bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/hero.jpg')" }}
-    >
-      <div className="absolute inset-0 bg-black/40"></div>{" "}
-      {/* Optional overlay */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6">
-        <h1 className="text-5xl font-bold">Welcome to Philippine Strategies</h1>
-        <p className="text-xl mt-4 max-w-2xl italic font-bold">
-          “Before charging in with the cavalry, one must always have a good
-          scouting team.” <br />
-          <span className="text-sm font-normal not-italic">
-            – Lieutenant-General Robert Stephenson Smyth Baden-Powell, 1st Baron
-            Baden-Powell, 5th Dragoon Guards, British Army
-          </span>
-        </p>
-        <p className="text-lg mt-4 max-w-3xl">
-          Learn from more than a century of critical, in-country American
-          experience on political, military and industrial aspects of the most
-          challenging country in Southeast Asia.
-        </p>
-        {latestArticle && (
-          <Link href={`/articles/${latestArticle.slug}`}>
-            <button className="px-6 py-3 bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 text-black font-semibold text-base rounded-md border border-black hover:from-black hover:via-gray-800 hover:to-black hover:text-white hover:scale-[1.03] transform transition-all duration-200 mt-6">
-              Read the Latest Article
-            </button>
+    <div className="w-full overflow-x-hidden bg-gray-100 text-black text-center pt-16 pb-6 relative z-20">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight uppercase">
+        PHILIPPINE STRATEGIES
+      </h1>
+      {latestArticle && (
+        <div className="mt-8 mb-10">
+          <Link
+            href={`/articles/${latestArticle.slug}`}
+            className="inline-block bg-black text-white text-sm font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-white hover:text-black border border-black transition-all duration-300"
+          >
+            Read Our Latest Article →
           </Link>
-        )}
+        </div>
+      )}
+      <div className="relative w-full h-[65vh] overflow-hidden mt-8 rounded-2xl mx-auto max-w-full px-4">
+        <img
+          src="/images/hero.jpg"
+          alt="Hero Banner"
+          className="object-cover w-full h-full rounded-2xl"
+        />
       </div>
-    </section>
+    </div>
   );
 }
