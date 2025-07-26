@@ -28,7 +28,7 @@ export default function Home() {
       <section className="max-w-4xl mx-auto py-12">
         {/* Featured Blog Post */}
         {articles.length > 0 && (
-          <div className="relative bg-white border border-gray-300 mb-6 px-4 py-6 sm:px-6 rounded-lg shadow-md overflow-hidden">
+          <div className="relative bg-gray-200  mb-6 px-4 py-6 sm:px-6 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-6 items-center">
               {/* Content Side */}
               <div className="text-black">
@@ -70,9 +70,14 @@ export default function Home() {
               <p className="text-gray-800 mt-2">{article.description}</p>
               <Link
                 href={`/articles/${article.slug}`}
-                className="text-black border border-black px-4 py-2 rounded-md mt-2 inline-block hover:bg-black hover:text-white hover:scale-[1.03] transform transition-all duration-200"
+                className="group mt-2 inline-flex items-center gap-1 font-medium text-black transition-all duration-300"
               >
-                Continue Reading →
+                <span className="relative underline-offset-4 decoration-[1.5px] group-hover:decoration-[2.5px]">
+                  <span className="border-b border-gray-400 group-hover:border-black pb-[2px]">
+                    Read Article
+                  </span>
+                </span>
+                <span className="text-xl">→</span>
               </Link>
             </div>
           ))}

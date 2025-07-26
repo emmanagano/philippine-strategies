@@ -11,16 +11,68 @@ export default function ArticlesPage() {
     setArticles(sorted);
   }, []);
 
-  const visibleArticles = articles.slice(0, visibleCount);
+  const visibleArticles = articles.slice(1, visibleCount + 1);
   const canLoadMore = visibleCount < articles.length;
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <section className="py-12 max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 mb-12 text-center tracking-widest">
-          Explore All Articles
+      {/* Articles Heading */}
+      <section className="py-16 max-w-6xl mx-auto text-center">
+        <h1 className="text-5xl font-extrabold text-gray-900 tracking-wide uppercase">
+          Articles
         </h1>
-        {/* Flat Grid Layout */}
+      </section>
+
+      {/* Featured Article Section */}
+      <section className="w-full bg-gray-200 py-20">
+        <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4 sm:px-6 lg:px-8">
+          <div>
+            <p className="text-sm text-gray-500 mb-2">{articles[0]?.date}</p>
+            <a href={`/articles/${articles[0]?.slug}`}>
+              <h2 className="text-3xl font-bold text-gray-900 leading-snug mb-4 hover:underline">
+                {articles[0]?.title}
+              </h2>
+            </a>
+            <a href={`/articles/${articles[0]?.slug}`}>
+              <p className="text-gray-700 mb-6">{articles[0]?.description}</p>
+            </a>
+            <a
+              href={`/articles/${articles[0]?.slug}`}
+              className="inline-flex items-center text-black hover:text-gray-700 font-medium group"
+            >
+              <span className="underline underline-offset-4 group-hover:decoration-[3px]">
+                Read Article
+              </span>
+              <svg
+                className="ml-2 h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
+          <a
+            href={`/articles/${articles[0]?.slug}`}
+            className="w-full flex items-center justify-center"
+          >
+            <img
+              src={`/images/${articles[0]?.slug}.jpg`}
+              alt={articles[0]?.title}
+              className="h-full object-cover rounded"
+            />
+          </a>
+        </div>
+      </section>
+
+      {/* Articles Grid */}
+      <section className="py-12 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {visibleArticles.map((article) => (
             <div key={article.slug} className="w-full px-4 sm:px-0">

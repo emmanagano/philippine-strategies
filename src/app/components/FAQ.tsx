@@ -72,8 +72,10 @@ export default function FAQ() {
             >
               <div className="flex justify-between items-center">
                 <span
-                  className={`font-medium text-sm sm:text-base transition-colors duration-200 ${
-                    openIndex === index ? "text-blue-700" : "text-gray-800"
+                  className={`text-sm sm:text-base transition-colors duration-200 ${
+                    openIndex === index
+                      ? "font-semibold text-gray-800"
+                      : "font-medium text-gray-800"
                   }`}
                 >
                   {faq.question}
