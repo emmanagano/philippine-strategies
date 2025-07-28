@@ -1,5 +1,5 @@
 ---
-id: 15
+id: 18
 title: "Evaluating the Likelihood of Rodrigo Duterte Being Convicted by the ICC, and What His Penalties Might Be."
 description: "Could Rodrigo Duterte be convicted by the ICC? This analysis breaks down the case, evidence, legal hurdles, and possible penalties—including life imprisonment."
 date: "May 17, 2025"

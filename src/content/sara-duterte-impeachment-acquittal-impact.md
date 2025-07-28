@@ -1,5 +1,5 @@
 ---
-id: 16
+id: 19
 title: "Potential Impact an Impeachment Acquittal of Sara Duterte on the Philippine Political Environment"
 description: "What happens if Sara Duterte is acquitted? This analysis explores the potential impact on the Duterte dynasty, Marcos rivalry, public trust, and foreign policy."
 date: "May 24, 2025"

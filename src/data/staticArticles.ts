@@ -98,6 +98,31 @@ export const staticArticles: Article[] = [
   },
   {
     id: 12,
+    title: "The Present Military Environment in the Philippines",
+    description: "An in-depth analysis of the evolving military landscape in the Philippines—from Duterte’s pivot to China, PLA infiltration, and POGO operations, to Marcos Jr.'s renewed alliance with the U.S. and the strategic role of EDCA military bases amid rising tensions in the West Philippine Sea.",
+    date: "April 6, 2025",
+    slug: "military",
+    category: "military",
+  },
+  {
+    id: 13,
+    title: "Foreign Investment in the Philippines",
+    description: "Foreign direct investment (FDI) in the Philippines has struggled under the weight of political infighting, outdated ownership laws, and broken promises. From Duterte’s pivot to China and policy unpredictability, to Marcos Jr.’s stalled reforms and constitutional roadblocks, this article dissects why foreign investors are hesitant—and what must change for the country to regain its footing in Southeast Asia.",
+    date: "April 6, 2025",
+    slug: "foreign-investment",
+    category: "foreign investment",
+  },
+  {
+    id: 14,
+    title: "How the Current Political Landscape Could Impact American Diplomatic Endeavors in the Philippines",
+    description: "How the impeachment of Vice President Sara Duterte could influence American diplomatic operations, regional stability, and U.S.-Philippines relations.",
+    date: "April 6, 2025",
+    slug: "politics",
+    category: "politics",
+  },
+
+  {
+    id: 15,
     title: "Persistent Corruption In The Philippines",
     description: "A first-person account of enduring political dysfunction, historical comparisons, and the urgent call to reform Philippine governance from the top down.",
     date: "April 19th, 2025",
@@ -105,7 +130,7 @@ export const staticArticles: Article[] = [
     category: "all-article",
   },
   {
-    id: 13,
+    id: 16,
     title: "How an Open Conflict between the US and China in the West Philippine Sea might Unfold and Manifest",
     description: "An in-depth scenario analysis of a potential US-China conflict in the West Philippine Sea—covering military escalation, global impact, and strategic outcomes.",
     date: "May 3, 2025",
@@ -113,7 +138,7 @@ export const staticArticles: Article[] = [
     category: "all-article"
   },
   {
-    id: 14,
+    id: 17,
     title: "Is China “Winning Without Fighting”?",
     description: "How China’s maritime strategy in the South China Sea reflects Sun Tzu’s Art of War—achieving dominance through shaping operations, deception, and lawfare without firing a shot.",
     date: "May 8, 2025",
@@ -121,7 +146,7 @@ export const staticArticles: Article[] = [
     category: "all-article"
   },
   {
-    id: 15,
+    id: 18,
     title: "Evaluating the Likelihood of Rodrigo Duterte Being Convicted by the ICC, and What His Penalties Might Be.",
     description: "Could Rodrigo Duterte be convicted by the ICC? This analysis breaks down the case, evidence, legal hurdles, and possible penalties—including life imprisonment.",
     date: "May 17, 2025",
@@ -129,7 +154,7 @@ export const staticArticles: Article[] = [
     category: "all-article"
   },
   {
-    id: 16,
+    id: 19,
     title: "Potential Impact an Impeachment Acquittal of Sara Duterte on the Philippine Political Environment",
     description: "What happens if Sara Duterte is acquitted? This analysis explores the potential impact on the Duterte dynasty, Marcos rivalry, public trust, and foreign policy.",
     date: "May 24, 2025",
@@ -137,7 +162,7 @@ export const staticArticles: Article[] = [
     category: "politics"    
   },
   {
-    id: 17,
+    id: 20,
     title: "Do Filipinos Really Aspire for Societal Discipline and Justice?",
     description: "Exploring the tension between cultural norms and the pursuit of societal discipline and justice in the Philippines.",
     date: "June 11, 2025",
@@ -145,7 +170,7 @@ export const staticArticles: Article[] = [
     category: "culture"
   },
   {
-    id: 18,
+    id: 21,
     title: "Why the BBC Exhibits Anti-US Bias",
     description: "A critical look at the BBC’s growing anti-American tone, its political leanings after Trump’s return, and how editorial changes at the network reflect broader media bias concerns.",
     date: "July 14, 2025",
@@ -153,7 +178,7 @@ export const staticArticles: Article[] = [
     category: "media"
   },
   {
-    id: 19,
+    id: 22,
     title: "10 Measures To Fix The Philippines",
     description: "From reinstating the jury system to economic liberalization and population reform, here are 10 bold proposals to fix the Philippines’ governance, economy, and justice system.",
     date: "July 23, 2025",

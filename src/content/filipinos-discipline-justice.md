@@ -1,5 +1,5 @@
 ---
-id: 17
+id: 20
 title: "Do Filipinos Really Aspire for Societal Discipline and Justice?"
 description: "Do Filipinos truly want societal discipline and justice—even if it means giving up cultural freedoms, confronting elite impunity, and enforcing long-ignored laws?"
 date: "June 11, 2025"

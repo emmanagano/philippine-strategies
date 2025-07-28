@@ -1,5 +1,5 @@
 ---
-id: 19
+id: 22
 title: "10 Measures To Fix The Philippines"
 description: "From reinstating the jury system to economic liberalization and population reform, here are 10 bold proposals to fix the Philippines’ governance, economy, and justice system."
 date: "July 23, 2025"
