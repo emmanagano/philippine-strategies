@@ -347,45 +347,42 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <h3 className="font-semibold mb-2">See More</h3>
               <div className="flex flex-col space-y-2">
                 <Link
-                  href="/foreign-investment"
-                  className="hover:underline hover:text-yellow-400"
-                >
-                  Foreign Investment
-                </Link>
-                <Link
-                  href="/politics"
-                  className="hover:underline hover:text-yellow-400"
-                >
-                  Politics
-                </Link>
-                <Link
                   href="/consulting"
                   className="hover:underline hover:text-yellow-400"
                 >
                   Consulting
                 </Link>
                 <Link
-                  href="/military"
+                  href="/services"
                   className="hover:underline hover:text-yellow-400"
                 >
-                  Military
+                  Services
                 </Link>
-                <a
-                  href="https://www.amazon.com/I-D-P-PILIPPINES-PHILIPPINES-CONSTERNATING-INTERESTING/dp/B0DCVYSPX7"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/fellows"
                   className="hover:underline hover:text-yellow-400"
                 >
-                  Buy OIDP on Amazon
-                </a>
+                  Fellows
+                </Link>
+                <Link
+                  href="/newsletter"
+                  className="hover:underline hover:text-yellow-400"
+                >
+                  Newsletter
+                </Link>
+                <Link
+                  href="/services"
+                  className="hover:underline hover:text-yellow-400"
+                >
+                  Services
+                </Link>
               </div>
             </div>
           </div>
         </div>
         <hr className="border-t border-gray-700 my-4" />
         <div className="bg-[#111828] text-white pt-1 pb-3 text-center text-sm w-full">
-          © {new Date().getFullYear()} Philippine Strategies. All rights
-          reserved.
+          © 2025 Philippine Strategies. All rights reserved.
         </div>
       </footer>
     </div>

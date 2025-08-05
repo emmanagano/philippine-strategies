@@ -3,10 +3,12 @@ import { blurbs } from "@/data/blurbs";
 export default function BlurbsPage() {
   return (
     <div className="min-h-screen bg-gray-100 py-12 bg-[radial-gradient(circle,#0000000d_1px,transparent_1px)] bg-[size:8px_8px]">
-      <section className="max-w-4xl mx-auto px-6">
-        <h1 className="text-2xl font-bold text-center text-gray-900 mb-10">
+      <section className="py-16 max-w-6xl mx-auto text-center">
+        <h1 className="text-5xl font-extrabold text-gray-900 tracking-wide uppercase">
           Blurbs
         </h1>
+      </section>
+      <section className="max-w-4xl mx-auto px-6">
         <div className="space-y-16">
           {blurbs
             .sort(
