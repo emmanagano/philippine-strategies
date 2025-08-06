@@ -4,7 +4,7 @@ title: "Rodrigo Duterte: The Uncooked Dialectic of a Nation in Heat"
 description: "A searing reflection on Rodrigo Duterte’s presidency as a raw, postmodern rupture in Filipino politics, exposing the nation’s contradictions through the aesthetics of violence and unapologetic power."
 date: "March 20, 2025"
 slug: "rodrigo-duterte-uncooked"
-category: "philosophy-of-power"
+category: "Public Sector Integrity & Governance"
 author: "Robert T. Wagner"
 tags:
   - Rodrigo Duterte

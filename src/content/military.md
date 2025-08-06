@@ -4,7 +4,7 @@ title: "The Present Military Environment in the Philippines"
 description: "An in-depth analysis of the evolving military landscape in the Philippines—from Duterte’s pivot to China, PLA infiltration, and POGO operations, to Marcos Jr.'s renewed alliance with the U.S. and the strategic role of EDCA military bases amid rising tensions in the West Philippine Sea."
 date: "April 6, 2025"
 slug: "military"
-category: "military"
+category: "Security, Foreign Policy & Defense"
 author: "Robert Wagner"
 tags:
   - Philippine military

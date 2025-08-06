@@ -4,7 +4,7 @@ title: "How an Open Conflict between the US and China in the West Philippine Sea
 description: "An in-depth scenario analysis of a potential US-China conflict in the West Philippine Sea—covering military escalation, global impact, and strategic outcomes."
 date: "May 3, 2025"
 slug: "us-china-conflict-west-philippine-sea"
-category: "strategic-conflict-analysis"
+category: "Security, Foreign Policy & Defense"
 author: "Robert T. Wagner"
 tags:
   - US-China conflict

@@ -4,7 +4,7 @@ title: "Foreign Investment in the Philippines"
 description: "Foreign direct investment (FDI) in the Philippines has struggled under the weight of political infighting, outdated ownership laws, and broken promises. From Duterte’s pivot to China and policy unpredictability, to Marcos Jr.’s stalled reforms and constitutional roadblocks, this article dissects why foreign investors are hesitant—and what must change for the country to regain its footing in Southeast Asia."
 date: "April 6, 2025"
 slug: "foreign-investment"
-category: "foreign investment"
+category: "Economic Liberalization & Innovation"
 author: "Robert Wagner"
 tags:
   - foreign direct investment

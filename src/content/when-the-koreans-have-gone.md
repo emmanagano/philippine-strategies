@@ -4,7 +4,7 @@ title: "When the Koreans have Gone - a reflective poem"
 description: "Examining the impact of South Korean influence in the Philippines and what could happen if they were to leave."
 date: "September 14, 2019"
 slug: "when-the-koreans-have-gone"
-category: "foreign-influence"
+category: "Information Sovereignty & Media Influence"
 author: "Robert T. Wagner"
 tags:
   - Korean influence

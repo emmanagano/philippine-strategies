@@ -4,7 +4,7 @@ title: "Civil War Coming to a Philippines Near You?"
 description: "Duterte's arrest at The Hague ignites a national political crisis, threatening Sara Duterte's career, stirring Mindanaoan secessionist talk, and courting China into the mix."
 date: "April 4, 2025"
 slug: "civil-war-philippines-duterte-impeachment-secession"
-category: "national-fragmentation"
+category: "Security, Foreign Policy & Defense"
 author: "Robert T. Wagner"
 tags:
   - Duterte arrest

@@ -4,8 +4,9 @@ title: "10 Measures To Fix The Philippines"
 description: "From reinstating the jury system to economic liberalization and population reform, here are 10 bold proposals to fix the Philippines’ governance, economy, and justice system."
 date: "July 23, 2025"
 slug: "10-measures-to-fix-the-philippines"
-category: "reform"
+category: "Public Sector Integrity & Governance"
 author: "Robert T. Wagner"
+alt: "Aerial view of a densely populated urban neighborhood in Metro Manila, with a mix of low-rise residential houses and high-rise condominium buildings under a bright blue sky — representing the socioeconomic disparity and urban congestion addressed in Philippine reform proposals."
 tags:
   - Philippine reform
   - federalism

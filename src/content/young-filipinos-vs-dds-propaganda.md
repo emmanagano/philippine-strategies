@@ -4,7 +4,7 @@ title: "The Duterte Propaganda Machine: How Young Filipinos Are Saying, “Hey, 
 description: "A look at how tech-savvy Filipino youth are challenging pro-Duterte disinformation and reshaping the fight for truth online."
 date: "March 25, 2025"
 slug: "young-filipinos-vs-dds-propaganda"
-category: "disinformation-and-youth-resistance"
+category: "Information Sovereignty & Media Influence"
 author: "Robert T. Wagner"
 tags:
   - DDS propaganda

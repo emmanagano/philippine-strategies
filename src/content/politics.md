@@ -4,7 +4,7 @@ title: "How the Current Political Landscape Could Impact American Diplomatic End
 description: "How the impeachment of Vice President Sara Duterte could influence American diplomatic operations, regional stability, and U.S.-Philippines relations."
 date: "April 6, 2025"
 slug: "politics"
-category: "politics"
+category: "Security, Foreign Policy & Defense"
 author: "Robert Wagner"
 tags:
   - Sara Duterte impeachment

@@ -4,7 +4,7 @@ title: "A Chinese Philippines"
 description: "An analysis of China's influence on the Philippines and what it means for the country's future."
 date: "July 1, 2023"
 slug: "a-chinese-philippines"
-category: "geopolitics"
+category: "Information Sovereignty & Media Influence"
 author: "Robert T. Wagner"
 tags:
   - China-Philippines relations

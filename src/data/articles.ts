@@ -59,6 +59,7 @@ export async function getArticleBySlug(slug: string) {
         slug: data.slug,
         tags: data.tags || [],
         author: data.author || "",
+        category: data.category || "all-article",
         content: String(htmlContent),
     };
 }

@@ -4,7 +4,7 @@ title: "Tribes and Bribes"
 description: "An exploration of how tribalism and corruption shape Philippine politics and business dealings."
 date: "February 8, 2023"
 slug: "tribes-and-bribes"
-category: "federalism-and-tribalism"
+category: "Federalism & Local Autonomy"
 author: "Robert T. Wagner"
 tags:
   - Philippine federalism

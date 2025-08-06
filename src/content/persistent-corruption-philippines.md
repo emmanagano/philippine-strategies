@@ -4,7 +4,7 @@ title: "Persistent Corruption In The Philippines"
 description: "A first-person account of enduring political dysfunction, historical comparisons, and the urgent call to reform Philippine governance from the top down."
 date: "April 19th, 2025"
 slug: "persistent-corruption-philippines"
-category: "anti-corruption"
+category: "Public Sector Integrity & Governance"
 author: "Robert T. Wagner"
 tags:
   - corruption in the Philippines

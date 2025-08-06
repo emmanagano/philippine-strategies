@@ -4,7 +4,7 @@ title: "Sun Exposure may be the Reason why there were few Covid-19 cases among t
 description: "Investigating the possible link between increased sun exposure among lower-income Filipinos and lower Covid-19 infection rates."
 date: "April 18, 2020"
 slug: "sun-exposure-covid19-philippines"
-category: "public-health"
+category: "Population & Health Policy"
 author: "Robert T. Wagner"
 tags:
   - Covid-19

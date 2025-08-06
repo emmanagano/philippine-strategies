@@ -58,6 +58,7 @@ export default async function BlogPost({ params }: any) {
           alt={article.title}
           className="w-full h-[500px] object-cover mb-6"
         />
+        <p className="text-base text-gray-700 mb-6">{article.description}</p>
         <article
           className="article-content"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
@@ -86,6 +87,34 @@ export default async function BlogPost({ params }: any) {
             <div />
           )}
         </div>
+        {article.category && (
+          <div className="mt-8 border-t pt-6">
+            <h2 className="text-2xl font-semibold mb-6 text-gray-900">
+              Related Articles
+            </h2>
+            <ul className="space-y-4">
+              {articles
+                .filter(
+                  (a) =>
+                    a.category === article.category && a.slug !== article.slug
+                )
+                .slice(0, 3)
+                .map((related) => (
+                  <li key={related.slug}>
+                    <a
+                      href={`/articles/${related.slug}`}
+                      className="text-blue-600 hover:underline text-lg font-medium"
+                    >
+                      {related.title}
+                    </a>
+                    <p className="text-sm text-gray-500">
+                      {related.description}
+                    </p>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        )}
       </section>
     </div>
   );

@@ -4,7 +4,7 @@ title: "Why the BBC Exhibits Anti-US Bias"
 description: "A critical look at the BBC’s growing anti-American tone, its political leanings after Trump’s return, and how editorial changes at the network reflect broader media bias concerns."
 date: "July 14, 2025"
 slug: "bbc-anti-us-bias"
-category: "media"
+category: "Information Sovereignty & Media Influence"
 author: "Robert Wagner"
 tags:
   - BBC bias

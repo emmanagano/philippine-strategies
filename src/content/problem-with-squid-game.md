@@ -4,7 +4,7 @@ title: "The Problem with Squid Game"
 description: "A critical analysis of the popular Korean show Squid Game and its social, economic, and political messages."
 date: "October 25, 2021"
 slug: "problem-with-squid-game"
-category: "cultural-critique"
+category: "Information Sovereignty & Media Influence"
 author: "Robert T. Wagner"
 tags:
   - Korean Wave

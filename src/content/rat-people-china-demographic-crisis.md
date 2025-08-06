@@ -4,7 +4,7 @@ title: "The 'Rat People' Trend and China's Demographic Crisis: A Threat to Xi Ji
 description: "China’s emerging “Rat People” youth movement and plummeting birth rates threaten to derail President Xi Jinping’s economic and geopolitical ambitions. This article explores how social disillusionment, gender resistance, and an aging population are creating a demographic time bomb."
 date: "August 6, 2025"
 slug: "rat-people-china-demographic-crisis"
-category: "geopolitics"
+category: "Population & Health Policy"
 author: "Robert T. Wagner"
 tags:
   - China demographic crisis

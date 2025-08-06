@@ -4,7 +4,7 @@ title: "Climate Change Impact Due to Increased Population and Social Media"
 description: "A discussion on how climate change is exacerbated by rising population numbers and the influence of social media in shaping public perception."
 date: "January 28, 2025"
 slug: "climate-change-impact-philippines"
-category: "climate-and-media"
+category: "Population & Health Policy"
 author: "Robert T. Wagner"
 tags:
   - climate change
