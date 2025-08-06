@@ -19,9 +19,9 @@ tags:
   - Southeast Asia development
 ---
 
-**Think the Philippines is Backward?**
+## Think the Philippines is Backward?
 
-**Let’s Test That Belief…**
+## Let’s Test That Belief…
 
 For the past 70-plus years, people from western countries have decried the conundrum presented by the blatantly negative characteristics observed in Philippine governments on the one hand, starkly conflicting with how average Filipinos are able to remain so upbeat about their lives in the face of such adversity on the other. A critical investigation of little-known, real-world factors into what one would think are the underlying reasons behind this glaring dichotomy has resulted in some surprising revelations.
 

@@ -1,0 +1,42 @@
+.article-content {
+  color: #1f2937; /* dark slate-gray */
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4 {
+  color: #111827; /* darker for headings */
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.article-content p {
+  color: #374151; /* slate-gray */
+  margin-bottom: 1.25rem;
+}
+
+.article-content a {
+  color: #2563eb; /* blue-600 */
+  text-decoration: underline;
+}
+
+.article-content strong {
+  color: #111827;
+  font-weight: 600;
+}
+
+.article-content ul,
+.article-content ol {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}

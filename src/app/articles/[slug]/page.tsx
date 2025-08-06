@@ -1,7 +1,6 @@
+import "../article.css";
 import { getArticleBySlug, articles } from "@/data/articles";
 import { notFound } from "next/navigation";
-import { remark } from "remark";
-import html from "remark-html";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export function generateStaticParams() {
@@ -17,8 +16,7 @@ export default async function BlogPost({ params }: any) {
   if (!article) {
     return notFound();
   }
-  const processedContent = await remark().use(html).process(article.content);
-  const contentHtml = processedContent.toString();
+  const contentHtml = article.content;
 
   const currentIndex = articles.findIndex((a) => a.slug === slug);
   const prevArticle = articles[currentIndex - 1] || null;
@@ -61,7 +59,7 @@ export default async function BlogPost({ params }: any) {
           className="w-full h-[500px] object-cover mb-6"
         />
         <article
-          className="prose prose-lg prose-gray text-gray-900 leading-relaxed space-y-6"
+          className="article-content"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
         <div className="flex justify-between items-center gap-4 text-sm border-t border-gray-300 pt-6 mt-12">

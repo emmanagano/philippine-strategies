@@ -19,10 +19,12 @@ tags:
   - public health study
 ---
 
-**Filipinos Have Far Lower Incidences of Mental Illness Than Westerners Due to Lack of Artificial Sweeteners in Local Food Supply**
+## Filipinos Have Far Lower Incidences of Mental Illness Than Westerners Due to Lack of Artificial Sweeteners in Local Food Supply
 
-**Media Article for General Consumption Summarizing:**  
-_A Comparative Study on the Incidence of Bipolar Disorder, Borderline Personality Disorder, Obsessive-Compulsive Disorder, and Adult Deficit Hyperactivity Disorder in the Philippines Versus Western Countries: Exploring the Role of Artificial Sweeteners_  
+## Media Article for General Consumption Summarizing:
+
+_A Comparative Study on the Incidence of Bipolar Disorder, Borderline Personality Disorder, Obsessive-Compulsive Disorder, and Adult Deficit Hyperactivity Disorder in the Philippines Versus Western Countries: Exploring the Role of Artificial Sweeteners_
+
 **Wagner et. al. 2024**
 
 Many Westerners living in the Philippines readily note the fact that local inhabitants are much more stress-resilient than those in their home countries. They easily deal with grinding poverty, abusive government, and frequent natural disasters that would make average “Joe’s and Jill’s” back in Chicago or Wichita go crazy. Americans, Brits, and Europeans marvel at how Filipinas, in particular, functionally accept and deal with what women back home disparage as an oppressive “Patriarchy” they insist holds them down societally and must be destroyed at all costs. For Filipino men, handling adversity that is part and parcel of daily life on the archipelago is the cornerstone of their existence, to be overcome with a smile, a bit of demonstrative head-scratching, and panacea expressions such as, “Bahala Na Si Batman” (God leaves it up to Batman).

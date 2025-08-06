@@ -1,3 +1,7 @@
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -33,7 +37,7 @@ export function getAllArticles() {
 }
 
 // Get a single article by slug
-export function getArticleBySlug(slug: string) {
+export async function getArticleBySlug(slug: string) {
     const filePath = path.join(articlesDir, `${slug}.md`);
 
     if (!fs.existsSync(filePath)) {
@@ -42,6 +46,11 @@ export function getArticleBySlug(slug: string) {
 
     const fileContents = fs.readFileSync(filePath, "utf8");
     const { data, content } = matter(fileContents);
+    const htmlContent = await unified()
+        .use(remarkParse)
+        .use(remarkRehype)
+        .use(rehypeStringify)
+        .process(content);
 
     return {
         title: data.title,
@@ -50,7 +59,7 @@ export function getArticleBySlug(slug: string) {
         slug: data.slug,
         tags: data.tags || [],
         author: data.author || "",
-        content,
+        content: String(htmlContent),
     };
 }
 

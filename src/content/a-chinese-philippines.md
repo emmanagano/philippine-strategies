@@ -19,9 +19,7 @@ tags:
   - foreign policy
 ---
 
-# _SO, YOU LIKE CHINA? HERE IS WHAT A CHINESE PHILIPPINES WOULD LOOK LIKE._
-
-By Robert T. Wagner
+## _SO, YOU LIKE CHINA? HERE IS WHAT A CHINESE PHILIPPINES WOULD LOOK LIKE._
 
 For a number of years, friends in the US and Europe have continuously asked me, “Aren’t you afraid the Chinese are going to invade the Philippines”? My response is always the same: “They don’t need to – China already owns it.”
 

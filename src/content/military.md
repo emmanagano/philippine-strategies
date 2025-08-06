@@ -19,15 +19,15 @@ tags:
   - Duterte ICC arrest
 ---
 
-**Know the underlying details and nuances**
+## Know the underlying details and nuances
 
 From 2016 to 2022, the administration of **Rodrigo Duterte** shifted away from the Philippines’ traditional ally, the United States, and toward China. The reasons behind this move were simple:
 
-(1) He felt slighted and disrespected by Obama,
+- (1) He felt slighted and disrespected by Obama,
 
-(2) China offered eyepopping amounts of money if he could keep US forces away from their artificial island building aka. stealth oil and gas fracking projects in the South China Sea,
+- (2) China offered eyepopping amounts of money if he could keep US forces away from their artificial island building aka. stealth oil and gas fracking projects in the South China Sea,
 
-(3) Denied a US Visa due to his human rights abuse record while Mayor of Davao City, he felt it was time to promulgate animosity toward Americans, Europeans and Australians – the “loathed whites” – in the minds of Filipinos to “free them of their colonial mentality”.
+- (3) Denied a US Visa due to his human rights abuse record while Mayor of Davao City, he felt it was time to promulgate animosity toward Americans, Europeans and Australians – the “loathed whites” – in the minds of Filipinos to “free them of their colonial mentality”.
 
 Ignoring warnings of duplicitousness on the part of the Chinese by other countries who had become their loan sharking victims, his plan worked well at first, hauling in boatloads of Yuan while gleefully denigrating foreigners in public, until July 2020 when he was unceremoniously left at the proverbial alter by Beijing.
 
