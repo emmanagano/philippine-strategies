@@ -6,6 +6,7 @@ date: "May 3, 2025"
 slug: "us-china-conflict-west-philippine-sea"
 category: "Security, Foreign Policy & Defense"
 author: "Robert T. Wagner"
+alt: "Illustrated map of the South China Sea showing Chinese warships and fighter jets, symbolizing rising military tensions and strategic posturing in contested waters involving China, the Philippines, and other Southeast Asian nations."
 tags:
   - US-China conflict
   - West Philippine Sea

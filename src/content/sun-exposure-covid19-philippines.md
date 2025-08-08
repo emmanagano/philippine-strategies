@@ -6,6 +6,7 @@ date: "April 18, 2020"
 slug: "sun-exposure-covid19-philippines"
 category: "Population & Health Policy"
 author: "Robert T. Wagner"
+alt: "Healthcare workers in full-body PPE and face masks standing outdoors during the Covid-19 pandemic in the Philippines, symbolizing frontline safety measures and public health response."
 tags:
   - Covid-19
   - sun exposure

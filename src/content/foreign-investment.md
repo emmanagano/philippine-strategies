@@ -6,6 +6,7 @@ date: "April 6, 2025"
 slug: "foreign-investment"
 category: "Economic Liberalization & Innovation"
 author: "Robert Wagner"
+alt: "Illustration of a dollar sack and red upward arrow between the United States flag and a Philippine map colored in national colors—symbolizing the flow of foreign investment and economic ties between the U.S. and the Philippines."
 tags:
   - foreign direct investment
   - Philippine economy

@@ -6,6 +6,7 @@ date: "April 6, 2025"
 slug: "politics"
 category: "Security, Foreign Policy & Defense"
 author: "Robert Wagner"
+alt: "Protesters marching in Manila holding red flags and placards demanding justice, accountability, and the junking of the anti-terror law—highlighting political unrest tied to the impeachment of Vice President Sara Duterte."
 tags:
   - Sara Duterte impeachment
   - US-Philippines relations

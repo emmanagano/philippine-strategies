@@ -6,6 +6,7 @@ date: "June 11, 2025"
 slug: "filipinos-discipline-justice"
 category: "Public Sector Integrity & Governance"
 author: "Robert T. Wagner"
+alt: "Filipino tricycle drivers and their dogs wearing face shields during the COVID-19 pandemic, with a 'Jesus is Lord' sign displayed—capturing the intersection of faith, public compliance, and cultural expression in a time of crisis."
 tags:
   - Filipino culture
   - discipline

@@ -6,6 +6,7 @@ date: "February 20, 2025"
 slug: "artificial-sweeteners-mental-illness"
 category: "Population & Health Policy"
 author: "Robert T. Wagner"
+alt: "Granulated artificial sweetener being poured from a spoon into a ceramic container, representing the widespread dietary presence of substances like aspartame and their potential link to mental health disorders such as ADHD and OCD."
 tags:
   - artificial sweeteners
   - mental illness

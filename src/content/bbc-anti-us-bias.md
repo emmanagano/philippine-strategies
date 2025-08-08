@@ -6,6 +6,7 @@ date: "July 14, 2025"
 slug: "bbc-anti-us-bias"
 category: "Information Sovereignty & Media Influence"
 author: "Robert Wagner"
+alt: "Close-up of a smartphone screen displaying the BBC News app icon with quick access menu options like “Top Stories” and “My News,” symbolizing the digital reach and editorial influence of the British Broadcasting Corporation."
 tags:
   - BBC bias
   - Trump Derangement Syndrome

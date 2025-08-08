@@ -55,7 +55,7 @@ export default async function BlogPost({ params }: any) {
         <p className="text-sm text-gray-500 mb-6">{article.date}</p>
         <img
           src={`/images/${article.slug}.jpg`}
-          alt={article.title}
+          alt={article.alt}
           className="w-full h-[500px] object-cover mb-6"
         />
         <p className="text-base text-gray-700 mb-6">{article.description}</p>
@@ -148,7 +148,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
           url: `/images/${article.slug}.jpg`,
           width: 1200,
           height: 630,
-          alt: article.title,
+          alt: article.alt,
         },
       ],
     },

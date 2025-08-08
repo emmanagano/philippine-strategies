@@ -6,6 +6,7 @@ date: "February 8, 2023"
 slug: "tribes-and-bribes"
 category: "Federalism & Local Autonomy"
 author: "Robert T. Wagner"
+alt: "Scattered Philippine 500-peso bills featuring Benigno and Corazon Aquino, symbolizing systemic corruption, political patronage, and the role of money in regional and tribal power struggles across the Philippines."
 tags:
   - Philippine federalism
   - tribalism in the Philippines
