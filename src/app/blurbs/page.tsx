@@ -1,13 +1,11 @@
 import { blurbs } from "@/data/blurbs";
+import PageHeader from "@/app/components/PageHeader";
+import MoreInfo from "@/app/components/CTA/MoreInfo";
 
 export default function BlurbsPage() {
   return (
     <div className="min-h-screen bg-gray-100 py-12 bg-[radial-gradient(circle,#0000000d_1px,transparent_1px)] bg-[size:8px_8px]">
-      <section className="py-16 max-w-6xl mx-auto text-center">
-        <h1 className="text-5xl font-extrabold text-gray-900 tracking-wide uppercase">
-          Blurbs
-        </h1>
-      </section>
+      <PageHeader title="Blurbs" />
       <section className="max-w-4xl mx-auto px-6">
         <div className="space-y-16">
           {blurbs
@@ -50,14 +48,12 @@ export default function BlurbsPage() {
                   <div className="space-y-4">
                     <p className="text-sm text-gray-500">{blurb.date}</p>
                     <p className="text-gray-800">{blurb.commentary}</p>
-                    <a
+                    <MoreInfo
                       href={blurb.article_link}
+                      label="Learn More"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-black border border-black px-4 py-2 rounded-md mt-2 inline-block hover:bg-black hover:text-white hover:scale-[1.03] transform transition-all duration-200"
-                    >
-                      Discover →
-                    </a>
+                    />
                   </div>
                 </div>
               </div>

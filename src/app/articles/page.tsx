@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import { staticArticles, Article } from "@/data/staticArticles";
+import PageHeader from "@/app/components/PageHeader";
+import MoreInfo from "@/app/components/CTA/MoreInfo";
 
 export default function ArticlesPage() {
   const [visibleCount, setVisibleCount] = useState(6);
@@ -16,13 +18,7 @@ export default function ArticlesPage() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      {/* Articles Heading */}
-      <section className="py-16 max-w-6xl mx-auto text-center">
-        <h1 className="text-5xl font-extrabold text-gray-900 tracking-wide uppercase">
-          Articles
-        </h1>
-      </section>
-
+      <PageHeader title="Articles" />
       {/* Featured Article Section */}
       <section className="w-full bg-gray-200 py-20">
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4 sm:px-6 lg:px-8">
@@ -36,27 +32,10 @@ export default function ArticlesPage() {
             <a href={`/articles/${articles[0]?.slug}`}>
               <p className="text-gray-700 mb-6">{articles[0]?.description}</p>
             </a>
-            <a
+            <MoreInfo
+              label="Read Article"
               href={`/articles/${articles[0]?.slug}`}
-              className="inline-flex items-center text-black hover:text-gray-700 font-medium group"
-            >
-              <span className="underline underline-offset-4 group-hover:decoration-[3px]">
-                Read Article
-              </span>
-              <svg
-                className="ml-2 h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </a>
+            />
           </div>
           <a
             href={`/articles/${articles[0]?.slug}`}
@@ -106,12 +85,10 @@ export default function ArticlesPage() {
                 <p className="text-gray-600 text-sm mt-2 leading-relaxed">
                   {article.description}
                 </p>
-                <a
+                <MoreInfo
+                  label="Read More"
                   href={`/articles/${article.slug}`}
-                  className="inline-block text-gray-900 text-sm mt-4 tracking-wide uppercase border-b border-gray-900 hover:text-gray-600 transition-all"
-                >
-                  Read More →
-                </a>
+                />
               </div>
             </div>
           ))}

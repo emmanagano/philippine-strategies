@@ -3,6 +3,8 @@ import Link from "next/link";
 import { getAllArticles } from "@/data/articles";
 import { getLatestBlurb } from "@/data/blurbs";
 import Hero from "./components/Hero";
+import SecondaryCTA from "./components/CTA/Secondary";
+import MoreInfo from "./components/CTA/MoreInfo";
 
 export default function Home() {
   const articles = getAllArticles();
@@ -33,14 +35,16 @@ export default function Home() {
               {/* Content Side */}
               <div className="text-black">
                 <p className="text-sm text-gray-600 mb-2">{articles[0].date}</p>
-                <h3 className="text-2xl font-bold mb-3">{articles[0].title}</h3>
-                <p className="text-gray-800 mb-4">{articles[0].description}</p>
-                <Link
-                  href={`/articles/${articles[0].slug}`}
-                  className="inline-block px-6 py-2.5 bg-black text-white font-medium text-sm rounded-md border border-black hover:bg-gray-100 hover:text-black transition-all duration-300"
-                >
-                  Read Article →
+                <Link href={`/articles/${articles[0].slug}`}>
+                  <h3 className="text-2xl font-bold mb-3 hover:underline hover:text-gray-800 transition-colors duration-200">
+                    {articles[0].title}
+                  </h3>
                 </Link>
+                <p className="text-gray-800 mb-4">{articles[0].description}</p>
+                <MoreInfo
+                  href={`/articles/${articles[0].slug}`}
+                  label="Read Article"
+                />
               </div>
 
               {/* Image Side */}
@@ -68,28 +72,16 @@ export default function Home() {
               </Link>
               <p className="text-sm text-gray-600">{article.date}</p>
               <p className="text-gray-800 mt-2">{article.description}</p>
-              <Link
+              <MoreInfo
                 href={`/articles/${article.slug}`}
-                className="group mt-2 inline-flex items-center gap-1 font-medium text-black transition-all duration-300"
-              >
-                <span className="relative underline-offset-4 decoration-[1.5px] group-hover:decoration-[2.5px]">
-                  <span className="border-b border-gray-400 group-hover:border-black pb-[2px]">
-                    Read Article
-                  </span>
-                </span>
-                <span className="text-xl">→</span>
-              </Link>
+                label="Read Article"
+              />
             </div>
           ))}
         </div>
         {/* View All Blogs Button */}
         <div className="text-center mt-8">
-          <Link
-            href="/articles"
-            className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-gray-100 hover:text-black border border-black hover:scale-[1.03] transform transition-all duration-200"
-          >
-            View All Articles
-          </Link>
+          <SecondaryCTA label="View All Articles" href="/articles" />
         </div>
       </section>
       {/* Newsletter Subscription CTA */}
@@ -125,11 +117,11 @@ export default function Home() {
       {blurb && (
         <section className="relative max-w-6xl mx-auto py-12 px-6">
           {/* Background Dotted Texture */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle,#0000001a_1px,transparent_1px)] bg-[size:8px_8px] opacity-50"></div>
+          <div className="absolute inset-0 pointer-events-none -z-10 bg-[radial-gradient(circle,#0000001a_1px,transparent_1px)] bg-[size:8px_8px] opacity-50"></div>
           {/* Top Separation Line */}
           <div className="border-t border-gray-400 mb-8"></div>
           {/* Content Grid */}
-          <div className="relative grid md:grid-cols-2 gap-12 items-center">
+          <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
             {/* Left Side - Staggered Title */}
             <div>
               <div className="text-gray-900 font-extrabold text-6xl md:text-7xl uppercase leading-tight">
@@ -152,25 +144,13 @@ export default function Home() {
               <p className="text-gray-700 leading-relaxed">
                 {blurb.commentary}
               </p>
-              <a
-                href={blurb.article_link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-black border border-black px-4 py-2 rounded-md mt-2 inline-block hover:bg-black hover:text-white hover:scale-[1.03] transform transition-all duration-200"
-              >
-                Discover →
-              </a>
+              <MoreInfo href={blurb.article_link} label="Discover" />
             </div>
           </div>
           {/* Bottom Separation Line */}
           <div className="border-t border-gray-400 mt-8"></div>
-          <div className="text-center mt-8">
-            <Link
-              href="/blurbs"
-              className="inline-block px-6 py-3 bg-black text-white font-semibold text-base rounded-md hover:bg-gray-100 hover:text-black border border-black hover:scale-[1.03] transform transition-all duration-200"
-            >
-              View All Blurbs
-            </Link>
+          <div className="text-center mt-8 relative z-10">
+            <SecondaryCTA label="View All Blurbs" href="/blurbs" />
           </div>
         </section>
       )}

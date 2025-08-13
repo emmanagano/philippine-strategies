@@ -1,16 +1,14 @@
 "use client";
 import Image from "next/image";
 import { fellows } from "@/data/fellowSeed";
+import PageHeader from "../components/PageHeader";
+import MoreInfo from "../components/CTA/MoreInfo";
 
 export default function FellowsPage() {
   return (
     <div className="bg-gray-100 min-h-screen py-12 px-6 text-[#111828]">
+      <PageHeader title="Fellows" />
       <div className="max-w-6xl mx-auto">
-        <section className="py-16 max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl font-extrabold text-gray-900 tracking-wide uppercase">
-            Fellows
-          </h1>
-        </section>
         <div className="relative">
           <div className="absolute inset-0 bg-[radial-gradient(circle,_#f5d90a_1px,_transparent_1px)] [background-size:20px_20px] opacity-20 -z-10 rounded-lg" />
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
@@ -57,14 +55,12 @@ export default function FellowsPage() {
                     {fellow.fellowType}
                   </p>
                   <p className="text-sm text-[#111828]">{fellow.shortBio}</p>
-                  <a
+                  <MoreInfo
                     href={`/fellows/${fellow.slug}`}
+                    label="Learn More"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm font-semibold text-[#111828] underline hover:opacity-80 transition"
-                  >
-                    Learn More
-                  </a>
+                  />
                 </div>
               </div>
             ))}

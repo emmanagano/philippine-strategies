@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import FAQ from "@/app/components/FAQ";
+import PageHeader from "@/app/components/PageHeader";
 
 export default function ContactPage() {
   const form = useRef<HTMLFormElement>(null);
@@ -30,11 +31,7 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[var(--color-gray-100)] py-10 px-4">
-      <div className="text-center py-16">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight">
-          CONTACT US
-        </h1>
-      </div>
+      <PageHeader title="Contact Us" />
       <div className="flex flex-col lg:flex-row justify-between w-full max-w-6xl gap-10">
         <div className="lg:w-1/2 space-y-4">
           <p className="text-sm uppercase tracking-widest text-gray-500">

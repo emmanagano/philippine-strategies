@@ -84,7 +84,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <Link
                 href="/"
                 className={`${
-                  pathname === "/" ? "text-black" : "text-gray-600"
+                  pathname === "/"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 Home
@@ -92,31 +94,49 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <Link
                 href="/articles"
                 className={`${
-                  pathname === "/articles" ? "text-black" : "text-gray-600"
-                } font-semibold hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
+                  pathname === "/articles"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600 font-semibold"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 Articles
               </Link>
               <Link
+                href="/consulting"
+                className={`${
+                  pathname === "/consulting"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
+              >
+                Consulting
+              </Link>
+              <Link
+                href="/security"
+                className={`${
+                  pathname === "/security"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
+              >
+                Security Services
+              </Link>
+              <Link
                 href="/blurbs"
                 className={`${
-                  pathname === "/blurbs" ? "text-black" : "text-gray-600"
+                  pathname === "/blurbs"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Blurbs</span>
               </Link>
               <Link
-                href="/oidp"
-                className={`${
-                  pathname === "/oidp" ? "text-black" : "text-gray-600"
-                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
-              >
-                <span>OIDP Book</span>
-              </Link>
-              <Link
                 href="/contact"
                 className={`${
-                  pathname === "/contact" ? "text-black" : "text-gray-600"
+                  pathname === "/contact"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Contact</span>
@@ -124,26 +144,22 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <Link
                 href="/fellows"
                 className={`${
-                  pathname === "/fellows" ? "text-black" : "text-gray-600"
-                } font-semibold hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
+                  pathname === "/fellows"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600 font-semibold"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Fellows</span>
               </Link>
               <Link
                 href="/newsletter"
                 className={`${
-                  pathname === "/newsletter" ? "text-black" : "text-gray-600"
-                } font-semibold hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
-              >
-                <span>Newsletter</span>
-              </Link>
-              <Link
-                href="/hire-us"
-                className={`${
-                  pathname === "/hire-us" ? "text-black" : "text-gray-600"
+                  pathname === "/newsletter"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600 font-semibold"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
-                <span>Hire Us</span>
+                <span>Newsletter</span>
               </Link>
             </div>
           </div>
@@ -153,7 +169,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 href="/"
                 onClick={toggleMobileMenu}
                 className={`block py-2 ${
-                  pathname === "/" ? "text-black" : "text-gray-600"
+                  pathname === "/"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Home</span>
@@ -162,34 +180,53 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 href="/articles"
                 onClick={toggleMobileMenu}
                 className={`block py-2 ${
-                  pathname === "/articles" ? "text-black" : "text-gray-600"
+                  pathname === "/articles"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Articles</span>
               </Link>
               <Link
+                href="/consulting"
+                onClick={toggleMobileMenu}
+                className={`block py-2 ${
+                  pathname === "/consulting"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
+              >
+                <span>Consulting</span>
+              </Link>
+              <Link
+                href="/security"
+                onClick={toggleMobileMenu}
+                className={`block py-2 ${
+                  pathname === "/security"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
+                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
+              >
+                <span>Security Services</span>
+              </Link>
+              <Link
                 href="/blurbs"
                 onClick={toggleMobileMenu}
                 className={`block py-2 ${
-                  pathname === "/blurbs" ? "text-black" : "text-gray-600"
+                  pathname === "/blurbs"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Blurbs</span>
               </Link>
               <Link
-                href="/oidp"
-                onClick={toggleMobileMenu}
-                className={`block py-2 ${
-                  pathname === "/oidp" ? "text-black" : "text-gray-600"
-                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
-              >
-                <span>OIDP Book</span>
-              </Link>
-              <Link
                 href="/contact"
                 onClick={toggleMobileMenu}
                 className={`block py-2 ${
-                  pathname === "/contact" ? "text-black" : "text-gray-600"
+                  pathname === "/contact"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Contact</span>
@@ -198,7 +235,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 href="/fellows"
                 onClick={toggleMobileMenu}
                 className={`block py-2 ${
-                  pathname === "/fellows" ? "text-black" : "text-gray-600"
+                  pathname === "/fellows"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Fellows</span>
@@ -207,25 +246,17 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 href="/newsletter"
                 onClick={toggleMobileMenu}
                 className={`block py-2 ${
-                  pathname === "/newsletter" ? "text-black" : "text-gray-600"
+                  pathname === "/newsletter"
+                    ? "text-black font-bold after:scale-x-100"
+                    : "text-gray-600"
                 } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
               >
                 <span>Newsletter</span>
-              </Link>
-              <Link
-                href="/hire-us"
-                onClick={toggleMobileMenu}
-                className={`block py-2 ${
-                  pathname === "/hire-us" ? "text-black" : "text-gray-600"
-                } hover:text-gray-900 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-200 hover:after:scale-x-100`}
-              >
-                <span>Hire Us</span>
               </Link>
             </div>
           )}
         </header>
       </div>
-      {/* Secondary Navbar */}
       {/* Main Content */}
       <div className="w-full">{children}</div>
       {/* Book Promotion Banner */}
@@ -330,12 +361,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                   Blurbs
                 </Link>
                 <Link
-                  href="/oidp"
-                  className="hover:underline hover:text-yellow-400"
-                >
-                  OIDP Book
-                </Link>
-                <Link
                   href="/contact"
                   className="hover:underline hover:text-yellow-400"
                 >
@@ -353,12 +378,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                   Consulting
                 </Link>
                 <Link
-                  href="/services"
-                  className="hover:underline hover:text-yellow-400"
-                >
-                  Services
-                </Link>
-                <Link
                   href="/fellows"
                   className="hover:underline hover:text-yellow-400"
                 >
@@ -371,10 +390,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                   Newsletter
                 </Link>
                 <Link
-                  href="/services"
+                  href="/security"
                   className="hover:underline hover:text-yellow-400"
                 >
-                  Services
+                  Security Services
                 </Link>
               </div>
             </div>
@@ -385,6 +404,26 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           © 2025 Philippine Strategies. All rights reserved.
         </div>
       </footer>
+      {/* 
+      {typeof window !== "undefined" && (
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="fixed bottom-6 right-6 z-50 bg-[#111828] text-white px-4 py-2 rounded-full shadow-md hover:bg-[#2c344f] transition-all"
+        >
+          ↑ Top
+        </button>
+      )} 
+      */}
+      <button
+        onClick={() => {
+          if (typeof window !== "undefined") {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }
+        }}
+        className="fixed bottom-6 right-6 z-50 bg-[#111828] text-white px-4 py-2 rounded-full shadow-md hover:bg-[#2c344f] transition-all"
+      >
+        ↑ Top
+      </button>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import PrimaryCTA from "@/app/components/CTA/Primary";
 import { getAllArticles } from "@/data/articles";
 
 export default function Hero() {
@@ -12,12 +12,10 @@ export default function Hero() {
       </h1>
       {latestArticle && (
         <div className="mt-8 mb-10">
-          <Link
+          <PrimaryCTA
             href={`/articles/${latestArticle.slug}`}
-            className="inline-block bg-black text-white text-sm font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-white hover:text-black border border-black transition-all duration-300"
-          >
-            Read Our Latest Article →
-          </Link>
+            text="Read Our Latest Article →"
+          />
         </div>
       )}
       <div className="relative w-full h-[65vh] overflow-hidden mt-8 rounded-2xl mx-auto max-w-full px-4">
