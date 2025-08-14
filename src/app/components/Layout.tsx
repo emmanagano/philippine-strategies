@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { FaInstagram, FaXTwitter, FaFacebook } from "react-icons/fa6";
+import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -326,14 +326,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 className="text-white hover:text-yellow-400 transition"
               >
                 <FaXTwitter size={28} />
-              </a>
-              <a
-                href="https://facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-yellow-400 transition"
-              >
-                <FaFacebook size={28} />
               </a>
             </div>
           </div>

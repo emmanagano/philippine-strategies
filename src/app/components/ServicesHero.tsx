@@ -15,7 +15,7 @@ const ServicesHero: React.FC<ServicesHeroProps> = ({ headline, imageSrc }) => {
         <img
           src={imageSrc}
           alt=""
-          className="object-cover w-full h-full rounded-2xl"
+          className="object-contain w-full h-full rounded-2xl"
           draggable={false}
         />
       </div>

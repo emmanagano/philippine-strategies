@@ -5,7 +5,7 @@ export default function ConsultingPage() {
     <>
       <ServicesHero
         headline="Consulting"
-        imageSrc="/images/consulting-hero.jpeg"
+        imageSrc="/images/consulting-hero.jpg"
       />
 
       {/* Content wrapper */}

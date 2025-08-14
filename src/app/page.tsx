@@ -5,6 +5,7 @@ import { getLatestBlurb } from "@/data/blurbs";
 import Hero from "./components/Hero";
 import SecondaryCTA from "./components/CTA/Secondary";
 import MoreInfo from "./components/CTA/MoreInfo";
+import Primary from "./components/CTA/Primary";
 
 export default function Home() {
   const articles = getAllArticles();
@@ -82,6 +83,61 @@ export default function Home() {
         {/* View All Blogs Button */}
         <div className="text-center mt-8">
           <SecondaryCTA label="View All Articles" href="/articles" />
+        </div>
+      </section>
+      {/* Services Promo Section */}
+      <section className="max-w-6xl mx-auto px-6 md:px-8 py-12">
+        <div className="mb-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-black tracking-tight">
+            Work With Us
+          </h2>
+          <p className="text-gray-700 mt-2">
+            Two ways we can help you navigate the Philippines safely and
+            intelligently.
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 gap-6">
+          {/* Consulting Card */}
+          <div className="bg-gray-200 p-6 rounded-lg border border-gray-300 flex flex-col justify-between">
+            <div>
+              <h3 className="text-2xl font-bold text-black mb-2">Consulting</h3>
+              <p className="text-gray-800 mb-4">
+                Tap into a century of in‑country relationships and ground
+                truth—guidance trusted by diplomats, investors, and military
+                planners.
+              </p>
+              <ul className="list-disc list-inside text-gray-800 space-y-1">
+                <li>Market entry & risk mapping</li>
+                <li>Access to decision‑makers beyond the embassy bubble</li>
+                <li>Actionable briefs grounded in local reality</li>
+              </ul>
+            </div>
+            <div className="mt-6 flex justify-center">
+              <Primary href="/consulting" label="Explore Consulting" />
+            </div>
+          </div>
+
+          {/* Security Card */}
+          <div className="bg-gray-200 p-6 rounded-lg border border-gray-300 flex flex-col justify-between">
+            <div>
+              <h3 className="text-2xl font-bold text-black mb-2">
+                Security Services
+              </h3>
+              <p className="text-gray-800 mb-4">
+                Discreet, world‑class protection for visits anywhere in the
+                Philippines—run by former US Marine Force Recon leaders and
+                Philippine Marine MARSOG operators.
+              </p>
+              <ul className="list-disc list-inside text-gray-800 space-y-1">
+                <li>Protective details & secure movements</li>
+                <li>Local deterrence through respected operators</li>
+                <li>Rapid, tailored coverage nationwide</li>
+              </ul>
+            </div>
+            <div className="mt-6 flex justify-center">
+              <Primary href="/security" label="Explore Security Services" />
+            </div>
+          </div>
         </div>
       </section>
       {/* Newsletter Subscription CTA */}

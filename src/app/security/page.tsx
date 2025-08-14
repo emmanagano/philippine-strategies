@@ -4,7 +4,7 @@ import ContactUsCTA from "@/app/components/CTA/ContactUs";
 export default function SecurityPage() {
   return (
     <>
-      <ServicesHero headline="SECURITY" imageSrc="/images/athena-hire-us.jpg" />
+      <ServicesHero headline="SECURITY" imageSrc="/images/security-hero.jpg" />
 
       <section className="bg-gray-100 py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-6 md:px-8">

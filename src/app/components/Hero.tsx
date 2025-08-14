@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="mt-8 mb-10">
           <PrimaryCTA
             href={`/articles/${latestArticle.slug}`}
-            text="Read Our Latest Article →"
+            label="Read Our Latest Article →"
           />
         </div>
       )}
