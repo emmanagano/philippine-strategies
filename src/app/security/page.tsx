@@ -1,6 +1,21 @@
 import ServicesHero from "../components/ServicesHero";
 import ContactUsCTA from "@/app/components/CTA/ContactUs";
 
+export const metadata = {
+  title: "Security Services | Philippine Strategies",
+  description:
+    "AEGIS provides elite protection and security consulting in the Philippines, staffed by former US and Philippine Marine special forces.",
+  keywords: [
+    "Philippine security",
+    "AEGIS protection services",
+    "private security Philippines",
+    "personal protection",
+    "military consulting",
+    "Force Recon",
+    "MARSOG",
+  ],
+};
+
 export default function SecurityPage() {
   return (
     <>

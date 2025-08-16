@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import SecondaryCTA from "./components/CTA/Secondary";
 import MoreInfo from "./components/CTA/MoreInfo";
 import Primary from "./components/CTA/Primary";
+import Author from "./components/Author";
 
 export default function Home() {
   const articles = getAllArticles();
@@ -35,7 +36,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-6 items-center">
               {/* Content Side */}
               <div className="text-black">
-                <p className="text-sm text-gray-600 mb-2">{articles[0].date}</p>
+                <Author date={articles[0].date} />
                 <Link href={`/articles/${articles[0].slug}`}>
                   <h3 className="text-2xl font-bold mb-3 hover:underline hover:text-gray-800 transition-colors duration-200">
                     {articles[0].title}
@@ -71,7 +72,7 @@ export default function Home() {
                   {article.title}
                 </h3>
               </Link>
-              <p className="text-sm text-gray-600">{article.date}</p>
+              <Author date={article.date} />
               <p className="text-gray-800 mt-2">{article.description}</p>
               <MoreInfo
                 href={`/articles/${article.slug}`}

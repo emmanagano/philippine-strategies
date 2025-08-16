@@ -1,10 +1,53 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { fellows } from "@/data/fellowSeed";
 
 export function generateStaticParams() {
   return fellows.map((fellow) => ({
     slug: fellow.slug,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const fellow = fellows.find((f) => f.slug === slug);
+
+  if (!fellow) {
+    return {
+      title: "Fellow Not Found | Philippine Strategies",
+      description: "This fellow profile could not be found.",
+    };
+  }
+
+  return {
+    metadataBase: new URL("https://philippinestrategies.com"),
+    title: fellow.metadata.title,
+    description: fellow.metadata.description,
+    keywords: fellow.metadata.keywords,
+    openGraph: {
+      title: fellow.metadata.title,
+      description: fellow.metadata.description,
+      images: [
+        {
+          url: `/images/fellows/${fellow.slug}-team.png`,
+          width: 1200,
+          height: 630,
+          alt: fellow.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: fellow.metadata.title,
+      description: fellow.metadata.description,
+      images: [`/images/fellows/${fellow.slug}-team.png`],
+    },
+  };
 }
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default async function FellowPage({ params }: any) {
@@ -44,6 +87,38 @@ export default async function FellowPage({ params }: any) {
                   {para}
                 </p>
               ))}
+            </div>
+            {/* Explore other fellows */}
+            <div className="pt-12 mt-8 border-t border-gray-300">
+              <h2 className="text-xl font-semibold mb-6 text-center">
+                Explore Other Fellows
+              </h2>
+              <ul className="space-y-4">
+                {fellows
+                  .filter((f) => f.slug !== slug)
+                  .map((other) => (
+                    <li key={other.slug}>
+                      <Link
+                        href={`/fellows/${other.slug}`}
+                        className="group flex items-center gap-4 rounded-xl border border-gray-200 bg-white p-4 hover:bg-gray-50 hover:shadow transition"
+                      >
+                        <img
+                          src={`${other.fellowImage}`}
+                          alt={other.name}
+                          className="h-20 w-20 rounded-lg object-cover flex-shrink-0"
+                        />
+                        <div className="min-w-0">
+                          <h3 className="text-base md:text-lg font-semibold text-gray-900 group-hover:underline underline-offset-4">
+                            {other.name}
+                          </h3>
+                          <p className="text-sm text-gray-700 line-clamp-3">
+                            {other.shortBio}
+                          </p>
+                        </div>
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
             </div>
           </div>
         </div>

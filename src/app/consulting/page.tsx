@@ -1,5 +1,20 @@
 import ServicesHero from "../components/ServicesHero";
 import ContactUsCTA from "@/app/components/CTA/ContactUs";
+
+export const metadata = {
+  title: "Consulting Services | Philippine Strategies",
+  description:
+    "AEGIS Consulting offers unmatched strategic guidance in the Philippines, leveraging over a century of experience and deep-rooted relationships in military, diplomatic, and business sectors.",
+  keywords: [
+    "Philippines consulting",
+    "strategic consulting",
+    "foreign investment",
+    "military consulting Philippines",
+    "diplomatic strategy",
+    "Wagner family",
+    "Puting Maalam",
+  ],
+};
 export default function ConsultingPage() {
   return (
     <>

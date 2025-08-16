@@ -192,5 +192,13 @@ export const staticArticles: Article[] = [
     date: "August 6, 2025",
     slug: "rat-people-china-demographic-crisis",
     category: "geopolitics"
+  },
+  {
+    id: 24,
+    title: "What would the Philippines look like today had the U.S. NOT won in the Pacific Theater of World War II?",
+    description: "What if the United States hadn’t defeated Japan in World War II? This counterfactual deep-dive explores an alternate 2025 Philippines under prolonged Japanese control—an authoritarian client state marked by economic stagnation, cultural suppression, and geopolitical subservience to Tokyo.",
+    date: "August 16, 2025",
+    slug: "philippines-if-us-lost-wwii",
+    category: "Security, Foreign Policy & Defense"
   }
 ];

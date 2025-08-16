@@ -10,6 +10,11 @@ export const fellows = [
     shortBio:
       "Founder of Philippine Strategies Research Institute and author of 'OIDP - Onli In Da Pilippines', Bob provides deep strategic insight shaped by decades of in-country military, business, and diplomatic activities experience.",
     fellowImage: "/images/fellows/robert-wagner-team.png",
+    metadata: {
+      title: "Robert T. Wagner | Philippine Strategies",
+      description: "Founder of Philippine Strategies Research Institute and author of 'OIDP - Onli In Da Pilippines', Bob provides deep strategic insight shaped by decades of in-country military, business, and diplomatic activities experience.",
+      keywords: ["Robert T. Wagner", "JD, PhD", "Senior Resident Fellow", "Philippine Strategies"],
+    },
     keyTakeaways: [
       "Former US Marine Force Recon Operator with deployments in PH and worldwide",
       "Long-standing family legacy in the Philippines, dating back to 1899",
@@ -41,6 +46,11 @@ export const fellows = [
     shortBio:
       "Del is a former Secretary of National Defense and retired Philippine Army Lt. General, known internationally for his extensive experience in national security affairs and government leadership.",
     fellowImage: "/images/fellows/delfin-n-lorenzana-team.png",
+    metadata: {
+      title: "Delfin N. Lorenzana | Philippine Strategies",
+      description: "Del is a former Secretary of National Defense and retired Philippine Army Lt. General, known internationally for his extensive experience in national security affairs and government leadership.",
+      keywords: ["Delfin N. Lorenzana", "Former Secretary of National Defense, Republic of the Philippines", "Senior Executive Fellow", "Philippine Strategies"],
+    },
     keyTakeaways: [
       "Former Secretary of National Defense of the Republic of the Philippines",
       "Retired Lieutenant General with extensive combat and leadership experience",
@@ -69,6 +79,11 @@ export const fellows = [
     shortBio:
       "Apart from having led the Philippines' premier fighting force for many years, Romi is also a distinguished corporate policy planner with extensive experience in national development strategies and reform programs.",
     fellowImage: "/images/fellows/romeo-t-tanalgo-team.png",
+    metadata: {
+      title: "Romeo T. Tanalgo | Philippine Strategies",
+      description: "Apart from having led the Philippines' premier fighting force for many years, Romi is also a distinguished corporate policy planner with extensive experience in national development strategies and reform programs.",
+      keywords: ["Romeo T. Tanalgo", "Philippine Marine Corps Commandant, Lt. General (Ret.)", "Senior Executive Fellow", "Philippine Strategies"],
+    },
     keyTakeaways: [
       "Former Vice Chief of Staff of the Armed Forces of the Philippines",
       "Former Commandant of the Philippine Marine Corps and NOLCOM",
@@ -99,6 +114,11 @@ export const fellows = [
     achievements: "Founding Partner, Miranda, Vitug & Francisco Law | Former Chief Counsel, Clark Development Corporation | VP, Clark International Airport Corp. | Two-term President, IBP Pampanga | Aldo Ning Parangal Awardee (2009)",
     shortBio: "One of the top jurists in the Philippines, Jep specializes in dispute resolution and foreign investment law. A former President of the Pampanga chapter of the Integrated Bar of the Philippines, he was the foundational legal mind that effected and continues to support the Clark and Subic Freeports.",
     fellowImage: "/images/fellows/jep-miranda-team.png",
+    metadata: {
+      title: "Josep Jepri M. Miranda, ESQ. | Philippine Strategies",
+      description: "One of the top jurists in the Philippines, Jep specializes in dispute resolution and foreign investment law. A former President of the Pampanga chapter of the Integrated Bar of the Philippines, he was the foundational legal mind that effected and continues to support the Clark and Subic Freeports.",
+      keywords: ["Josep Jepri M. Miranda, ESQ.", "Chief Counsel", "Senior Associate Fellow", "Philippine Strategies"],
+    },
     keyTakeaways: [
         "Founding partner of one of Central Luzon’s most influential law firms",
         "Specialized authority on foreign investment and commercial dispute resolution",
@@ -129,6 +149,11 @@ export const fellows = [
     achievements: "Retired U.S. Homeland Security Regional Attaché | Senior Law Enforcement Executive | International Security and Investigations Expert",
     shortBio: "Former Homeland Security Attaché to Manila, Ric offers unrivaled expertise in international law enforcement, counter-criminal operations, and security consulting.",
     fellowImage: "/images/fellows/ric-navalta-team.png",
+    metadata: {
+      title: "Ricardo J. Navalta | Philippine Strategies",
+      description: "Former Homeland Security Attaché to Manila, Ric offers unrivaled expertise in international law enforcement, counter-criminal operations, and security consulting.",
+      keywords: ["Ricardo J. Navalta", "Former U.S. Department of Homeland Security (DHS) Attaché, U.S. Embassy Manila", "Senior Associate Fellow", "Philippine Strategies"],
+    },
     keyTakeaways: [
         "Retired U.S. Homeland Security and HSI Attaché with over 30 years of law enforcement experience",
         "Former senior U.S. law enforcement official in the U.S. Embassy in Manila (2018–2023)",

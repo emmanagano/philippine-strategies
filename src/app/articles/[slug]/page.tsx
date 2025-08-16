@@ -1,5 +1,6 @@
 import "../article.css";
 import { getArticleBySlug, articles } from "@/data/articles";
+import Author from "@/app/components/Author";
 import { notFound } from "next/navigation";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
@@ -52,7 +53,7 @@ export default async function BlogPost({ params }: any) {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           {article.title}
         </h1>
-        <p className="text-sm text-gray-500 mb-6">{article.date}</p>
+        <Author date={article.date} />
         <img
           src={`/images/${article.slug}.jpg`}
           alt={article.alt}

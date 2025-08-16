@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { staticArticles, Article } from "@/data/staticArticles";
 import PageHeader from "@/app/components/PageHeader";
+import Author from "@/app/components/Author";
 import MoreInfo from "@/app/components/CTA/MoreInfo";
 
 export default function ArticlesPage() {
@@ -23,7 +24,7 @@ export default function ArticlesPage() {
       <section className="w-full bg-gray-200 py-20">
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4 sm:px-6 lg:px-8">
           <div>
-            <p className="text-sm text-gray-500 mb-2">{articles[0]?.date}</p>
+            <Author date={articles[0]?.date || ""} className="mb-2" />
             <a href={`/articles/${articles[0]?.slug}`}>
               <h2 className="text-3xl font-bold text-gray-900 leading-snug mb-4 hover:underline">
                 {articles[0]?.title}
@@ -81,7 +82,7 @@ export default function ArticlesPage() {
                     {article.title}
                   </a>
                 </h3>
-                <p className="text-xs text-gray-500 mt-1">{article.date}</p>
+                <Author date={article.date} className="mt-1" />
                 <p className="text-gray-600 text-sm mt-2 leading-relaxed">
                   {article.description}
                 </p>
