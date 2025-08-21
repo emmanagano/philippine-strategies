@@ -200,5 +200,13 @@ export const staticArticles: Article[] = [
     date: "August 16, 2025",
     slug: "philippines-if-us-lost-wwii",
     category: "Security, Foreign Policy & Defense"
+  },
+  {
+    id: 25,
+    title: "An Alternate Archipelago: The Philippines in 2025 Under Continued American Stewardship",
+    description: "What if the Philippines never gained independence in 1946? This alternate history imagines a 2025 under continued American stewardship—more stable, less corrupt, and economically integrated into the U.S., but with sovereignty traded for prosperity.",
+    date: "August 20, 2025",
+    slug: "philippines-if-us-retained-control",
+    category: "Security, Foreign Policy & Defense"
   }
 ];

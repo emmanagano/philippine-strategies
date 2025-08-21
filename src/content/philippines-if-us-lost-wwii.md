@@ -6,7 +6,7 @@ date: "August 16, 2025"
 slug: "philippines-if-us-lost-wwii"
 category: "Security, Foreign Policy & Defense"
 author: "Robert T. Wagner"
-alt: "Facade of the Bureau of the Treasury building in Manila with multiple Philippine flags waving in the foreground"
+alt: "Dystopian city street at night with hovering surveillance drones and silhouetted pedestrians under neon-lit buildings"
 tags:
   - alternate history
   - World War II
@@ -27,7 +27,8 @@ tags:
 ## THE PRESENT REALITY
 
 In our current timeline, the United States' victory in the Pacific Theater of World War II led to the liberation of the Philippines from Japanese occupation in 1945, paving the way for Philippine independence in 1946 and a postwar trajectory shaped by American influence, economic aid, and democratic institutions.
-In a counterfactual scenario where the U.S. does not win the Pacific Theater - perhaps due to Japan avoiding direct confrontation with the U.S. after Pearl Harbor, allowing it to concentrate forces on Southeast Asian campaigns or employing unrestricted submarine warfare to cripple American logistics - the outcome could have resulted in a completely different scenario.
+
+In a counterfactual scenario where the U.S. does not win the Pacific Theater - perhaps due to Japan avoiding direct confrontation with the U.S. after Pearl Harbor, allowing it to concentrate forces on Southeast Asian campaigns or employing unrestricted submarine warfare to cripple American logistics - the outcome could have resulted in a completely different diegesis.
 
 Japan most likely would have retained control over the Philippines as part of its Greater East Asia Co-Prosperity Sphere, either as a direct colony, a puppet state, or an integrated territory similar to Korea or Taiwan under prewar Japanese rule.
 
@@ -49,7 +50,10 @@ The Philippines under extended Japanese control would probably exhibit a mix of 
 
 During the actual occupation, the economy collapsed. GDP fell by 70% by 1945 and hyperinflation from "Mickey Mouse money" reached 137,500% for staples like rice, causing unemployment and famine. Southeast Asian analogies show that Japanese policies shifted regions toward autarky, destroying colonial trade links and leading to subsistence agriculture reliant on inferior crops, with transport systems deteriorating and black markets thriving.
 
-If occupation continued, the Philippines might follow Korea's path, where Japanese investment built infrastructure (railways, ports) but primarily for extraction of coal, iron, and rice funneled to Japan, leaving locals as tenant farmers with declining consumption. By 2025, this could manifest as a resource-based economy integrated into Japan's supply chains, with manufacturing hubs in Manila or Cebu producing electronics or cars for Japanese firms using ultra-cheap labor. Long-run effects from Southeast Asian occupations suggest pernicious outcomes: agriculture reverting to pre-industrial levels, delayed global reintegration, and stagnation, as seen in Indonesia or Burma post-WWII. GDP per capita might hover around $5,000–$7,000 (lower than our timeline by around $4,000), with heavy reliance on remittances from Filipino workers sent to Japan.
+If occupation continued, the Philippines might follow Korea's path, where Japanese investment built infrastructure (railways, ports) but primarily for extraction of coal, iron, and rice funneled to Japan, leaving locals as tenant farmers with declining consumption.
+
+By 2025, this could manifest as a resource-based economy integrated into Japan's supply chains, with manufacturing hubs in Manila or Cebu producing electronics or cars for Japanese firms using ultra-cheap labor. Long-run effects from Southeast Asian occupations suggest pernicious outcomes: agriculture reverting to pre-industrial levels, delayed global reintegration, and stagnation, as seen in Indonesia or Burma post-WWII. GDP per capita might hover around $5,000–$7,000 (lower than our timeline by around $4,000), with heavy reliance on remittances from Filipino workers sent to Japan.
+
 Urban-rural divides would widen, with cities like Manila featuring Japanese-style infrastructure but plagued by inequality, while rural areas suffer from land dispossession. Ethnic Chinese networks, which sustained trade during occupation, would (as is the case in the current timeline) dominate commerce, leading to tensions. Overall, avoiding U.S.-style aid dependency would subject the Philippine economy to isolation from Western markets, resulting in slower tech adoption and vulnerability to Japanese economic downturns.
 
 ## SOCIOLOGICAL ENVIRONMENT
