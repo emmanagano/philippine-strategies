@@ -5,7 +5,6 @@ description: "A critical analysis of the popular Korean show Squid Game and its 
 date: "October 25, 2021"
 slug: "problem-with-squid-game"
 category: "Information Sovereignty & Media Influence"
-author: "Robert T. Wagner"
 alt: "Crowded urban street scene featuring a massive Netflix billboard of the Squid Game robot doll, illustrating the global cultural reach of Korean media and its presence in everyday public life."
 tags:
   - Korean Wave

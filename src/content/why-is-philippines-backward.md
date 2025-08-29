@@ -5,7 +5,6 @@ description: "A controversial take on the systemic and cultural issues that cont
 date: "December 10, 2021"
 slug: "why-is-philippines-backward"
 category: "Labor, OFW & Migration Economics"
-author: "Robert T. Wagner"
 alt: "Filipino wet market scene bustling with activity — an elderly woman selects dried fish from a wooden crate, while shoppers in casual clothes navigate narrow aisles filled with local produce, eggs, and other goods under a canopy of makeshift tarps and hanging lights."
 tags:
   - Philippine society

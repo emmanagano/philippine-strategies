@@ -5,7 +5,6 @@ description: "Duterte's arrest at The Hague ignites a national political crisis,
 date: "April 4, 2025"
 slug: "civil-war-philippines-duterte-impeachment-secession"
 category: "Security, Foreign Policy & Defense"
-author: "Robert T. Wagner"
 alt: "Archival black-and-white photo of soldiers advancing through wooded terrain during a military offensive, evoking themes of civil war, armed rebellion, and secessionist conflict relevant to the political unrest surrounding the Duterte impeachment crisis in the Philippines."
 tags:
   - Duterte arrest

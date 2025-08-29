@@ -5,7 +5,6 @@ description: "What if the United States hadn’t defeated Japan in World War II?
 date: "August 16, 2025"
 slug: "philippines-if-us-lost-wwii"
 category: "Security, Foreign Policy & Defense"
-author: "Robert T. Wagner"
 alt: "Dystopian city street at night with hovering surveillance drones and silhouetted pedestrians under neon-lit buildings"
 tags:
   - alternate history

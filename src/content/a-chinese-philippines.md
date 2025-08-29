@@ -5,7 +5,6 @@ description: "An analysis of China's influence on the Philippines and what it me
 date: "July 1, 2023"
 slug: "a-chinese-philippines"
 category: "Information Sovereignty & Media Influence"
-author: "Robert T. Wagner"
 alt: "The red national flag of the People’s Republic of China waving against a clear sky, symbolizing Chinese geopolitical influence and state presence central to the Philippines–China dispute over the South China Sea."
 tags:
   - China-Philippines relations

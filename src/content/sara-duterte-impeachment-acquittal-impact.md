@@ -5,7 +5,6 @@ description: "What happens if Sara Duterte is acquitted? This analysis explores 
 date: "May 24, 2025"
 slug: "sara-duterte-impeachment-acquittal-impact"
 category: "Justice & Judiciary Reform"
-author: "Robert T. Wagner"
 alt: "Philippine Vice President Sara Duterte in a formal barong-style blouse standing in front of uniformed military officials, symbolizing her embattled but resilient position amid impeachment proceedings and political tensions."
 tags:
   - sara duterte

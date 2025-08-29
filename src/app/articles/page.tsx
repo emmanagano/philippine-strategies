@@ -44,7 +44,7 @@ export default function ArticlesPage() {
           >
             <img
               src={`/images/${articles[0]?.slug}.jpg`}
-              alt={articles[0]?.title}
+              alt={articles[0]?.alt}
               className="h-full object-cover rounded"
             />
           </a>
@@ -60,7 +60,7 @@ export default function ArticlesPage() {
                 <a href={`/articles/${article.slug}`}>
                   <img
                     src={`/images/${article.slug}.jpg`}
-                    alt={article.title}
+                    alt={article.alt}
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </a>

@@ -5,7 +5,6 @@ description: "China’s emerging “Rat People” youth movement and plummeting 
 date: "August 6, 2025"
 slug: "rat-people-china-demographic-crisis"
 category: "Population & Health Policy"
-author: "Robert T. Wagner"
 alt: "Black-and-white graffiti art of a rat painted on a brick wall, symbolizing the 'Rat People' movement in China where disillusioned youth reject societal expectations and economic pressures."
 tags:
   - China demographic crisis

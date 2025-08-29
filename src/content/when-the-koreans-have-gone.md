@@ -5,7 +5,6 @@ description: "Examining the impact of South Korean influence in the Philippines 
 date: "September 14, 2019"
 slug: "when-the-koreans-have-gone"
 category: "Information Sovereignty & Media Influence"
-author: "Robert T. Wagner"
 alt: "A densely lit urban street in South Korea at dusk, glowing with neon signage in Hangul. Restaurants, karaoke bars, and adult entertainment venues line both sides of the alley as electrical wires crisscross the sky—symbolizing the commercial vibrance and nightlife culture that has extended its reach into Southeast Asian cities like Angeles, Subic, and Cebu."
 tags:
   - Korean influence

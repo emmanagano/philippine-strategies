@@ -1,12 +1,11 @@
 ---
 id: 25
 title: "An Alternate Archipelago: The Philippines in 2025 Under Continued American Stewardship"
-description: "What if the Philippines never gained independence in 1946? This alternate history imagines a 2025 under continued American stewardship—more stable, less corrupt, and economically integrated into the U.S., but with sovereignty traded for prosperity."
+description: "What if the Philippines had been retained as a US Territory?  This alternate history imagines the country under continued American stewardship, resulting in far better political stability, much less corruption, and economic equitability that would allow all ships to float atop a rising tide."
 date: "August 20, 2025"
 slug: "philippines-if-us-retained-control"
 category: "Security, Foreign Policy & Defense"
-author: "Robert T. Wagner"
-alt: "none"
+alt: "Filipino children smiling and waving U.S. and Philippine flags during a community event"
 tags:
   - alternate history
   - Philippine independence
@@ -41,12 +40,12 @@ Puerto Rico's per capita income, around $35,000 in 2024, dwarfs the Philippines'
 
 Although, as in Puerto Rico, economic sovereignty (of concern only to the elites) would be curtailed with the U.S. dollar in use, federal trade laws dictating policies, and vulnerability to U.S. recessions or tariffs, experts argue territories often outperform independent peers in the Caribbean or Pacific due to stable access to larger markets, avoiding the post-colonial pitfalls that left the real Philippines with a "farm economy" and later “menial services” legacy.
 
-| Aspect            | Real Philippines 2025                     | Philippines 2025 (U.S. Territory)                          |
-| ----------------- | ----------------------------------------- | ---------------------------------------------------------- |
-| GDP Growth        | ~6%, hindered by corruption and inflation | ~7–8%, boosted by U.S. integration and investments         |
-| Poverty Rate      | >20%, no social assistance                | <4%, with access to U.S. welfare programs                  |
-| Key Sectors       | Remittances, BPO, agriculture             | Manufacturing, tech exports, tourism under U.S. branding   |
-| Corruption Impact | Billions lost annually                    | Reduced via federal oversight, similar to U.S. territories |
+| Aspect            | Real Philippines 2025                     | Philippines 2025 (U.S. Territory)                                  |
+| ----------------- | ----------------------------------------- | ------------------------------------------------------------------ |
+| GDP Growth        | ~6%, hindered by corruption and inflation | ~7–8%, boosted by U.S. integration and federal investments         |
+| Poverty Rate      | >20%, no social assistance                | <4%, with access to U.S. welfare programs                          |
+| Key Sectors       | Remittances, BPO, agriculture             | Manufacturing, tech exports, tourism under U.S. branding           |
+| Corruption Impact | Billions lost annually                    | Minimalized via federal oversight, similar to other US territories |
 
 ## Stability and Living Wages Over Sovereignty
 

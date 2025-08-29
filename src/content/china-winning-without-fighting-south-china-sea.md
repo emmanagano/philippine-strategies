@@ -5,7 +5,6 @@ description: "How China’s maritime strategy in the South China Sea reflects Su
 date: "May 8, 2025"
 slug: "china-winning-without-fighting-south-china-sea"
 category: "Security, Foreign Policy & Defense"
-author: "Robert T. Wagner"
 alt: "Illustration of Chinese military strategist Sun Tzu beside the book cover of The Art of War, referencing the philosophical and strategic foundations of China’s maritime approach in the South China Sea."
 tags:
   - South China Sea

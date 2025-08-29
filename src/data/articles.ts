@@ -1,6 +1,7 @@
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
+import remarkGfm from "remark-gfm";
 import rehypeStringify from "rehype-stringify";
 import fs from "fs";
 import path from "path";
@@ -30,7 +31,6 @@ export function getAllArticles() {
                 slug: data.slug,
                 category: data.category || "all-article",
                 tags: data.tags || [],
-                author: data.author || "",
                 alt: data.alt || ""
             };
         })
@@ -49,6 +49,7 @@ export async function getArticleBySlug(slug: string) {
     const { data, content } = matter(fileContents);
     const htmlContent = await unified()
         .use(remarkParse)
+        .use(remarkGfm)
         .use(remarkRehype)
         .use(rehypeStringify)
         .process(content);
@@ -59,7 +60,6 @@ export async function getArticleBySlug(slug: string) {
         date: data.date,
         slug: data.slug,
         tags: data.tags || [],
-        author: data.author || "",
         category: data.category || "all-article",
         alt: data.alt || "",
         content: String(htmlContent),

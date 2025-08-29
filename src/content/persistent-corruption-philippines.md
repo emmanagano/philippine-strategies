@@ -5,7 +5,6 @@ description: "A first-person account of enduring political dysfunction, historic
 date: "April 19th, 2025"
 slug: "persistent-corruption-philippines"
 category: "Public Sector Integrity & Governance"
-author: "Robert T. Wagner"
 alt: "Graffiti-covered wall featuring the phrase 'money make the world go around,' visually emphasizing the article’s central theme of endemic corruption and the overpowering influence of money in Philippine politics and governance."
 tags:
   - corruption in the Philippines

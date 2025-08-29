@@ -5,7 +5,6 @@ description: "A searing reflection on Rodrigo Duterte’s presidency as a raw, p
 date: "March 20, 2025"
 slug: "rodrigo-duterte-uncooked"
 category: "Public Sector Integrity & Governance"
-author: "Robert T. Wagner"
 alt: "Black-and-white photo of an elderly Filipino man sitting on a wooden cart beside a jeepney, capturing the raw street-level realities of life under Duterte’s presidency and the socioeconomic struggles often overshadowed by his rhetoric."
 tags:
   - Rodrigo Duterte

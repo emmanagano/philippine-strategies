@@ -5,7 +5,6 @@ description: "A discussion on how climate change is exacerbated by rising popula
 date: "January 28, 2025"
 slug: "climate-change-impact-philippines"
 category: "Population & Health Policy"
-author: "Robert T. Wagner"
 alt: "Crowded urban street scene surrounded by high-rise buildings, illustrating the impact of rapid population growth and dense urbanization on climate vulnerability and environmental sustainability."
 tags:
   - climate change

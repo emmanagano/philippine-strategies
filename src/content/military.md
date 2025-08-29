@@ -5,7 +5,6 @@ description: "An in-depth analysis of the evolving military landscape in the Phi
 date: "April 6, 2025"
 slug: "military"
 category: "Security, Foreign Policy & Defense"
-author: "Robert Wagner"
 alt: "Philippine and U.S. Marines conducting an amphibious landing exercise during joint military drills, symbolizing renewed defense cooperation under the EDCA agreement amid rising tensions in the West Philippine Sea."
 tags:
   - Philippine military

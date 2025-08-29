@@ -5,7 +5,6 @@ description: "A look at how tech-savvy Filipino youth are challenging pro-Dutert
 date: "March 25, 2025"
 slug: "young-filipinos-vs-dds-propaganda"
 category: "Information Sovereignty & Media Influence"
-author: "Robert T. Wagner"
 alt: "Young Filipino woman using laptop to challenge online disinformation and engage in digital activism"
 tags:
   - DDS propaganda

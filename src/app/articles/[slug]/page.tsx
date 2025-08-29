@@ -138,7 +138,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
     metadataBase: new URL("https://philippinestrategies.com"),
     title: `${article.title} | Philippine Strategies`,
     description: article.description,
-    authors: [{ name: article.author }],
+    authors: [{ name: "Robert T. Wagner" }],
     keywords: article.tags,
     openGraph: {
       title: article.title,

@@ -5,7 +5,6 @@ description: "Could Rodrigo Duterte be convicted by the ICC? This analysis break
 date: "May 17, 2025"
 slug: "duterte-icc-trial-conviction-penalty-assessment"
 category: "Justice & Judiciary Reform"
-author: "Robert T. Wagner"
 alt: "Former Philippine President Rodrigo Duterte speaking at a podium with the presidential seal, captured mid-speech in front of the Philippine flag—highlighting his central role in the ICC trial for alleged crimes against humanity during his war on drugs."
 tags:
   - Duterte ICC case
