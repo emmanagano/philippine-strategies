@@ -2,11 +2,10 @@ import React from "react";
 import Link from "next/link";
 import { getAllArticles } from "@/data/articles";
 import { getLatestBlurb } from "@/data/blurbs";
-import Hero from "./components/Hero";
 import SecondaryCTA from "./components/CTA/Secondary";
 import MoreInfo from "./components/CTA/MoreInfo";
-import Primary from "./components/CTA/Primary";
 import Author from "./components/Author";
+import HeroSecondary from "./components/HeroSecondary";
 
 export default function Home() {
   const articles = getAllArticles();
@@ -16,7 +15,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100">
       {/* Hero Section */}
       <div>
-        <Hero />
+        <HeroSecondary />
       </div>
       {/* Marquee Section */}
       <section className="w-full bg-gray-100 overflow-hidden">
@@ -36,15 +35,15 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-6 items-center">
               {/* Content Side */}
               <div className="text-black">
-                <Author date={articles[0].date} />
-                <Link href={`/articles/${articles[0].slug}`}>
+                <Author date={articles[1].date} />
+                <Link href={`/articles/${articles[1].slug}`}>
                   <h3 className="text-2xl font-bold mb-3 hover:underline hover:text-gray-800 transition-colors duration-200">
-                    {articles[0].title}
+                    {articles[1].title}
                   </h3>
                 </Link>
-                <p className="text-gray-800 mb-4">{articles[0].description}</p>
+                <p className="text-gray-800 mb-4">{articles[1].description}</p>
                 <MoreInfo
-                  href={`/articles/${articles[0].slug}`}
+                  href={`/articles/${articles[1].slug}`}
                   label="Read Article"
                 />
               </div>
@@ -52,8 +51,8 @@ export default function Home() {
               {/* Image Side */}
               <div className="w-full h-full">
                 <img
-                  src={`/images/${articles[0].slug}.jpg`}
-                  alt={articles[0].title}
+                  src={`/images/${articles[1].slug}.jpg`}
+                  alt={articles[1].title}
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
@@ -62,7 +61,7 @@ export default function Home() {
         )}
         {/* Latest Articles List - Flat & Separated */}
         <div className="border-t border-gray-300">
-          {articles.slice(1, 4).map((article) => (
+          {articles.slice(2, 5).map((article) => (
             <div
               key={article.slug}
               className="py-6 border-b border-gray-300 px-4 md:px-0"
@@ -87,56 +86,73 @@ export default function Home() {
         </div>
       </section>
       {/* Services Promo Section */}
-      <section className="max-w-6xl mx-auto px-6 md:px-8 py-12">
-        <div className="mb-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-black tracking-tight">
-            Work With Us
-          </h2>
-          <p className="text-gray-700 mt-2">
-            Two ways we can help you navigate the Philippines safely and
-            intelligently.
-          </p>
-        </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          {/* Consulting Card */}
-          <div className="bg-gray-200 p-6 rounded-lg border border-gray-300 flex flex-col justify-between">
+      <section className="max-w-6xl mx-auto px-6 md:px-8 py-20">
+        <div className="border-t border-b border-gray-400 py-12">
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Left Side - Intro */}
             <div>
-              <h3 className="text-2xl font-bold text-black mb-2">Consulting</h3>
-              <p className="text-gray-800 mb-4">
-                Tap into a century of in‑country relationships and ground
-                truth—guidance trusted by diplomats, investors, and military
-                planners.
-              </p>
-              <ul className="list-disc list-inside text-gray-800 space-y-1">
-                <li>Market entry & risk mapping</li>
-                <li>Access to decision‑makers beyond the embassy bubble</li>
-                <li>Actionable briefs grounded in local reality</li>
-              </ul>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-black mb-4">
+                Work With Us
+              </h2>
+              <div className="self-center">
+                <p className="text-gray-700 text-lg">
+                  For over 25 years, we’ve helped clients navigate the
+                  Philippines with unmatched insight and access. Whether you
+                  need on-the-ground security or strategic market guidance, our
+                  team blends international standards with deep local
+                  intelligence.
+                </p>
+              </div>
             </div>
-            <div className="mt-6 flex justify-center">
-              <Primary href="/consulting" label="Explore Consulting" />
-            </div>
-          </div>
-
-          {/* Security Card */}
-          <div className="bg-gray-200 p-6 rounded-lg border border-gray-300 flex flex-col justify-between">
-            <div>
-              <h3 className="text-2xl font-bold text-black mb-2">
-                Security Services
-              </h3>
-              <p className="text-gray-800 mb-4">
-                Discreet, world‑class protection for visits anywhere in the
-                Philippines—run by former US Marine Force Recon leaders and
-                Philippine Marine MARSOG operators.
-              </p>
-              <ul className="list-disc list-inside text-gray-800 space-y-1">
-                <li>Protective details & secure movements</li>
-                <li>Local deterrence through respected operators</li>
-                <li>Rapid, tailored coverage nationwide</li>
-              </ul>
-            </div>
-            <div className="mt-6 flex justify-center">
-              <Primary href="/security" label="Explore Security Services" />
+            {/* Right Side - Accordion */}
+            <div className="space-y-4 self-center">
+              {/* Accordion Item: Consulting Services */}
+              <details className="border border-gray-300 rounded-md p-4 group">
+                <summary className="font-semibold text-black cursor-pointer flex justify-between items-center">
+                  <span>Consulting Services</span>
+                  <span className="ml-4 text-lg group-open:hidden">+</span>
+                  <span className="ml-4 text-lg hidden group-open:inline">
+                    −
+                  </span>
+                </summary>
+                <div className="mt-2 text-gray-700 space-y-3">
+                  <p>
+                    We guide investors, diplomats, and analysts through
+                    Philippine realities—offering customized reports, in-country
+                    validation, and real-world access far beyond desk research.
+                  </p>
+                  <a
+                    href="https://philippinestrategies.com/consulting"
+                    className="text-blue-600 underline"
+                  >
+                    Learn more about Consulting Services →
+                  </a>
+                </div>
+              </details>
+              {/* Accordion Item: Security Services */}
+              <details className="border border-gray-300 rounded-md p-4 group">
+                <summary className="font-semibold text-black cursor-pointer flex justify-between items-center">
+                  <span>Security Services</span>
+                  <span className="ml-4 text-lg group-open:hidden">+</span>
+                  <span className="ml-4 text-lg hidden group-open:inline">
+                    −
+                  </span>
+                </summary>
+                <div className="mt-2 text-gray-700 space-y-3">
+                  <p>
+                    Discreet protection for travelers, missions, and high-risk
+                    scenarios—led by seasoned US and Philippine force recon
+                    veterans, covering all regions with rapid, low-profile
+                    response.
+                  </p>
+                  <a
+                    href="https://philippinestrategies.com/security"
+                    className="text-blue-600 underline"
+                  >
+                    Learn more about Security Services →
+                  </a>
+                </div>
+              </details>
             </div>
           </div>
         </div>

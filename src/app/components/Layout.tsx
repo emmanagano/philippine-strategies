@@ -1,24 +1,15 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isAtTop, setIsAtTop] = useState(true);
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
   const pathname = usePathname();
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsAtTop(window.scrollY === 0);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -43,14 +34,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       </div>
       {/* Navbar */}
       <div className="sticky top-0 z-50">
-        <header
-          className={`${
-            isAtTop ? "bg-gray-100 shadow-none" : "bg-white shadow-md"
-          } transition-all duration-300`}
-        >
+        <header className="bg-white shadow-md transition-all duration-300">
           <div className="container mx-auto p-4 flex items-center justify-between">
-            <div className="flex items-center space-x-3 mr-12">
-              <Link href="/">
+            <div className="flex items-center space-x-2 mr-12 min-w-[330px]">
+              <Link href="/" className="flex items-center">
                 <div className="w-12 h-12 relative">
                   <img
                     src="/images/logo.png"
@@ -59,6 +46,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     height="48"
                   />
                 </div>
+                <span className="ml-3 font-semibold text-lg text-black hidden sm:inline">
+                  Philippine Strategies
+                </span>
+                <span className="mx-4 text-gray-400 hidden sm:inline">|</span>
               </Link>
             </div>
             <button
@@ -80,7 +71,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 />
               </svg>
             </button>
-            <div className={`hidden lg:flex items-center space-x-10 ml-auto`}>
+            <div className={`hidden lg:flex items-center space-x-10 flex-grow`}>
               <Link
                 href="/"
                 className={`${

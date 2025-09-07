@@ -244,5 +244,14 @@ export const staticArticles: Article[] = [
     slug: "quiboloy-extradition-us-philippines-relations",
     category: "Security, Foreign Policy & Defense",
     alt: "FBI wanted poster for Apollo Carreon Quiboloy, listing charges of sex trafficking, conspiracy, and bulk cash smuggling.",
+  },
+  {
+    id: 27,
+    title: "July 1st, 2028: The Philippines Under Sara Duterte and Its Potential Effects on Western Powers",
+    description: "What would a Sara Duterte presidency in 2028 look like after her father’s ICC arrest? This scenario explores a volatile pivot away from the West toward China, with profound diplomatic and military consequences for the U.S. and Europe.",
+    date: "August 31, 2025",
+    slug: "sara-duterte-philippines-western-powers-2028",
+    category: "Security, Foreign Policy & Defense",
+    alt: "Sara Duterte delivers a speech with the Philippine flag in the background, symbolizing her rising leadership and nationalist rhetoric."
   }
 ];
